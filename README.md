@@ -1,16 +1,14 @@
-********************************
-Sohit Pal
-Umass Lowell
-Computer Science
-Class of 2017
-********************************
+SOHIT PAL | UMASS LOWELL | COMPUTER SCIENCE | CLASS OF 2017
+
+
+
 
 --------------------------------
 Computing I
 --------------------------------
 Professor   : David Adams
 Taken       : Fall 2013
-Language(s) : C 
+Language(s) : C
 
 Covered the basics of programming in C.
 
@@ -18,11 +16,11 @@ Covered the basics of programming in C.
 --------------------------------
 Computing II
 --------------------------------
-Professor   : Olga Lepsky     
-Taken       : Fall 2014       
-Language(s) : C               
+Professor   : Olga Lepsky
+Taken       : Fall 2014
+Language(s) : C
 
-Covered mainly data structures.
+Covered Data Structures in C.
 
 
 --------------------------------
@@ -32,7 +30,7 @@ Professor   : Anna Rumshisky
 Taken       : Spring 2015
 Language(s) : C++
 
-Covered C++. Lots of experience with real coding.
+Covered Object-oriented programming in C++.
 
 
 --------------------------------
@@ -43,3 +41,13 @@ Taken       : Spring 2015
 Language(s) : MIPS, IA32 
 
 Bomb Project...
+
+
+--------------------------------
+Computing IV
+--------------------------------
+Professor   : Jesse Heines
+Taken       : Fall 2015
+Language(s) : C++, XML
+
+Mainly practicing real life programming methods.

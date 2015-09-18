@@ -1,0 +1,235 @@
+//**                                 **//
+//                                     //
+// PROGRAM NAME: MidTerm.txt           //
+//                                     //
+// AUTHOR: Sohit Pal                   //
+//                                     //
+// ### ### # # ### ###     ###  #  #   //
+// #   # # # #  #   #      # # # # #   //
+// ### # # ###  #   #      ### ### #   //
+//   # # # # #  #   #      #   # # #   //
+// ### ### # # ###  #      #   # # ### //
+//                                     //
+// DATE: April 10, 2014                //
+//                                     //
+//**                                 **//
+
+** Question 1 **
+
+int main()
+{
+	cout << sizeof(string) << endl;
+}
+
+
+** Question 2 **
+
+int = 4 bytes
+double = 8 bytes
+char = 1 byte
+
+struct Foo will take up 24 bytes
+
+
+** Question 3 **
+
+int = 4 bytes
+double = 8 bytes
+char = 1 byte
+size_t = 0 on stack because static
+
+struct Foo will take up 24 bytes
+
+
+** Question 4 ** 
+
+a) Will work correctly. cout << x.b << endl will print 3;
+
+b) Will not work correctly. 
+
+CORRECT CODE:
+Foo* fp = new Foo;
+fp->a = 2;
+
+cout << fp->a << endl;
+
+OUTPUT:
+2
+
+c) The following class definition will compile:
+
+struct Foo
+{
+	int a;
+	double b;
+	Foo *x
+};
+
+The above code will compile because if the struct Foo contained a variable
+of type Foo, it would create an endless loop when allocating memory. If you
+point to a type Foo, it will not need to allocate its memory when allocating
+memory for the class.
+
+
+** Question 5 **
+
+class MyClass
+{
+	public:
+	int data;
+	MyClass(int arg = 2) { data = arg; }
+};
+
+
+a) This code compile correctly. It will simply create an instance of MyClass
+   using the default constructor and print out m.data, which is 2. m.data is
+   valid because data is a public member of class MyClass.
+
+b) This code will compile correctly. It will create 10 new instances of MyClass
+   and store them in an array. Each will be constructed using the default
+   constructor. 
+   cout << arr[7].data << endl will print out the data member of the 7th index 
+   of the array of MyClass's, which will be 2.
+
+
+** Question 6 **
+
+a) 
+
+class Base
+{
+private:
+	int data;
+public:
+	Base() { data = 1; }
+	Base(int n) { data = n; }
+	int getData() const { return data; }
+};
+
+class Derived : public Base
+{
+private:
+	const int ID;
+	static int count;
+public:
+	Derived(int arg) : ID(count++){	}
+};
+
+int Derived::count = 1;
+
+b)
+CODE:
+	void Derived::print() const
+	{
+		cout << count << " " << ID << " " << data << endl;
+	}
+
+This code will not work because data is a private member of the Base class,
+to make it work, data needs to be public or protected, or the Base class should
+include a getter function for data.
+
+FIXED CODE:
+	void Derived::print() const	
+	{
+		cout << count << " " << ID << " " << getData() << endl;
+	}
+
+c) *Assuming the data issue has been fixed*
+
+OUTPUT: 
+	2 1 1 
+	3 2 1
+
+
+** QUESTION 7 **
+
+a) The Constructors and Destructor would be called in the following order:
+
+- Mother Constructor
+- Father Constructor
+- Data1 Constructor
+- Data2 Constructor
+- Data2 Destructor
+- Data1 Destructor
+- Father Destructor
+- Mother Destructor
+
+b) The Constructors and Destructor would be called in the following order:
+
+- Mother Constructor
+- Father Constructor
+- Data1 Constructor
+- Data2 Constructor
+- Father Destructor
+- Mother Destructor
+
+c)
+
+~Derived::Derived()
+{
+	delete data1;
+	delete data2;
+	data1 = data2 = NULL;
+}
+
+d)
+
+CODE:
+	Derived a;
+	a.data1->d = 512;
+	Derived b = a;
+	b.data1->d = 1024;
+	a.data1->d *= 2;
+	cout << b.data1->d << endl;
+OUTPUT:
+	2048
+
+e)
+	Derived::Derived(const Derived& arg)
+	{
+		data1 = new Data1;
+		data2 = new Data2;
+
+		if (arg.data1 != NULL && arg.data2 != NULL)
+		{
+			data1->d = arg.data1->d;
+			data2->d = arg.data2->d;
+		}
+		else
+		{
+			data1->d = NULL;
+			data2->d = NULL;
+		}
+	}
+
+
+** QUESTION 8 **
+
+a)
+Derived d;
+Base *bp = &d;
+bp->doit();
+
+The base class implementation of doit() will be called by the line bp->doit();
+
+b)
+
+The derived class implementation of doit() will not be called because the base 
+class does not inherit the functions from the derived class. Since bp is 
+pointing to a type Base, it will only use the doit() function from the base
+class.
+
+
+** QUESTION 9 **
+
+The virtual table for class Derived1 would contain:
+
+- Function 1 (FROM BASE CLASS)
+- Function 2 (FROM DERIVED1 CLASS)
+- Function 3 (FROM BASE CLASS)
+
+The virtual table for class Derived2 would contain:
+
+- Function 1 (FROM BASE CLASS)
+- Function 2 (FROM DERIVED1 CLASS)
+- Function 3 (FROM DERIVED2 CLASS)

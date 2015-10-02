@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+  <release id="f59b4af5-ed1d-46ef-8fa4-64d4b92a0dc3">
+    <title>Strangeulation</title>
+    <status>Official</status>
+    <quality>normal</quality>
+    <disambiguation>Deluxe Edition</disambiguation>
+    <packaging>None</packaging>
+    <text-representation>
+      <language>eng</language>
+      <script>Latn</script>
+    </text-representation>
+    <artist-credit>
+      <name-credit>
+        <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+          <name>Tech N9ne</name>
+          <sort-name>Tech N9ne</sort-name>
+          <disambiguation>US rapper</disambiguation>
+          <alias-list count="4">
+            <alias sort-name="Tec 9">Tec 9</alias>
+            <alias sort-name="Tech 9">Tech 9</alias>
+            <alias sort-name="Tech Nine">Tech Nine</alias>
+            <alias sort-name="Tech9ne">Tech9ne</alias>
+          </alias-list>
+        </artist>
+      </name-credit>
+    </artist-credit>
+    <date>2014-05-06</date>
+    <country>US</country>
+    <release-event-list count="1">
+      <release-event>
+        <date>2014-05-06</date>
+        <area id="489ce91b-6658-3307-9877-795b68554c98">
+          <name>United States</name>
+          <sort-name>United States</sort-name>
+          <iso-3166-1-code-list>
+            <iso-3166-1-code>US</iso-3166-1-code>
+          </iso-3166-1-code-list>
+        </area>
+      </release-event>
+    </release-event-list>
+    <cover-art-archive>
+      <artwork>true</artwork>
+      <count>1</count>
+      <front>true</front>
+      <back>false</back>
+    </cover-art-archive>
+    <label-info-list count="1">
+      <label-info>
+        <label id="56fe6a5d-0734-46b1-96ca-0425dc5d1713">
+          <name>Strange Music</name>
+          <sort-name>Strange Music</sort-name>
+          <disambiguation>US hip-hop</disambiguation>
+          <alias-list count="1">
+            <alias sort-name="Strange Music Inc." type="Search hint">Strange Music Inc.</alias>
+          </alias-list>
+        </label>
+      </label-info>
+    </label-info-list>
+    <medium-list count="1">
+      <medium>
+        <position>1</position>
+        <format>Digital Media</format>
+        <disc-list count="0" />
+        <track-list offset="0" count="21">
+          <track id="0ce3b899-38af-4a48-9f34-8611b3d32240">
+            <position>1</position>
+            <number>1</number>
+            <length>110547</length>
+            <recording id="2f067eb2-c051-4b9e-bc80-e56502f02b30">
+              <title>Strangeulation I</title>
+              <length>110547</length>
+              <artist-credit>
+                <name-credit>
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="eb6e160a-9cf6-4b3a-966b-fee0c775fb60">
+            <position>2</position>
+            <number>2</number>
+            <length>237613</length>
+            <recording id="e4209dd6-af26-4723-a09c-28d22f741f42">
+              <title>Hard (A Monster Made It)</title>
+              <length>237613</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="29776960-786c-4086-8079-ef5b83a0054c">
+                    <name>Murs</name>
+                    <sort-name>Murs</sort-name>
+                    <alias-list count="1">
+                      <alias sort-name="Murs and 9th Wonder" type="Search hint">Murs and 9th Wonder</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="c62d4ce5-1c90-4cbe-9c3d-da33042d3334">
+            <position>3</position>
+            <number>3</number>
+            <length>268320</length>
+            <recording id="6f6cdcb0-5e8c-4075-bbbd-cf2aa0525277">
+              <title>Over It</title>
+              <length>268320</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="37c0d62c-69d8-4713-92b8-1879b7e622e7">
+                    <name>Ryan Bradley</name>
+                    <sort-name>Bradley, Ryan</sort-name>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="497530a8-da77-4f47-a0e5-21dfbd894f7e">
+            <position>4</position>
+            <number>4</number>
+            <length>295467</length>
+            <recording id="0b9ba4cf-9f60-4b16-89f7-5ca7b671d5ea">
+              <title>Make Waves</title>
+              <length>295467</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="eacc6d9c-199e-45fb-960b-e21fa503f82b">
+                    <name>Krizz Kaliko</name>
+                    <sort-name>Kaliko, Krizz</sort-name>
+                    <alias-list count="4">
+                      <alias sort-name="Big Krizz Kaliko">Big Krizz Kaliko</alias>
+                      <alias sort-name="Kaliko">Kaliko</alias>
+                      <alias sort-name="Krizz Kalico">Krizz Kalico</alias>
+                      <alias sort-name="Krizz Kalliko">Krizz Kalliko</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=" &amp; ">
+                  <artist id="8b4fdcc3-6897-44b9-bd27-5fda2b926a62">
+                    <name>Rittz</name>
+                    <sort-name>Rittz</sort-name>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="a37c2189-4298-4d5f-bf30-44e930231168">
+                    <name>Tyler Lyon</name>
+                    <sort-name>Lyon, Tyler</sort-name>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="a639139f-13f3-4a43-a7be-0c2aefc3c242">
+            <position>5</position>
+            <number>5</number>
+            <length>299307</length>
+            <recording id="aa39090f-f89e-41cd-97c9-5ad230f4d32e">
+              <title>Nobody Cares (The Remix)</title>
+              <length>299307</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="eacc6d9c-199e-45fb-960b-e21fa503f82b">
+                    <name>Krizz Kaliko</name>
+                    <sort-name>Kaliko, Krizz</sort-name>
+                    <alias-list count="4">
+                      <alias sort-name="Big Krizz Kaliko">Big Krizz Kaliko</alias>
+                      <alias sort-name="Kaliko">Kaliko</alias>
+                      <alias sort-name="Krizz Kalico">Krizz Kalico</alias>
+                      <alias sort-name="Krizz Kalliko">Krizz Kalliko</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="1c0a8759-14ce-451f-8816-55da73066ed0">
+                    <name>Stevie Stone</name>
+                    <sort-name>Stone, Stevie</sort-name>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="01b7ebed-c908-4243-90fe-b855cb34e1b3">
+                    <name>Wrekonize</name>
+                    <sort-name>Wrekonize</sort-name>
+                    <disambiguation>US rapper, member of ¡Mayday!</disambiguation>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="bb395986-a0df-4633-a492-49a4ba738bb5">
+                    <name>Bernz</name>
+                    <sort-name>Bernz</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=" &amp; ">
+                  <artist id="5eb99377-dbfd-4448-b8fb-271c418dd296">
+                    <name>Ubiquitous</name>
+                    <sort-name>Ubiquitous</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="17981578-804d-43e6-a3d5-5fc5ebce4c84">
+                    <name>Godemis</name>
+                    <sort-name>Godemis</sort-name>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="5a69b7d7-3d74-408d-8523-6e5e09feca72">
+            <position>6</position>
+            <number>6</number>
+            <length>212747</length>
+            <recording id="81fa5ad5-71a0-4450-9f6f-752431d5eb79">
+              <title>Great Night</title>
+              <length>212747</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="2b27cd36-5b31-419d-8b0a-dbed361ba35f">
+                    <name>Ces Cru</name>
+                    <sort-name>Ces Cru</sort-name>
+                    <disambiguation>US rap duo</disambiguation>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="a2f04fbf-98e4-4a17-8519-0f3df227f619">
+            <position>7</position>
+            <number>7</number>
+            <length>236840</length>
+            <recording id="774e4765-af8e-4349-b906-f9df5f76bf11">
+              <title>Red Rags</title>
+              <length>236840</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="16ba133b-381b-4162-a8a2-91409237744d">
+                    <name>Kutt Calhoun</name>
+                    <sort-name>Calhoun, Kutt</sort-name>
+                    <alias-list count="2">
+                      <alias sort-name="Cutt Dawg">Cutt Dawg</alias>
+                      <alias sort-name="Melvin Calhoun">Melvin Calhoun</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=" &amp; ">
+                  <artist id="5570be24-5c07-42aa-ad7f-385768de2aa4">
+                    <name>Big Scoob</name>
+                    <sort-name>Big Scoob</sort-name>
+                    <disambiguation>Kansas City rapper Stewart Ashby</disambiguation>
+                    <alias-list count="1">
+                      <alias type="Artist name" sort-name="Scoob Lover">Scoob Lover</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="9880800a-f6f8-4f8f-a00e-b4b664776c0c">
+                    <name>Jay Rock</name>
+                    <sort-name>Jay Rock</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="7ae3258a-a16a-48c6-b1c2-c0f297679446">
+            <position>8</position>
+            <number>8</number>
+            <length>186707</length>
+            <recording id="06fb60cc-1c96-4928-a2ed-0b3498c3e490">
+              <title>Strangeulation II</title>
+              <length>186707</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="17981578-804d-43e6-a3d5-5fc5ebce4c84">
+                    <name>Godemis</name>
+                    <sort-name>Godemis</sort-name>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="1c0a8759-14ce-451f-8816-55da73066ed0">
+                    <name>Stevie Stone</name>
+                    <sort-name>Stone, Stevie</sort-name>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=" &amp; ">
+                  <artist id="29776960-786c-4086-8079-ef5b83a0054c">
+                    <name>Murs</name>
+                    <sort-name>Murs</sort-name>
+                    <alias-list count="1">
+                      <alias type="Search hint" sort-name="Murs and 9th Wonder">Murs and 9th Wonder</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="f1fa0780-a922-4f0f-b43e-30331b520238">
+                    <name>Brotha Lynch Hung</name>
+                    <sort-name>Brotha Lynch Hung</sort-name>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="82827e0e-58a4-462b-be7f-b440b6d02d36">
+            <position>9</position>
+            <number>9</number>
+            <length>176987</length>
+            <recording id="53889113-5f36-41b6-9d68-b6272825dfaf">
+              <title>Which One</title>
+              <length>176987</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=" &amp; ">
+                  <artist id="17981578-804d-43e6-a3d5-5fc5ebce4c84">
+                    <name>Godemis</name>
+                    <sort-name>Godemis</sort-name>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="29776960-786c-4086-8079-ef5b83a0054c">
+                    <name>Murs</name>
+                    <sort-name>Murs</sort-name>
+                    <alias-list count="1">
+                      <alias sort-name="Murs and 9th Wonder" type="Search hint">Murs and 9th Wonder</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="d474dc94-894e-4549-a023-7206b10b9c1b">
+            <position>10</position>
+            <number>10</number>
+            <length>249267</length>
+            <recording id="08e612d4-2c80-4f41-964f-fffc40cd2768">
+              <title>American Horror Story</title>
+              <length>249267</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="2b27cd36-5b31-419d-8b0a-dbed361ba35f">
+                    <name>Ces Cru</name>
+                    <sort-name>Ces Cru</sort-name>
+                    <disambiguation>US rap duo</disambiguation>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="f2b23bc1-b671-4153-9f4b-0cc5ba0b7fbb">
+            <position>11</position>
+            <number>11</number>
+            <length>265813</length>
+            <recording id="dacb5081-2426-4cd5-b4ae-b492647eaa24">
+              <title>Fear</title>
+              <length>265813</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="700b08da-1221-484e-812e-bd6b95b19da7">
+                    <name>Mackenzie O’Guin</name>
+                    <sort-name>O’Guin, Mackenzie</sort-name>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="733a4cbc-35c2-4a1b-b3ec-54d34577db64">
+            <position>12</position>
+            <number>12</number>
+            <length>219360</length>
+            <recording id="95352e22-a85f-440b-8582-acb4e06f816a">
+              <title>Strangeulation III</title>
+              <length>219360</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="01b7ebed-c908-4243-90fe-b855cb34e1b3">
+                    <name>Wrekonize</name>
+                    <sort-name>Wrekonize</sort-name>
+                    <disambiguation>US rapper, member of ¡Mayday!</disambiguation>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="bb395986-a0df-4633-a492-49a4ba738bb5">
+                    <name>Bernz</name>
+                    <sort-name>Bernz</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=" &amp; ">
+                  <artist id="16ba133b-381b-4162-a8a2-91409237744d">
+                    <name>Kutt Calhoun</name>
+                    <sort-name>Calhoun, Kutt</sort-name>
+                    <alias-list count="2">
+                      <alias sort-name="Cutt Dawg">Cutt Dawg</alias>
+                      <alias sort-name="Melvin Calhoun">Melvin Calhoun</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="5eb99377-dbfd-4448-b8fb-271c418dd296">
+                    <name>Ubiquitous</name>
+                    <sort-name>Ubiquitous</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="aea67575-d8ed-40a5-be19-b479a5aa9a90">
+            <position>13</position>
+            <number>13</number>
+            <length>248880</length>
+            <recording id="a09f2aba-8e47-442f-b978-c5f4ecb2b3a8">
+              <title>Na Na</title>
+              <length>248880</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=" &amp; ">
+                  <artist id="8b4fdcc3-6897-44b9-bd27-5fda2b926a62">
+                    <name>Rittz</name>
+                    <sort-name>Rittz</sort-name>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="1c0a8759-14ce-451f-8816-55da73066ed0">
+                    <name>Stevie Stone</name>
+                    <sort-name>Stone, Stevie</sort-name>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="37ecf5cb-5dbe-4c0b-b92e-87d74fc42a05">
+            <position>14</position>
+            <number>14</number>
+            <length>239933</length>
+            <recording id="3f726db4-658d-460e-9dea-4fa3ceeff0d3">
+              <title>Stink</title>
+              <length>239933</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="eacc6d9c-199e-45fb-960b-e21fa503f82b">
+                    <name>Krizz Kaliko</name>
+                    <sort-name>Kaliko, Krizz</sort-name>
+                    <alias-list count="4">
+                      <alias sort-name="Big Krizz Kaliko">Big Krizz Kaliko</alias>
+                      <alias sort-name="Kaliko">Kaliko</alias>
+                      <alias sort-name="Krizz Kalico">Krizz Kalico</alias>
+                      <alias sort-name="Krizz Kalliko">Krizz Kalliko</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=" &amp; ">
+                  <artist id="1c0a8759-14ce-451f-8816-55da73066ed0">
+                    <name>Stevie Stone</name>
+                    <sort-name>Stone, Stevie</sort-name>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="74be1870-a180-4f0a-9a0d-4e90ab4827c6">
+                    <name>Kendall Morgan</name>
+                    <sort-name>Morgan, Kendall</sort-name>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="a998fe6a-5728-4a65-bb19-dbd80c0b255a">
+            <position>15</position>
+            <number>15</number>
+            <length>258480</length>
+            <recording id="92b2ecf9-9a08-4a39-99f7-cfb72955d424">
+              <title>The Calling</title>
+              <length>258480</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="a37c2189-4298-4d5f-bf30-44e930231168">
+                    <name>Tyler Lyon</name>
+                    <sort-name>Lyon, Tyler</sort-name>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="fa0a85d2-8ab2-45c3-abe9-aa91fb636f8a">
+            <position>16</position>
+            <number>16</number>
+            <length>194147</length>
+            <recording id="60b5c9e8-eeb7-4e24-a422-30fbeb06794e">
+              <title>Strangeulation IV</title>
+              <length>194147</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="8b4fdcc3-6897-44b9-bd27-5fda2b926a62">
+                    <name>Rittz</name>
+                    <sort-name>Rittz</sort-name>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="534c4d66-9809-47bc-8d59-10e8fb13c693">
+                    <name>Prozak</name>
+                    <sort-name>Prozak</sort-name>
+                    <disambiguation>US rapper Steven T. Shippy</disambiguation>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=" &amp; ">
+                  <artist id="5570be24-5c07-42aa-ad7f-385768de2aa4">
+                    <name>Big Scoob</name>
+                    <sort-name>Big Scoob</sort-name>
+                    <disambiguation>Kansas City rapper Stewart Ashby</disambiguation>
+                    <alias-list count="1">
+                      <alias sort-name="Scoob Lover" type="Artist name">Scoob Lover</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="eacc6d9c-199e-45fb-960b-e21fa503f82b">
+                    <name>Krizz Kaliko</name>
+                    <sort-name>Kaliko, Krizz</sort-name>
+                    <alias-list count="4">
+                      <alias sort-name="Big Krizz Kaliko">Big Krizz Kaliko</alias>
+                      <alias sort-name="Kaliko">Kaliko</alias>
+                      <alias sort-name="Krizz Kalico">Krizz Kalico</alias>
+                      <alias sort-name="Krizz Kalliko">Krizz Kalliko</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="e56b0ebd-d889-48a5-959b-716bc284afc1">
+            <position>17</position>
+            <number>17</number>
+            <length>270613</length>
+            <recording id="089d83b0-a73c-4ad6-8100-8ede8b32fbed">
+              <title>We Are Free</title>
+              <length>270613</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=" &amp; ">
+                  <artist id="01b7ebed-c908-4243-90fe-b855cb34e1b3">
+                    <name>Wrekonize</name>
+                    <sort-name>Wrekonize</sort-name>
+                    <disambiguation>US rapper, member of ¡Mayday!</disambiguation>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="bb395986-a0df-4633-a492-49a4ba738bb5">
+                    <name>Bernz</name>
+                    <sort-name>Bernz</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="ef3d743d-2003-47f9-ac12-def430ec68bd">
+            <position>18</position>
+            <number>18</number>
+            <length>203880</length>
+            <recording id="465c8017-4305-4152-a120-30e6de211b95">
+              <title>Sut Mig</title>
+              <length>203880</length>
+              <artist-credit>
+                <name-credit>
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="cefdf11d-a3c9-4068-8ee3-c890ffa7ae10">
+            <position>19</position>
+            <number>19</number>
+            <length>22613</length>
+            <recording id="3ff29f8c-6dcf-47a1-aba6-b75aea85d8b9">
+              <title>SOTG (remix intro)</title>
+              <length>22613</length>
+              <artist-credit>
+                <name-credit>
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="0e98ab02-3d35-481a-88a7-529d98eb8b2e">
+            <position>20</position>
+            <number>20</number>
+            <length>224213</length>
+            <recording id="121f808c-d619-43c5-a28b-903597a9324e">
+              <title>Straight Out the Gate (The Scott Stevens remix)</title>
+              <length>224213</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=", ">
+                  <artist id="e471b63c-c3b5-4f62-a971-cd0b2273838f">
+                    <name>Serj Tankian</name>
+                    <sort-name>Tankian, Serj</sort-name>
+                  </artist>
+                </name-credit>
+                <name-credit joinphrase=" &amp; ">
+                  <artist id="66ac10d4-37cc-4b84-91dd-4863e3dc9a32">
+                    <name>John 5</name>
+                    <sort-name>John 5</sort-name>
+                    <alias-list count="1">
+                      <alias sort-name="John5">John5</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="eacc6d9c-199e-45fb-960b-e21fa503f82b">
+                    <name>Krizz Kaliko</name>
+                    <sort-name>Kaliko, Krizz</sort-name>
+                    <alias-list count="4">
+                      <alias sort-name="Big Krizz Kaliko">Big Krizz Kaliko</alias>
+                      <alias sort-name="Kaliko">Kaliko</alias>
+                      <alias sort-name="Krizz Kalico">Krizz Kalico</alias>
+                      <alias sort-name="Krizz Kalliko">Krizz Kalliko</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+          <track id="822b7bce-56a3-43f5-81aa-457a332095f3">
+            <position>21</position>
+            <number>21</number>
+            <length>238000</length>
+            <recording id="2c76257f-c095-4015-aaad-767edd472b3b">
+              <title>Withdrawal</title>
+              <length>238000</length>
+              <artist-credit>
+                <name-credit joinphrase=" feat. ">
+                  <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                    <name>Tech N9ne</name>
+                    <sort-name>Tech N9ne</sort-name>
+                    <disambiguation>US rapper</disambiguation>
+                    <alias-list count="4">
+                      <alias sort-name="Tec 9">Tec 9</alias>
+                      <alias sort-name="Tech 9">Tech 9</alias>
+                      <alias sort-name="Tech Nine">Tech Nine</alias>
+                      <alias sort-name="Tech9ne">Tech9ne</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+                <name-credit>
+                  <artist id="eacc6d9c-199e-45fb-960b-e21fa503f82b">
+                    <name>Krizz Kaliko</name>
+                    <sort-name>Kaliko, Krizz</sort-name>
+                    <alias-list count="4">
+                      <alias sort-name="Big Krizz Kaliko">Big Krizz Kaliko</alias>
+                      <alias sort-name="Kaliko">Kaliko</alias>
+                      <alias sort-name="Krizz Kalico">Krizz Kalico</alias>
+                      <alias sort-name="Krizz Kalliko">Krizz Kalliko</alias>
+                    </alias-list>
+                  </artist>
+                </name-credit>
+              </artist-credit>
+            </recording>
+          </track>
+        </track-list>
+      </medium>
+    </medium-list>
+  </release>
+</metadata>

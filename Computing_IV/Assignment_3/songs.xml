@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MULTI-LINE COMMENT
+    Developer: Sohit Pal
+    Course:    Computing IV
+    Professor: Jesse Heines
+        
+    ** Blank line above intentional **
+    <RANDOM TESTING COMMENT>
+  -->
+<song-library>
+  <!-- ONE LINE COMMENT HERE -->
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="92cb6dc6-02f0-4fbd-a717-c3ac8a07803f">
+      <title>Wither</title>
+      <length>284000</length>
+      <artist-credit>
+        <name-credit joinphrase=" feat. ">
+          <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+            <name>Tech N9ne</name>
+            <sort-name>Tech N9ne</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="4">
+              <alias sort-name="Tec 9">Tec 9</alias>
+              <alias sort-name="Tech 9">Tech 9</alias>
+              <alias sort-name="Tech Nine">Tech Nine</alias>
+              <alias sort-name="Tech9ne">Tech9ne</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit>
+          <artist id="15e02679-7a5f-4dd2-850c-5aa6e49d0878">
+            <name>Corey Taylor</name>
+            <sort-name>Taylor, Corey</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="2">
+        <release id="3b2ccd92-a9be-4a5c-968b-7d6c7aad7849">
+          <title>Special Effects</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <text-representation>
+            <language>eng</language>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2015-05-04</date>
+          <country>XW</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2015-05-04</date>
+              <area id="525d4e18-3d00-31b9-a58b-a146a916de8f">
+                <name>[Worldwide]</name>
+                <sort-name>[Worldwide]</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>XW</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+        <release id="7c9d137a-c338-4524-b976-eec376c38e6e">
+          <title>Special Effects</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2015-05-05</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2015-05-05</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="2f067eb2-c051-4b9e-bc80-e56502f02b30">
+      <title>Strangeulation I</title>
+      <length>110547</length>
+      <artist-credit>
+        <name-credit>
+          <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+            <name>Tech N9ne</name>
+            <sort-name>Tech N9ne</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="4">
+              <alias sort-name="Tec 9">Tec 9</alias>
+              <alias sort-name="Tech 9">Tech 9</alias>
+              <alias sort-name="Tech Nine">Tech Nine</alias>
+              <alias sort-name="Tech9ne">Tech9ne</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="2">
+        <release id="18bdc17e-1b6b-4f06-a018-2bdbd514807f">
+          <title>Strangeulation</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Deluxe Edition</disambiguation>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-05-06</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-05-06</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+        <release id="f59b4af5-ed1d-46ef-8fa4-64d4b92a0dc3">
+          <title>Strangeulation</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Deluxe Edition</disambiguation>
+          <packaging>None</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-05-06</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-05-06</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="6f6cdcb0-5e8c-4075-bbbd-cf2aa0525277">
+      <title>Over It</title>
+      <length>268320</length>
+      <artist-credit>
+        <name-credit joinphrase=" feat. ">
+          <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+            <name>Tech N9ne</name>
+            <sort-name>Tech N9ne</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="4">
+              <alias sort-name="Tec 9">Tec 9</alias>
+              <alias sort-name="Tech 9">Tech 9</alias>
+              <alias sort-name="Tech Nine">Tech Nine</alias>
+              <alias sort-name="Tech9ne">Tech9ne</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit>
+          <artist id="37c0d62c-69d8-4713-92b8-1879b7e622e7">
+            <name>Ryan Bradley</name>
+            <sort-name>Bradley, Ryan</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="2">
+        <release id="18bdc17e-1b6b-4f06-a018-2bdbd514807f">
+          <title>Strangeulation</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Deluxe Edition</disambiguation>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-05-06</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-05-06</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+        <release id="f59b4af5-ed1d-46ef-8fa4-64d4b92a0dc3">
+          <title>Strangeulation</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Deluxe Edition</disambiguation>
+          <packaging>None</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-05-06</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-05-06</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="0e3afad3-a87f-4779-abf8-fa21a2148c6d">
+      <title>Worldwide Choppers</title>
+      <length>326000</length>
+      <artist-credit>
+        <name-credit joinphrase=" feat. ">
+          <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+            <name>Tech N9ne</name>
+            <sort-name>Tech N9ne</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="4">
+              <alias sort-name="Tec 9">Tec 9</alias>
+              <alias sort-name="Tech 9">Tech 9</alias>
+              <alias sort-name="Tech Nine">Tech Nine</alias>
+              <alias sort-name="Tech9ne">Tech9ne</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="ce6d47b6-11ab-4330-89b8-937c258dc515">
+            <name>Ceza</name>
+            <sort-name>Ceza</sort-name>
+            <disambiguation>Turkish rapper</disambiguation>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="df3cc800-be5b-413a-bdd5-42aba778c711">
+            <name>JL</name>
+            <sort-name>JL</sort-name>
+            <disambiguation>of B.Hood, US rapper</disambiguation>
+            <alias-list count="1">
+              <alias sort-name="JL B. Hood">JL B. Hood</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="962e9546-5fc7-465d-81c3-c275ccd9f8ae">
+            <name>U$O</name>
+            <sort-name>U$O</sort-name>
+            <alias-list count="3">
+              <alias sort-name="Saeed, A.">A. Saeed</alias>
+              <alias sort-name="Ausamah Saeed">Ausamah Saeed</alias>
+              <alias sort-name="USO">USO</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="13513a8a-e9a8-4367-b9e4-410fef5bed3a">
+            <name>Yelawolf</name>
+            <sort-name>Yelawolf</sort-name>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="0bc858a1-3573-4216-9423-c96dd8c72919">
+            <name>Twista</name>
+            <sort-name>Twista</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="1">
+              <alias sort-name="Tung Twista">Tung Twista</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="10a9ff92-9637-4498-afea-7044b2ab0dc0">
+            <name>Busta Rhymes</name>
+            <sort-name>Busta Rhymes</sort-name>
+            <alias-list count="3">
+              <alias sort-name="Busta Rhymez">Busta Rhymez</alias>
+              <alias sort-name="Busta Ryhmes">Busta Ryhmes</alias>
+              <alias sort-name="Buster Rhymes">Buster Rhymes</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=" &amp; ">
+          <artist id="b6110eb2-9a8c-4da2-9f11-d49cb23a23f3">
+            <name>D-Loc</name>
+            <sort-name>D-Loc</sort-name>
+            <disambiguation>rapper, member of 415</disambiguation>
+          </artist>
+        </name-credit>
+        <name-credit>
+          <artist id="898875fc-aeab-47fa-9f29-553989c06104">
+            <name>Twisted Insane</name>
+            <sort-name>Twisted Insane</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="4">
+        <release id="2ad6da9c-fc31-474c-9b89-d8da3c0cfb4b">
+          <title>All 6's and 7's</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>Jewel Case</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2011-06-07</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2011-06-07</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode>893981001872</barcode>
+        </release>
+        <release id="4097d402-d248-44a9-8212-b38a4523ca64">
+          <title>All 6's and 7's</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>iTunes Deluxe Edition</disambiguation>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2011-06-07</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2011-06-07</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode />
+        </release>
+        <release id="6b344fd0-19e7-43fc-969e-869d079ac61a">
+          <title>All 6's and 7's</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Best Buy Exclusive</disambiguation>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2011-06-07</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2011-06-07</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+        <release id="c4d21857-cdd6-4f2b-b7d7-3f85154b4ce8">
+          <title>All 6's and 7's</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Strange Music Pre-Order Bonus</disambiguation>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2011-06-07</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2011-06-07</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="8cf545cf-1a8e-4f92-ab1d-443b8b9c770c">
+      <title>Like I Died (Full Song)</title>
+      <length>233000</length>
+      <artist-credit>
+        <name-credit>
+          <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+            <name>Tech N9ne</name>
+            <sort-name>Tech N9ne</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="4">
+              <alias sort-name="Tec 9">Tec 9</alias>
+              <alias sort-name="Tech 9">Tech 9</alias>
+              <alias sort-name="Tech Nine">Tech Nine</alias>
+              <alias sort-name="Tech9ne">Tech9ne</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="2">
+        <release id="4dd68f7a-75cd-47a4-9ca3-e3a6ff4bcb7b">
+          <title>K.O.D.</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>iTunes pre-order bonus tracks</disambiguation>
+          <packaging>None</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2009-10-06</date>
+          <release-event-list count="1">
+            <release-event>
+              <date>2009-10-06</date>
+            </release-event>
+          </release-event-list>
+          <barcode />
+        </release>
+        <release id="5cf27f04-1032-4142-b56c-e5853ebd3030">
+          <title>We Got This (Strange Music Sampler)</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="89ad4ac3-39f7-470e-963a-56509c546377">
+                <name>Various Artists</name>
+                <sort-name>Various Artists</sort-name>
+                <disambiguation>add compilations to this artist</disambiguation>
+              </artist>
+            </name-credit>
+          </artist-credit>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+</song-library>

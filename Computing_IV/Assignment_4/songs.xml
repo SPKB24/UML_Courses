@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MULTI-LINE COMMENT
+    Developer: Sohit Pal
+    Course:    Computing IV
+    Professor: Jesse Heines
+        
+  ** Blank line above intentional **
+  <RANDOM TESTING COMMENT>
+-->
+<song-library>
+  <!-- ONE LINE COMMENT HERE -->
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording artist="Tech N9ne" song="Wither" id="92cb6dc6-02f0-4fbd-a717-c3ac8a07803f">
+      <title>Wither</title>
+      <length>284000</length>
+      <artist-credit>
+        <name-credit joinphrase=" feat. ">
+          <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+            <name stage-name="Tech N9ne" real-name="Aaron Yates" nick-name="Tech">Tech N9ne</name>
+            <sort-name>Tech N9ne</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="4">
+              <alias sort-name="Tec 9" stage-name="Tech N9ne" real-name="Aaron Yates">Tec 9</alias>
+              <alias sort-name="Tech 9">Tech 9</alias>
+              <alias sort-name="Tech Nine">Tech Nine</alias>
+              <alias sort-name="Tech9ne">Tech9ne</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit>
+          <artist id="15e02679-7a5f-4dd2-850c-5aa6e49d0878">
+            <name joinphrase="feat.">Corey Taylor</name>
+            <sort-name>Taylor, Corey</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="2" year="2015" month="March">
+        <release id="3b2ccd92-a9be-4a5c-968b-7d6c7aad7849">
+          <title>Special Effects</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <text-representation>
+            <language>eng</language>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date year="2015" month="May" day="4">2015-05-04</date>
+          <country>XW</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2015-05-04</date>
+              <area id="525d4e18-3d00-31b9-a58b-a146a916de8f">
+                <name>[Worldwide]</name>
+                <sort-name>[Worldwide]</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>XW</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+        <release id="7c9d137a-c338-4524-b976-eec376c38e6e">
+          <title>Special Effects</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2015-05-05</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2015-05-05</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="2f067eb2-c051-4b9e-bc80-e56502f02b30">
+      <title>Strangeulation I</title>
+      <length>110547</length>
+      <artist-credit>
+        <name-credit>
+          <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+            <name>Tech N9ne</name>
+            <sort-name>Tech N9ne</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="4">
+              <alias sort-name="Tec 9">Tec 9</alias>
+              <alias sort-name="Tech 9">Tech 9</alias>
+              <alias sort-name="Tech Nine">Tech Nine</alias>
+              <alias sort-name="Tech9ne">Tech9ne</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="2">
+        <release id="18bdc17e-1b6b-4f06-a018-2bdbd514807f">
+          <title>Strangeulation</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Deluxe Edition</disambiguation>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-05-06</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-05-06</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+        <release id="f59b4af5-ed1d-46ef-8fa4-64d4b92a0dc3">
+          <title>Strangeulation</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Deluxe Edition</disambiguation>
+          <packaging>None</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-05-06</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-05-06</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="6f6cdcb0-5e8c-4075-bbbd-cf2aa0525277">
+      <title>Over It</title>
+      <length>268320</length>
+      <artist-credit>
+        <name-credit joinphrase=" feat. ">
+          <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+            <name>Tech N9ne</name>
+            <sort-name>Tech N9ne</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="4">
+              <alias sort-name="Tec 9">Tec 9</alias>
+              <alias sort-name="Tech 9">Tech 9</alias>
+              <alias sort-name="Tech Nine">Tech Nine</alias>
+              <alias sort-name="Tech9ne">Tech9ne</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit>
+          <artist id="37c0d62c-69d8-4713-92b8-1879b7e622e7">
+            <name>Ryan Bradley</name>
+            <sort-name>Bradley, Ryan</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="2">
+        <release id="18bdc17e-1b6b-4f06-a018-2bdbd514807f">
+          <title>Strangeulation</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Deluxe Edition</disambiguation>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-05-06</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-05-06</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+        <release id="f59b4af5-ed1d-46ef-8fa4-64d4b92a0dc3">
+          <title>Strangeulation</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Deluxe Edition</disambiguation>
+          <packaging>None</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-05-06</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-05-06</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="0e3afad3-a87f-4779-abf8-fa21a2148c6d">
+      <title>Worldwide Choppers</title>
+      <length>326000</length>
+      <artist-credit>
+        <name-credit joinphrase=" feat. ">
+          <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+            <name>Tech N9ne</name>
+            <sort-name>Tech N9ne</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="4">
+              <alias sort-name="Tec 9">Tec 9</alias>
+              <alias sort-name="Tech 9">Tech 9</alias>
+              <alias sort-name="Tech Nine">Tech Nine</alias>
+              <alias sort-name="Tech9ne">Tech9ne</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="ce6d47b6-11ab-4330-89b8-937c258dc515">
+            <name>Ceza</name>
+            <sort-name>Ceza</sort-name>
+            <disambiguation>Turkish rapper</disambiguation>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="df3cc800-be5b-413a-bdd5-42aba778c711">
+            <name>JL</name>
+            <sort-name>JL</sort-name>
+            <disambiguation>of B.Hood, US rapper</disambiguation>
+            <alias-list count="1">
+              <alias sort-name="JL B. Hood">JL B. Hood</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="962e9546-5fc7-465d-81c3-c275ccd9f8ae">
+            <name>U$O</name>
+            <sort-name>U$O</sort-name>
+            <alias-list count="3">
+              <alias sort-name="Saeed, A.">A. Saeed</alias>
+              <alias sort-name="Ausamah Saeed">Ausamah Saeed</alias>
+              <alias sort-name="USO">USO</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="13513a8a-e9a8-4367-b9e4-410fef5bed3a">
+            <name>Yelawolf</name>
+            <sort-name>Yelawolf</sort-name>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="0bc858a1-3573-4216-9423-c96dd8c72919">
+            <name>Twista</name>
+            <sort-name>Twista</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="1">
+              <alias sort-name="Tung Twista">Tung Twista</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=", ">
+          <artist id="10a9ff92-9637-4498-afea-7044b2ab0dc0">
+            <name>Busta Rhymes</name>
+            <sort-name>Busta Rhymes</sort-name>
+            <alias-list count="3">
+              <alias sort-name="Busta Rhymez">Busta Rhymez</alias>
+              <alias sort-name="Busta Ryhmes">Busta Ryhmes</alias>
+              <alias sort-name="Buster Rhymes">Buster Rhymes</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit joinphrase=" &amp; ">
+          <artist id="b6110eb2-9a8c-4da2-9f11-d49cb23a23f3">
+            <name>D-Loc</name>
+            <sort-name>D-Loc</sort-name>
+            <disambiguation>rapper, member of 415</disambiguation>
+          </artist>
+        </name-credit>
+        <name-credit>
+          <artist id="898875fc-aeab-47fa-9f29-553989c06104">
+            <name>Twisted Insane</name>
+            <sort-name>Twisted Insane</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="4">
+        <release id="2ad6da9c-fc31-474c-9b89-d8da3c0cfb4b">
+          <title>All 6's and 7's</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>Jewel Case</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2011-06-07</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2011-06-07</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode>893981001872</barcode>
+        </release>
+        <release id="4097d402-d248-44a9-8212-b38a4523ca64">
+          <title>All 6's and 7's</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>iTunes Deluxe Edition</disambiguation>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2011-06-07</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2011-06-07</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode />
+        </release>
+        <release id="6b344fd0-19e7-43fc-969e-869d079ac61a">
+          <title>All 6's and 7's</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Best Buy Exclusive</disambiguation>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2011-06-07</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2011-06-07</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+        <release id="c4d21857-cdd6-4f2b-b7d7-3f85154b4ce8">
+          <title>All 6's and 7's</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Strange Music Pre-Order Bonus</disambiguation>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2011-06-07</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2011-06-07</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="8cf545cf-1a8e-4f92-ab1d-443b8b9c770c">
+      <title>Like I Died (Full Song)</title>
+      <length>233000</length>
+      <artist-credit>
+        <name-credit>
+          <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+            <name>Tech N9ne</name>
+            <sort-name>Tech N9ne</sort-name>
+            <disambiguation>US rapper</disambiguation>
+            <alias-list count="4">
+              <alias sort-name="Tec 9">Tec 9</alias>
+              <alias sort-name="Tech 9">Tech 9</alias>
+              <alias sort-name="Tech Nine">Tech Nine</alias>
+              <alias sort-name="Tech9ne">Tech9ne</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="2">
+        <release id="4dd68f7a-75cd-47a4-9ca3-e3a6ff4bcb7b">
+          <title>K.O.D.</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>iTunes pre-order bonus tracks</disambiguation>
+          <packaging>None</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="dde3d9b1-0e44-48bc-b0c9-d739b3570000">
+                <name>Tech N9ne</name>
+                <sort-name>Tech N9ne</sort-name>
+                <disambiguation>US rapper</disambiguation>
+                <alias-list count="4">
+                  <alias sort-name="Tec 9">Tec 9</alias>
+                  <alias sort-name="Tech 9">Tech 9</alias>
+                  <alias sort-name="Tech Nine">Tech Nine</alias>
+                  <alias sort-name="Tech9ne">Tech9ne</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2009-10-06</date>
+          <release-event-list count="1">
+            <release-event>
+              <date>2009-10-06</date>
+            </release-event>
+          </release-event-list>
+          <barcode />
+        </release>
+        <release id="5cf27f04-1032-4142-b56c-e5853ebd3030">
+          <title>We Got This (Strange Music Sampler)</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="89ad4ac3-39f7-470e-963a-56509c546377">
+                <name>Various Artists</name>
+                <sort-name>Various Artists</sort-name>
+                <disambiguation>add compilations to this artist</disambiguation>
+              </artist>
+            </name-credit>
+          </artist-credit>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="bf1c966d-62db-431e-9223-94fd157d70f8">
+      <title>Bangarang</title>
+      <status>Official</status>
+      <quality>normal</quality>
+      <packaging>None</packaging>
+      <text-representation>
+        <language>eng</language>
+        <script>Latn</script>
+      </text-representation>
+      <artist-credit>
+        <name-credit>
+          <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+            <name>Skrillex</name>
+            <sort-name>Skrillex</sort-name>
+            <alias-list count="2">
+              <alias sort-name="Skillrex">Skillrex</alias>
+              <alias sort-name="Sonny" type="Search hint">Sonny</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <date>2011-12-23</date>
+      <country>US</country>
+      <release-event-list count="1">
+        <release-event>
+          <date>2011-12-23</date>
+          <area id="489ce91b-6658-3307-9877-795b68554c98">
+            <name>United States</name>
+            <sort-name>United States</sort-name>
+            <iso-3166-1-code-list>
+              <iso-3166-1-code>US</iso-3166-1-code>
+            </iso-3166-1-code-list>
+          </area>
+        </release-event>
+      </release-event-list>
+      <barcode>075679967497</barcode>
+      <cover-art-archive>
+        <artwork>true</artwork>
+        <count>1</count>
+        <front>true</front>
+        <back>false</back>
+      </cover-art-archive>
+      <label-info-list count="1">
+        <label-info>
+          <catalog-number>075679967497</catalog-number>
+          <label id="915b9747-4dc9-4205-bae5-d5d4db5c3d44">
+            <name>Big Beat</name>
+            <sort-name>Big Beat</sort-name>
+            <disambiguation>UK, Ace subsidiary</disambiguation>
+            <label-code>9797</label-code>
+            <alias-list count="1">
+              <alias sort-name="Big Beat Records">Big Beat Records</alias>
+            </alias-list>
+          </label>
+        </label-info>
+      </label-info-list>
+      <medium-list count="1">
+        <medium>
+          <position>1</position>
+          <format>Digital Media</format>
+          <disc-list count="0" />
+          <track-list offset="0" count="7">
+            <track id="54807eaf-6701-31cc-9c0a-cb9730795a5b">
+              <position>1</position>
+              <number>1</number>
+              <length>180000</length>
+              <recording id="0b52869a-a3b8-4e82-84bb-fc11d4610f57">
+                <title>Right In</title>
+                <length>181800</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+                      <name>Skrillex</name>
+                      <sort-name>Skrillex</sort-name>
+                      <alias-list count="2">
+                        <alias sort-name="Skillrex">Skillrex</alias>
+                        <alias type="Search hint" sort-name="Sonny">Sonny</alias>
+                      </alias-list>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track id="812794a3-4dea-3588-aaf7-84597e41ff30">
+              <position>2</position>
+              <number>2</number>
+              <length>215000</length>
+              <recording id="a35e773d-3b77-43a2-b58b-f023cb9b6c30">
+                <title>Bangarang</title>
+                <length>215253</length>
+                <artist-credit>
+                  <name-credit joinphrase=" feat. ">
+                    <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+                      <name>Skrillex</name>
+                      <sort-name>Skrillex</sort-name>
+                      <alias-list count="2">
+                        <alias sort-name="Skillrex">Skillrex</alias>
+                        <alias sort-name="Sonny" type="Search hint">Sonny</alias>
+                      </alias-list>
+                    </artist>
+                  </name-credit>
+                  <name-credit>
+                    <artist id="e451c0ae-5dbe-42d2-9830-9bc96efa3ea9">
+                      <name>Sirah</name>
+                      <sort-name>Sirah</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track id="e99c9eb6-bdf1-38a7-9265-c4c2cc7ccd7e">
+              <position>3</position>
+              <number>3</number>
+              <length>301000</length>
+              <recording id="8ea5c377-5c92-4cdf-8819-9ee97d7a1942">
+                <title>Breakn’ a Sweat</title>
+                <length>303306</length>
+                <artist-credit>
+                  <name-credit joinphrase=" &amp; ">
+                    <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+                      <name>Skrillex</name>
+                      <sort-name>Skrillex</sort-name>
+                      <alias-list count="2">
+                        <alias sort-name="Skillrex">Skillrex</alias>
+                        <alias sort-name="Sonny" type="Search hint">Sonny</alias>
+                      </alias-list>
+                    </artist>
+                  </name-credit>
+                  <name-credit>
+                    <artist id="9efff43b-3b29-4082-824e-bc82f646f93d">
+                      <name>The Doors</name>
+                      <sort-name>Doors, The</sort-name>
+                      <alias-list count="2">
+                        <alias sort-name="Doors">Doors</alias>
+                        <alias sort-name="Jim Morrison &amp; the Doors">Jim Morrison &amp; the Doors</alias>
+                      </alias-list>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track id="6b377880-90d5-3ec7-bf47-f54c600454ed">
+              <position>4</position>
+              <number>4</number>
+              <length>292000</length>
+              <recording id="11242d24-83ec-4bce-83df-dc2df8fbe64f">
+                <title>The Devil’s Den</title>
+                <length>292906</length>
+                <artist-credit>
+                  <name-credit joinphrase=" &amp; ">
+                    <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+                      <name>Skrillex</name>
+                      <sort-name>Skrillex</sort-name>
+                      <alias-list count="2">
+                        <alias sort-name="Skillrex">Skillrex</alias>
+                        <alias sort-name="Sonny" type="Search hint">Sonny</alias>
+                      </alias-list>
+                    </artist>
+                  </name-credit>
+                  <name-credit>
+                    <artist id="fc3f7bc9-8ced-48e3-8d6d-66384e9e01dc">
+                      <name>Wolfgang Gartner</name>
+                      <sort-name>Gartner, Wolfgang</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track id="8d67c8dc-1fa7-3193-905d-2e5343d8847e">
+              <position>5</position>
+              <number>5</number>
+              <length>245000</length>
+              <recording id="b866e5fe-b0c6-4a19-aea1-ee84d802efa4">
+                <title>Right on Time</title>
+                <length>245053</length>
+                <artist-credit>
+                  <name-credit joinphrase=", ">
+                    <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+                      <name>Skrillex</name>
+                      <sort-name>Skrillex</sort-name>
+                      <alias-list count="2">
+                        <alias sort-name="Skillrex">Skillrex</alias>
+                        <alias sort-name="Sonny" type="Search hint">Sonny</alias>
+                      </alias-list>
+                    </artist>
+                  </name-credit>
+                  <name-credit joinphrase=" &amp; ">
+                    <artist id="d113f6b4-f01f-4632-9cd3-743cc299574e">
+                      <name>12th Planet</name>
+                      <sort-name>12th Planet</sort-name>
+                    </artist>
+                  </name-credit>
+                  <name-credit>
+                    <artist id="a9930a14-8fbb-435a-ad25-f4b6cae71523">
+                      <name>Kill the Noise</name>
+                      <sort-name>Kill the Noise</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track id="609b7d50-d257-33bb-b51a-dd6139593a11">
+              <position>6</position>
+              <number>6</number>
+              <length>200000</length>
+              <recording id="0e5c1065-bcac-4c5e-80c3-d39746bf29f1">
+                <title>Kyoto</title>
+                <length>200786</length>
+                <artist-credit>
+                  <name-credit joinphrase=" feat. ">
+                    <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+                      <name>Skrillex</name>
+                      <sort-name>Skrillex</sort-name>
+                      <alias-list count="2">
+                        <alias sort-name="Skillrex">Skillrex</alias>
+                        <alias type="Search hint" sort-name="Sonny">Sonny</alias>
+                      </alias-list>
+                    </artist>
+                  </name-credit>
+                  <name-credit>
+                    <artist id="e451c0ae-5dbe-42d2-9830-9bc96efa3ea9">
+                      <name>Sirah</name>
+                      <sort-name>Sirah</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track id="1df4fe8d-ab61-3c86-a27f-de46a3cbd9d5">
+              <position>7</position>
+              <number>7</number>
+              <length>373000</length>
+              <recording id="c1d20bab-28b5-4c5e-8d7f-142ce7286a28">
+                <title>Summit</title>
+                <length>373986</length>
+                <artist-credit>
+                  <name-credit joinphrase=" feat. ">
+                    <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+                      <name>Skrillex</name>
+                      <sort-name>Skrillex</sort-name>
+                      <alias-list count="2">
+                        <alias sort-name="Skillrex">Skillrex</alias>
+                        <alias type="Search hint" sort-name="Sonny">Sonny</alias>
+                      </alias-list>
+                    </artist>
+                  </name-credit>
+                  <name-credit>
+                    <artist id="33ca19f4-18c8-4411-98df-ac23890ce9f5">
+                      <name>Ellie Goulding</name>
+                      <sort-name>Goulding, Ellie</sort-name>
+                      <alias-list count="1">
+                        <alias type="Legal name" sort-name="Goulding, Elena Jane">Elena Jane Goulding</alias>
+                      </alias-list>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+          </track-list>
+        </medium>
+      </medium-list>
+    </release>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="df6d5fd9-d844-44b6-a9e2-ada6ef4adef7">
+      <title>Ragga Bomb</title>
+      <length>258853</length>
+      <artist-credit>
+        <name-credit joinphrase=" with ">
+          <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+            <name>Skrillex</name>
+            <sort-name>Skrillex</sort-name>
+            <alias-list count="2">
+              <alias sort-name="Skillrex">Skillrex</alias>
+              <alias type="Search hint" sort-name="Sonny">Sonny</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+        <name-credit>
+          <artist id="cc2980fe-d233-42a5-a11d-bae90754e68a">
+            <name>The Ragga Twins</name>
+            <sort-name>Ragga Twins, The</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="4">
+        <release id="4b973842-f2f5-46ce-af38-dcbb5943d091">
+          <title>Recess</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>Jewel Case</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+                <name>Skrillex</name>
+                <sort-name>Skrillex</sort-name>
+                <alias-list count="2">
+                  <alias sort-name="Skillrex">Skillrex</alias>
+                  <alias sort-name="Sonny" type="Search hint">Sonny</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-03-14</date>
+          <country>AU</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-03-14</date>
+              <area id="106e0bec-b638-3b37-b731-f53d507dc00e">
+                <name>Australia</name>
+                <sort-name>Australia</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>AU</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode>939760100005</barcode>
+        </release>
+        <release id="a552252e-ca8d-48c4-9c00-1fd3acc01233">
+          <title>Recess</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>None</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+                <name>Skrillex</name>
+                <sort-name>Skrillex</sort-name>
+                <alias-list count="2">
+                  <alias sort-name="Skillrex">Skillrex</alias>
+                  <alias type="Search hint" sort-name="Sonny">Sonny</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-03-14</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-03-14</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode />
+        </release>
+        <release id="be5bf2db-1687-49c2-ae05-b124b681bc11">
+          <title>Recess</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>Jewel Case</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+                <name>Skrillex</name>
+                <sort-name>Skrillex</sort-name>
+                <alias-list count="2">
+                  <alias sort-name="Skillrex">Skillrex</alias>
+                  <alias type="Search hint" sort-name="Sonny">Sonny</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-03-17</date>
+          <country>GB</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-03-17</date>
+              <area id="8a754a16-0027-3a29-b6d7-2b40ea0481ed">
+                <name>United Kingdom</name>
+                <sort-name>United Kingdom</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>GB</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode>075678673818</barcode>
+        </release>
+        <release id="f87b431e-851a-4d93-81b2-393ff10bf352">
+          <title>Recess</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>Jewel Case</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="ae002c5d-aac6-490b-a39a-30aa9e2edf2b">
+                <name>Skrillex</name>
+                <sort-name>Skrillex</sort-name>
+                <alias-list count="2">
+                  <alias sort-name="Skillrex">Skillrex</alias>
+                  <alias type="Search hint" sort-name="Sonny">Sonny</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2014-03-18</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2014-03-18</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode>075678673818</barcode>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release-group type="Album" id="96877a42-1d1b-462d-ba41-0621257857f0">
+      <title>The Rise</title>
+      <first-release-date>2015-05-12</first-release-date>
+      <primary-type>Album</primary-type>
+      <artist-credit>
+        <name-credit>
+          <artist id="a9c09984-73c2-41fb-bef9-a2c26106dd61">
+            <name>Futuristic</name>
+            <sort-name>Futuristic</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="1">
+        <release id="6f73dcea-13ea-4d8a-a5ca-77bd5019d7fd">
+          <title>The Rise</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>None</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="a9c09984-73c2-41fb-bef9-a2c26106dd61">
+                <name>Futuristic</name>
+                <sort-name>Futuristic</sort-name>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2015-05-12</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2015-05-12</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+      </release-list>
+    </release-group>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="663df884-982e-4959-9cc8-6845969a2749">
+      <title>Rap God</title>
+      <length>363000</length>
+      <artist-credit>
+        <name-credit>
+          <artist id="b95ce3ff-3d05-4e87-9e01-c97b66af13d4">
+            <name>Eminem</name>
+            <sort-name>Eminem</sort-name>
+            <alias-list count="7">
+              <alias locale="en" sort-name="Mathers, M.">M. Mathers</alias>
+              <alias sort-name="Mathers, Marshall B.">Marshall B. Mathers</alias>
+              <alias sort-name="Mathers, Marshall B. III">Marshall B. Mathers III</alias>
+              <alias sort-name="Marshall Bruce Mathers III">Marshall Bruce Mathers III</alias>
+              <alias sort-name="Mathers, Marshall">Marshall Mathers</alias>
+              <alias sort-name="Ominem">Ominem</alias>
+              <alias sort-name="The Real Slim Shady">The Real Slim Shady</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="10">
+        <release id="01929213-4f86-4b4a-a14b-5ad2eabfb815">
+          <title>The Marshall Mathers LP 2</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="b95ce3ff-3d05-4e87-9e01-c97b66af13d4">
+                <name>Eminem</name>
+                <sort-name>Eminem</sort-name>
+                <alias-list count="7">
+                  <alias locale="en" sort-name="Mathers, M.">M. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B.">Marshall B. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B. III">Marshall B. Mathers III</alias>
+                  <alias sort-name="Marshall Bruce Mathers III">Marshall Bruce Mathers III</alias>
+                  <alias sort-name="Mathers, Marshall">Marshall Mathers</alias>
+                  <alias sort-name="Ominem">Ominem</alias>
+                  <alias sort-name="The Real Slim Shady">The Real Slim Shady</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2013</date>
+          <country>XE</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2013</date>
+              <area id="89a675c2-3e37-3518-b83c-418bad59a85a">
+                <name>Europe</name>
+                <sort-name>Europe</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>XE</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode>602537645879</barcode>
+        </release>
+        <release id="112d51a8-b6ad-414f-970d-5d9eaac810ec">
+          <title>Rap God</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>None</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="b95ce3ff-3d05-4e87-9e01-c97b66af13d4">
+                <name>Eminem</name>
+                <sort-name>Eminem</sort-name>
+                <alias-list count="7">
+                  <alias locale="en" sort-name="Mathers, M.">M. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B.">Marshall B. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B. III">Marshall B. Mathers III</alias>
+                  <alias sort-name="Marshall Bruce Mathers III">Marshall Bruce Mathers III</alias>
+                  <alias sort-name="Mathers, Marshall">Marshall Mathers</alias>
+                  <alias sort-name="Ominem">Ominem</alias>
+                  <alias sort-name="The Real Slim Shady">The Real Slim Shady</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2013-10-15</date>
+          <release-event-list count="1">
+            <release-event>
+              <date>2013-10-15</date>
+            </release-event>
+          </release-event-list>
+        </release>
+        <release id="1817c50b-b07e-42d1-b4d1-998030892284">
+          <title>The Marshall Mathers LP 2</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>Jewel Case</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="b95ce3ff-3d05-4e87-9e01-c97b66af13d4">
+                <name>Eminem</name>
+                <sort-name>Eminem</sort-name>
+                <alias-list count="7">
+                  <alias locale="en" sort-name="Mathers, M.">M. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B.">Marshall B. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B. III">Marshall B. Mathers III</alias>
+                  <alias sort-name="Marshall Bruce Mathers III">Marshall Bruce Mathers III</alias>
+                  <alias sort-name="Mathers, Marshall">Marshall Mathers</alias>
+                  <alias sort-name="Ominem">Ominem</alias>
+                  <alias sort-name="The Real Slim Shady">The Real Slim Shady</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2013-11-05</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2013-11-05</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode>602537588114</barcode>
+        </release>
+        <release id="1d0b26af-e0e9-4aba-8aaf-88bee38b2141">
+          <title>The Marshall Mathers LP 2</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="b95ce3ff-3d05-4e87-9e01-c97b66af13d4">
+                <name>Eminem</name>
+                <sort-name>Eminem</sort-name>
+                <alias-list count="7">
+                  <alias locale="en" sort-name="Mathers, M.">M. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B.">Marshall B. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B. III">Marshall B. Mathers III</alias>
+                  <alias sort-name="Marshall Bruce Mathers III">Marshall Bruce Mathers III</alias>
+                  <alias sort-name="Mathers, Marshall">Marshall Mathers</alias>
+                  <alias sort-name="Ominem">Ominem</alias>
+                  <alias sort-name="The Real Slim Shady">The Real Slim Shady</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2013-11-05</date>
+          <country>XE</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2013-11-05</date>
+              <area id="89a675c2-3e37-3518-b83c-418bad59a85a">
+                <name>Europe</name>
+                <sort-name>Europe</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>XE</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+        <release id="5e5841c7-317d-4fba-af2d-5e2ea4f87c6b">
+          <title>The Marshall Mathers LP 2</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>Deluxe Edition</disambiguation>
+          <packaging>None</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="b95ce3ff-3d05-4e87-9e01-c97b66af13d4">
+                <name>Eminem</name>
+                <sort-name>Eminem</sort-name>
+                <alias-list count="7">
+                  <alias sort-name="Mathers, M." locale="en">M. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B.">Marshall B. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B. III">Marshall B. Mathers III</alias>
+                  <alias sort-name="Marshall Bruce Mathers III">Marshall Bruce Mathers III</alias>
+                  <alias sort-name="Mathers, Marshall">Marshall Mathers</alias>
+                  <alias sort-name="Ominem">Ominem</alias>
+                  <alias sort-name="The Real Slim Shady">The Real Slim Shady</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2013-11-05</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2013-11-05</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+        <release id="68153cf2-07f0-4098-bac9-32124ebf360f">
+          <title>The Marshall Mathers LP 2</title>
+          <status>Promotion</status>
+          <quality>normal</quality>
+          <disambiguation>Deluxe Edition (First Printing, Japanese Promo)</disambiguation>
+          <packaging>Jewel Case</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="b95ce3ff-3d05-4e87-9e01-c97b66af13d4">
+                <name>Eminem</name>
+                <sort-name>Eminem</sort-name>
+                <alias-list count="7">
+                  <alias sort-name="Mathers, M." locale="en">M. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B.">Marshall B. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B. III">Marshall B. Mathers III</alias>
+                  <alias sort-name="Marshall Bruce Mathers III">Marshall Bruce Mathers III</alias>
+                  <alias sort-name="Mathers, Marshall">Marshall Mathers</alias>
+                  <alias sort-name="Ominem">Ominem</alias>
+                  <alias sort-name="The Real Slim Shady">The Real Slim Shady</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2013</date>
+          <country>JP</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2013</date>
+              <area id="2db42837-c832-3c27-b4a3-08198f75693c">
+                <name>Japan</name>
+                <sort-name>Japan</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>JP</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode>4988005795595</barcode>
+        </release>
+        <release id="68b762a7-9db0-48a6-9817-9643110db99d">
+          <title>The Marshall Mathers LP 2</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>deluxe edition</disambiguation>
+          <packaging>Digipak</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="b95ce3ff-3d05-4e87-9e01-c97b66af13d4">
+                <name>Eminem</name>
+                <sort-name>Eminem</sort-name>
+                <alias-list count="7">
+                  <alias sort-name="Mathers, M." locale="en">M. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B.">Marshall B. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B. III">Marshall B. Mathers III</alias>
+                  <alias sort-name="Marshall Bruce Mathers III">Marshall Bruce Mathers III</alias>
+                  <alias sort-name="Mathers, Marshall">Marshall Mathers</alias>
+                  <alias sort-name="Ominem">Ominem</alias>
+                  <alias sort-name="The Real Slim Shady">The Real Slim Shady</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2013-11-05</date>
+          <country>XW</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2013-11-05</date>
+              <area id="525d4e18-3d00-31b9-a58b-a146a916de8f">
+                <name>[Worldwide]</name>
+                <sort-name>[Worldwide]</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>XW</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode>602537588121</barcode>
+        </release>
+        <release id="6ef4ef70-2667-4bd1-8af7-d0d23a866436">
+          <title>The Marshall Mathers LP 2</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>Jewel Case</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="b95ce3ff-3d05-4e87-9e01-c97b66af13d4">
+                <name>Eminem</name>
+                <sort-name>Eminem</sort-name>
+                <alias-list count="7">
+                  <alias sort-name="Mathers, M." locale="en">M. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B.">Marshall B. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B. III">Marshall B. Mathers III</alias>
+                  <alias sort-name="Marshall Bruce Mathers III">Marshall Bruce Mathers III</alias>
+                  <alias sort-name="Mathers, Marshall">Marshall Mathers</alias>
+                  <alias sort-name="Ominem">Ominem</alias>
+                  <alias sort-name="The Real Slim Shady">The Real Slim Shady</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2013-09-20</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2013-09-20</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode>602537588121</barcode>
+        </release>
+        <release id="aa4dd418-de74-434f-ab50-6c795112b9d1">
+          <title>The Marshall Mathers LP 2</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <disambiguation>deluxe edition</disambiguation>
+          <packaging>Digipak</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="b95ce3ff-3d05-4e87-9e01-c97b66af13d4">
+                <name>Eminem</name>
+                <sort-name>Eminem</sort-name>
+                <alias-list count="7">
+                  <alias locale="en" sort-name="Mathers, M.">M. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B.">Marshall B. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B. III">Marshall B. Mathers III</alias>
+                  <alias sort-name="Marshall Bruce Mathers III">Marshall Bruce Mathers III</alias>
+                  <alias sort-name="Mathers, Marshall">Marshall Mathers</alias>
+                  <alias sort-name="Ominem">Ominem</alias>
+                  <alias sort-name="The Real Slim Shady">The Real Slim Shady</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2013-11-05</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2013-11-05</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+          <barcode>602537588121</barcode>
+        </release>
+        <release id="b1deba13-ada0-4901-af50-1d721085a2b6">
+          <title>The Marshall Mathers LP 2</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>Jewel Case</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="b95ce3ff-3d05-4e87-9e01-c97b66af13d4">
+                <name>Eminem</name>
+                <sort-name>Eminem</sort-name>
+                <alias-list count="7">
+                  <alias locale="en" sort-name="Mathers, M.">M. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B.">Marshall B. Mathers</alias>
+                  <alias sort-name="Mathers, Marshall B. III">Marshall B. Mathers III</alias>
+                  <alias sort-name="Marshall Bruce Mathers III">Marshall Bruce Mathers III</alias>
+                  <alias sort-name="Mathers, Marshall">Marshall Mathers</alias>
+                  <alias sort-name="Ominem">Ominem</alias>
+                  <alias sort-name="The Real Slim Shady">The Real Slim Shady</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2013-11-05</date>
+          <country>XW</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2013-11-05</date>
+              <area id="525d4e18-3d00-31b9-a58b-a146a916de8f">
+                <name>[Worldwide]</name>
+                <sort-name>[Worldwide]</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>XW</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <recording id="2da825c2-d0ac-4278-abac-dc25ff80af0b">
+      <title>Polo &amp; Shell Tops</title>
+      <artist-credit>
+        <name-credit>
+          <artist id="31bcadcc-e1da-4cad-bec8-2f4f1d41b095">
+            <name>Meek Mill</name>
+            <sort-name>Meek Mill</sort-name>
+            <alias-list count="1">
+              <alias sort-name="Millz, Meek">Meek Millz</alias>
+            </alias-list>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <release-list count="1">
+        <release id="1fc78686-eed7-4bcb-a59d-215416edb5eb">
+          <title>Dreams and Nightmares</title>
+          <status>Official</status>
+          <quality>normal</quality>
+          <packaging>None</packaging>
+          <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+          </text-representation>
+          <artist-credit>
+            <name-credit>
+              <artist id="31bcadcc-e1da-4cad-bec8-2f4f1d41b095">
+                <name>Meek Mill</name>
+                <sort-name>Meek Mill</sort-name>
+                <alias-list count="1">
+                  <alias sort-name="Millz, Meek">Meek Millz</alias>
+                </alias-list>
+              </artist>
+            </name-credit>
+          </artist-credit>
+          <date>2012-10-30</date>
+          <country>US</country>
+          <release-event-list count="1">
+            <release-event>
+              <date>2012-10-30</date>
+              <area id="489ce91b-6658-3307-9877-795b68554c98">
+                <name>United States</name>
+                <sort-name>United States</sort-name>
+                <iso-3166-1-code-list>
+                  <iso-3166-1-code>US</iso-3166-1-code>
+                </iso-3166-1-code-list>
+              </area>
+            </release-event>
+          </release-event-list>
+        </release>
+      </release-list>
+    </recording>
+  </metadata>
+</song-library>

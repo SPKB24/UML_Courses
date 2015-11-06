@@ -1,0 +1,2384 @@
+﻿<html><body><pre>
+1: &lt;?xml version="1.0" encoding="UTF-8"?>
+*** Current Parser State = STARTING_DOCUMENT
+*** Found Directive = xml version="1.0" encoding="UTF-8"
+*** New Parser State = DIRECTIVE
+
+2: &lt;!--
+*** Current Parser State = DIRECTIVE
+*** Found Starting Comment
+*** New Parser State = STARTING_COMMENT
+
+3: Richie Havens: "Mixed Bag"
+*** Current Parser State = STARTING_COMMENT
+*** Found Comment Line
+*** New Parser State = IN_COMMENT
+
+4: Jesse M Heines, heines@cs.uml.edu
+*** Current Parser State = IN_COMMENT
+*** Found Comment Line
+*** New Parser State = IN_COMMENT
+
+5: February 12, 2012
+*** Current Parser State = IN_COMMENT
+*** Found Comment Line
+*** New Parser State = IN_COMMENT
+
+6: source:  http://musicbrainz.org/ws/2/release/6a866e4d-e2c7-4990-92a5-9d1a30d51943?inc=artist-credits%2Blabels%2Bdiscids%2Brecordings
+*** Current Parser State = IN_COMMENT
+*** Found Comment Line
+*** New Parser State = IN_COMMENT
+
+7: -->
+*** Current Parser State = IN_COMMENT
+*** Found Ending Comment
+*** New Parser State = ENDING_COMMENT
+
+8: &lt;metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+*** Current Parser State = ENDING_COMMENT
+*** Element Opened = metadata
+*** Element stack contains: metadata 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+9: &lt;release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = release
+*** Element stack contains: metadata release 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+10: &lt;title>Mixed Bag&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = Mixed Bag
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+11: &lt;status>Official&lt;/status>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = status
+*** Element Content = Official
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+12: &lt;quality>normal&lt;/quality>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = quality
+*** Element Content = normal
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+13: &lt;text-representation>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = text-representation
+*** Element stack contains: metadata release text-representation 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+14: &lt;language>eng&lt;/language>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = language
+*** Element Content = eng
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+15: &lt;script>Latn&lt;/script>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = script
+*** Element Content = Latn
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+16: &lt;/text-representation>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = text-representation
+*** Element stack contains: metadata release 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+17: &lt;artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+18: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+19: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+20: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+21: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+22: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+23: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+24: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+25: &lt;date>1967&lt;/date>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Name = date
+*** Element Content = 1967
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+26: &lt;country>US&lt;/country>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = country
+*** Element Content = US
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+27: &lt;asin>B000001FOM&lt;/asin>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = asin
+*** Element Content = B000001FOM
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+28: &lt;label-info-list count="1">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = label-info-list
+*** Element stack contains: metadata release label-info-list 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+29: &lt;label-info>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = label-info
+*** Element stack contains: metadata release label-info-list label-info 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+30: &lt;catalog-number>FTS-3006&lt;/catalog-number>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = catalog-number
+*** Element Content = FTS-3006
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+31: &lt;label id="87607d99-1448-4c5f-b794-b67671862aa0">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = label
+*** Element stack contains: metadata release label-info-list label-info label 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+32: &lt;name>Verve Forecast&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Verve Forecast
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+33: &lt;sort-name>Verve Forecast&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Verve Forecast
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+34: &lt;/label>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = label
+*** Element stack contains: metadata release label-info-list label-info 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+35: &lt;/label-info>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = label-info
+*** Element stack contains: metadata release label-info-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+36: &lt;/label-info-list>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = label-info-list
+*** Element stack contains: metadata release 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+37: &lt;medium-list count="1">
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = medium-list
+*** Element stack contains: metadata release medium-list 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+38: &lt;medium>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = medium
+*** Element stack contains: metadata release medium-list medium 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+39: &lt;position>1&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 1
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+40: &lt;format>Vinyl&lt;/format>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = format
+*** Element Content = Vinyl
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+41: &lt;disc-list count="0" />
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = disc-list
+*** Element Content = 
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+42: &lt;track-list count="11" offset="0">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = track-list
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+43: &lt;track>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = track
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+44: &lt;position>1&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 1
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+45: &lt;length>217866&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 217866
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+46: &lt;recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = recording
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+47: &lt;title>High Flyin' Bird&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = High Flyin' Bird
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+48: &lt;length>217866&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 217866
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+49: &lt;artist-credit>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+50: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+51: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+52: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+53: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+54: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+55: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+56: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+57: &lt;/recording>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = recording
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+58: &lt;/track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+59: &lt;track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = track
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+60: &lt;position>2&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 2
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+61: &lt;length>170773&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 170773
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+62: &lt;recording id="4911f0d1-deb5-47a3-aa60-37b34fc50d95">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = recording
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+63: &lt;title>I Can't Make It Anymore&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = I Can't Make It Anymore
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+64: &lt;length>170773&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 170773
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+65: &lt;artist-credit>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+66: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+67: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+68: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+69: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+70: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+71: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+72: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+73: &lt;/recording>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = recording
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+74: &lt;/track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+75: &lt;track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = track
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+76: &lt;position>3&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 3
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+77: &lt;length>140493&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 140493
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+78: &lt;recording id="46960186-57da-4437-ab60-c01798af3d84">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = recording
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+79: &lt;title>Morning, Morning&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = Morning, Morning
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+80: &lt;length>140493&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 140493
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+81: &lt;artist-credit>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+82: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+83: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+84: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+85: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+86: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+87: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+88: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+89: &lt;/recording>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = recording
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+90: &lt;/track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+91: &lt;track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = track
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+92: &lt;position>4&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 4
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+93: &lt;length>217066&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 217066
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+94: &lt;recording id="8970973c-e29e-4289-8693-10a74438c2ce">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = recording
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+95: &lt;title>Adam&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = Adam
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+96: &lt;length>217066&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 217066
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+97: &lt;artist-credit>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+98: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+99: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+100: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+101: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+102: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+103: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+104: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+105: &lt;/recording>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = recording
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+106: &lt;/track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+107: &lt;track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = track
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+108: &lt;position>5&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 5
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+109: &lt;length>384640&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 384640
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+110: &lt;recording id="7d64445c-f997-40fa-9b03-ae806850d0b6">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = recording
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+111: &lt;title>Follow&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = Follow
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+112: &lt;length>384640&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 384640
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+113: &lt;artist-credit>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+114: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+115: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+116: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+117: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+118: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+119: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+120: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+121: &lt;/recording>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = recording
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+122: &lt;/track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+123: &lt;track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = track
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+124: &lt;position>6&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 6
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+125: &lt;length>137893&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 137893
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+126: &lt;recording id="ca21a375-9965-4ace-b9a3-ac3df0d77a90">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = recording
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+127: &lt;title>Three Day Eternity&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = Three Day Eternity
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+128: &lt;length>137893&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 137893
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+129: &lt;artist-credit>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+130: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+131: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+132: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+133: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+134: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+135: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+136: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+137: &lt;/recording>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = recording
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+138: &lt;/track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+139: &lt;track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = track
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+140: &lt;position>7&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 7
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+141: &lt;length>194600&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 194600
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+142: &lt;recording id="303f9a65-7700-41e4-a03a-072f4514887c">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = recording
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+143: &lt;title>Sandy&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = Sandy
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+144: &lt;length>194600&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 194600
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+145: &lt;artist-credit>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+146: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+147: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+148: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+149: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+150: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+151: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+152: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+153: &lt;/recording>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = recording
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+154: &lt;/track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+155: &lt;track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = track
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+156: &lt;position>8&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 8
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+157: &lt;length>235973&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 235973
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+158: &lt;recording id="b66a6e5d-51ad-40f4-ab24-577ff08401b4">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = recording
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+159: &lt;title>Handsome Johnny&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = Handsome Johnny
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+160: &lt;length>235973&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 235973
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+161: &lt;artist-credit>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+162: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+163: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+164: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+165: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+166: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+167: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+168: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+169: &lt;/recording>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = recording
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+170: &lt;/track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+171: &lt;track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = track
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+172: &lt;position>9&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 9
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+173: &lt;length>153360&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 153360
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+174: &lt;recording id="10e01ab2-cd9b-4674-971c-690e088c1418">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = recording
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+175: &lt;title>San Francisco Bay Blues&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = San Francisco Bay Blues
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+176: &lt;length>153360&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 153360
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+177: &lt;artist-credit>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+178: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+179: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+180: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+181: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+182: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+183: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+184: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+185: &lt;/recording>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = recording
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+186: &lt;/track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+187: &lt;track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = track
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+188: &lt;position>10&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 10
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+189: &lt;length>289200&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 289200
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+190: &lt;recording id="a5784faf-0ee8-4715-9608-a3e4d7833869">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = recording
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+191: &lt;title>Just Like a Woman&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = Just Like a Woman
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+192: &lt;length>289200&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 289200
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+193: &lt;artist-credit>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+194: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+195: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+196: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+197: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+198: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+199: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+200: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+201: &lt;/recording>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = recording
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+202: &lt;/track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+203: &lt;track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Opened = track
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+204: &lt;position>11&lt;/position>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = position
+*** Element Content = 11
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+205: &lt;length>162533&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 162533
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+206: &lt;recording id="949ae5bf-5508-4ada-948d-3dcf13c63ce9">
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = recording
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+207: &lt;title>Eleanor Rigby&lt;/title>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = title
+*** Element Content = Eleanor Rigby
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+208: &lt;length>162533&lt;/length>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = length
+*** Element Content = 162533
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+209: &lt;artist-credit>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Opened = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+210: &lt;name-credit>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+211: &lt;artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Opened = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit artist 
+*** New Parser State = ELEMENT_OPENING_TAG
+
+212: &lt;name>Richie Havens&lt;/name>
+*** Current Parser State = ELEMENT_OPENING_TAG
+*** Element Name = name
+*** Element Content = Richie Havens
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+213: &lt;sort-name>Havens, Richie&lt;/sort-name>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Name = sort-name
+*** Element Content = Havens, Richie
+*** New Parser State = ELEMENT_NAME_AND_CONTENT
+
+214: &lt;/artist>
+*** Current Parser State = ELEMENT_NAME_AND_CONTENT
+*** Element Closed = artist
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit name-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+215: &lt;/name-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = name-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording artist-credit 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+216: &lt;/artist-credit>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = artist-credit
+*** Element stack contains: metadata release medium-list medium track-list track recording 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+217: &lt;/recording>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = recording
+*** Element stack contains: metadata release medium-list medium track-list track 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+218: &lt;/track>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track
+*** Element stack contains: metadata release medium-list medium track-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+219: &lt;/track-list>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = track-list
+*** Element stack contains: metadata release medium-list medium 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+220: &lt;/medium>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = medium
+*** Element stack contains: metadata release medium-list 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+221: &lt;/medium-list>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = medium-list
+*** Element stack contains: metadata release 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+222: &lt;/release>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = release
+*** Element stack contains: metadata 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+223: &lt;/metadata>
+*** Current Parser State = ELEMENT_CLOSING_TAG
+*** Element Closed = metadata
+*** Element stack contains: 
+*** New Parser State = ELEMENT_CLOSING_TAG
+
+============================================================
+
+   Root tag name = metadata
+     Root line # = 8
+      Root level = 0
+    Root content = (empty)
+ Root N children = 1
+
+  Child tag name = release
+    Child line # = 9
+     Child level = 1
+   Child content = (empty)
+Child N children = 10
+
+  Child tag name = title
+    Child line # = 10
+     Child level = 2
+   Child content = Mixed Bag
+Child N children = 0
+
+  Child tag name = status
+    Child line # = 11
+     Child level = 2
+   Child content = Official
+Child N children = 0
+
+  Child tag name = quality
+    Child line # = 12
+     Child level = 2
+   Child content = normal
+Child N children = 0
+
+  Child tag name = text-representation
+    Child line # = 13
+     Child level = 2
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = language
+    Child line # = 14
+     Child level = 3
+   Child content = eng
+Child N children = 0
+
+  Child tag name = script
+    Child line # = 15
+     Child level = 3
+   Child content = Latn
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 17
+     Child level = 2
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 18
+     Child level = 3
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 19
+     Child level = 4
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 20
+     Child level = 5
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 21
+     Child level = 5
+   Child content = Havens, Richie
+Child N children = 0
+
+  Child tag name = date
+    Child line # = 25
+     Child level = 2
+   Child content = 1967
+Child N children = 0
+
+  Child tag name = country
+    Child line # = 26
+     Child level = 2
+   Child content = US
+Child N children = 0
+
+  Child tag name = asin
+    Child line # = 27
+     Child level = 2
+   Child content = B000001FOM
+Child N children = 0
+
+  Child tag name = label-info-list
+    Child line # = 28
+     Child level = 2
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = label-info
+    Child line # = 29
+     Child level = 3
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = catalog-number
+    Child line # = 30
+     Child level = 4
+   Child content = FTS-3006
+Child N children = 0
+
+  Child tag name = label
+    Child line # = 31
+     Child level = 4
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 32
+     Child level = 5
+   Child content = Verve Forecast
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 33
+     Child level = 5
+   Child content = Verve Forecast
+Child N children = 0
+
+  Child tag name = medium-list
+    Child line # = 37
+     Child level = 2
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = medium
+    Child line # = 38
+     Child level = 3
+   Child content = (empty)
+Child N children = 4
+
+  Child tag name = position
+    Child line # = 39
+     Child level = 4
+   Child content = 1
+Child N children = 0
+
+  Child tag name = format
+    Child line # = 40
+     Child level = 4
+   Child content = Vinyl
+Child N children = 0
+
+  Child tag name = disc-list
+    Child line # = 41
+     Child level = 4
+   Child content = (empty)
+Child N children = 0
+
+  Child tag name = track-list
+    Child line # = 42
+     Child level = 4
+   Child content = (empty)
+Child N children = 11
+
+  Child tag name = track
+    Child line # = 43
+     Child level = 5
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = position
+    Child line # = 44
+     Child level = 6
+   Child content = 1
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 45
+     Child level = 6
+   Child content = 217866
+Child N children = 0
+
+  Child tag name = recording
+    Child line # = 46
+     Child level = 6
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = title
+    Child line # = 47
+     Child level = 7
+   Child content = High Flyin' Bird
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 48
+     Child level = 7
+   Child content = 217866
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 49
+     Child level = 7
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 50
+     Child level = 8
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 51
+     Child level = 9
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 52
+     Child level = 10
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 53
+     Child level = 10
+   Child content = Havens, Richie
+Child N children = 0
+
+  Child tag name = track
+    Child line # = 59
+     Child level = 5
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = position
+    Child line # = 60
+     Child level = 6
+   Child content = 2
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 61
+     Child level = 6
+   Child content = 170773
+Child N children = 0
+
+  Child tag name = recording
+    Child line # = 62
+     Child level = 6
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = title
+    Child line # = 63
+     Child level = 7
+   Child content = I Can't Make It Anymore
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 64
+     Child level = 7
+   Child content = 170773
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 65
+     Child level = 7
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 66
+     Child level = 8
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 67
+     Child level = 9
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 68
+     Child level = 10
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 69
+     Child level = 10
+   Child content = Havens, Richie
+Child N children = 0
+
+  Child tag name = track
+    Child line # = 75
+     Child level = 5
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = position
+    Child line # = 76
+     Child level = 6
+   Child content = 3
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 77
+     Child level = 6
+   Child content = 140493
+Child N children = 0
+
+  Child tag name = recording
+    Child line # = 78
+     Child level = 6
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = title
+    Child line # = 79
+     Child level = 7
+   Child content = Morning, Morning
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 80
+     Child level = 7
+   Child content = 140493
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 81
+     Child level = 7
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 82
+     Child level = 8
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 83
+     Child level = 9
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 84
+     Child level = 10
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 85
+     Child level = 10
+   Child content = Havens, Richie
+Child N children = 0
+
+  Child tag name = track
+    Child line # = 91
+     Child level = 5
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = position
+    Child line # = 92
+     Child level = 6
+   Child content = 4
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 93
+     Child level = 6
+   Child content = 217066
+Child N children = 0
+
+  Child tag name = recording
+    Child line # = 94
+     Child level = 6
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = title
+    Child line # = 95
+     Child level = 7
+   Child content = Adam
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 96
+     Child level = 7
+   Child content = 217066
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 97
+     Child level = 7
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 98
+     Child level = 8
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 99
+     Child level = 9
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 100
+     Child level = 10
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 101
+     Child level = 10
+   Child content = Havens, Richie
+Child N children = 0
+
+  Child tag name = track
+    Child line # = 107
+     Child level = 5
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = position
+    Child line # = 108
+     Child level = 6
+   Child content = 5
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 109
+     Child level = 6
+   Child content = 384640
+Child N children = 0
+
+  Child tag name = recording
+    Child line # = 110
+     Child level = 6
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = title
+    Child line # = 111
+     Child level = 7
+   Child content = Follow
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 112
+     Child level = 7
+   Child content = 384640
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 113
+     Child level = 7
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 114
+     Child level = 8
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 115
+     Child level = 9
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 116
+     Child level = 10
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 117
+     Child level = 10
+   Child content = Havens, Richie
+Child N children = 0
+
+  Child tag name = track
+    Child line # = 123
+     Child level = 5
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = position
+    Child line # = 124
+     Child level = 6
+   Child content = 6
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 125
+     Child level = 6
+   Child content = 137893
+Child N children = 0
+
+  Child tag name = recording
+    Child line # = 126
+     Child level = 6
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = title
+    Child line # = 127
+     Child level = 7
+   Child content = Three Day Eternity
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 128
+     Child level = 7
+   Child content = 137893
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 129
+     Child level = 7
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 130
+     Child level = 8
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 131
+     Child level = 9
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 132
+     Child level = 10
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 133
+     Child level = 10
+   Child content = Havens, Richie
+Child N children = 0
+
+  Child tag name = track
+    Child line # = 139
+     Child level = 5
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = position
+    Child line # = 140
+     Child level = 6
+   Child content = 7
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 141
+     Child level = 6
+   Child content = 194600
+Child N children = 0
+
+  Child tag name = recording
+    Child line # = 142
+     Child level = 6
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = title
+    Child line # = 143
+     Child level = 7
+   Child content = Sandy
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 144
+     Child level = 7
+   Child content = 194600
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 145
+     Child level = 7
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 146
+     Child level = 8
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 147
+     Child level = 9
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 148
+     Child level = 10
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 149
+     Child level = 10
+   Child content = Havens, Richie
+Child N children = 0
+
+  Child tag name = track
+    Child line # = 155
+     Child level = 5
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = position
+    Child line # = 156
+     Child level = 6
+   Child content = 8
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 157
+     Child level = 6
+   Child content = 235973
+Child N children = 0
+
+  Child tag name = recording
+    Child line # = 158
+     Child level = 6
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = title
+    Child line # = 159
+     Child level = 7
+   Child content = Handsome Johnny
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 160
+     Child level = 7
+   Child content = 235973
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 161
+     Child level = 7
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 162
+     Child level = 8
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 163
+     Child level = 9
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 164
+     Child level = 10
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 165
+     Child level = 10
+   Child content = Havens, Richie
+Child N children = 0
+
+  Child tag name = track
+    Child line # = 171
+     Child level = 5
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = position
+    Child line # = 172
+     Child level = 6
+   Child content = 9
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 173
+     Child level = 6
+   Child content = 153360
+Child N children = 0
+
+  Child tag name = recording
+    Child line # = 174
+     Child level = 6
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = title
+    Child line # = 175
+     Child level = 7
+   Child content = San Francisco Bay Blues
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 176
+     Child level = 7
+   Child content = 153360
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 177
+     Child level = 7
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 178
+     Child level = 8
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 179
+     Child level = 9
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 180
+     Child level = 10
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 181
+     Child level = 10
+   Child content = Havens, Richie
+Child N children = 0
+
+  Child tag name = track
+    Child line # = 187
+     Child level = 5
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = position
+    Child line # = 188
+     Child level = 6
+   Child content = 10
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 189
+     Child level = 6
+   Child content = 289200
+Child N children = 0
+
+  Child tag name = recording
+    Child line # = 190
+     Child level = 6
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = title
+    Child line # = 191
+     Child level = 7
+   Child content = Just Like a Woman
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 192
+     Child level = 7
+   Child content = 289200
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 193
+     Child level = 7
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 194
+     Child level = 8
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 195
+     Child level = 9
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 196
+     Child level = 10
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 197
+     Child level = 10
+   Child content = Havens, Richie
+Child N children = 0
+
+  Child tag name = track
+    Child line # = 203
+     Child level = 5
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = position
+    Child line # = 204
+     Child level = 6
+   Child content = 11
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 205
+     Child level = 6
+   Child content = 162533
+Child N children = 0
+
+  Child tag name = recording
+    Child line # = 206
+     Child level = 6
+   Child content = (empty)
+Child N children = 3
+
+  Child tag name = title
+    Child line # = 207
+     Child level = 7
+   Child content = Eleanor Rigby
+Child N children = 0
+
+  Child tag name = length
+    Child line # = 208
+     Child level = 7
+   Child content = 162533
+Child N children = 0
+
+  Child tag name = artist-credit
+    Child line # = 209
+     Child level = 7
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = name-credit
+    Child line # = 210
+     Child level = 8
+   Child content = (empty)
+Child N children = 1
+
+  Child tag name = artist
+    Child line # = 211
+     Child level = 9
+   Child content = (empty)
+Child N children = 2
+
+  Child tag name = name
+    Child line # = 212
+     Child level = 10
+   Child content = Richie Havens
+Child N children = 0
+
+  Child tag name = sort-name
+    Child line # = 213
+     Child level = 10
+   Child content = Havens, Richie
+Child N children = 0
+
+============================================================
+
+Element "metadata" was found at line 8 with no content and 1 child.
+. Element "release" was found at line 9 with no content and 10 children.
+. . Element "title" was found at line 10 containing "Mixed Bag" and 0 children.
+. . Element "status" was found at line 11 containing "Official" and 0 children.
+. . Element "quality" was found at line 12 containing "normal" and 0 children.
+. . Element "text-representation" was found at line 13 with no content and 2 children.
+. . . Element "language" was found at line 14 containing "eng" and 0 children.
+. . . Element "script" was found at line 15 containing "Latn" and 0 children.
+. . Element "artist-credit" was found at line 17 with no content and 1 child.
+. . . Element "name-credit" was found at line 18 with no content and 1 child.
+. . . . Element "artist" was found at line 19 with no content and 2 children.
+. . . . . Element "name" was found at line 20 containing "Richie Havens" and 0 children.
+. . . . . Element "sort-name" was found at line 21 containing "Havens, Richie" and 0 children.
+. . Element "date" was found at line 25 containing "1967" and 0 children.
+. . Element "country" was found at line 26 containing "US" and 0 children.
+. . Element "asin" was found at line 27 containing "B000001FOM" and 0 children.
+. . Element "label-info-list" was found at line 28 with no content and 1 child.
+. . . Element "label-info" was found at line 29 with no content and 2 children.
+. . . . Element "catalog-number" was found at line 30 containing "FTS-3006" and 0 children.
+. . . . Element "label" was found at line 31 with no content and 2 children.
+. . . . . Element "name" was found at line 32 containing "Verve Forecast" and 0 children.
+. . . . . Element "sort-name" was found at line 33 containing "Verve Forecast" and 0 children.
+. . Element "medium-list" was found at line 37 with no content and 1 child.
+. . . Element "medium" was found at line 38 with no content and 4 children.
+. . . . Element "position" was found at line 39 containing "1" and 0 children.
+. . . . Element "format" was found at line 40 containing "Vinyl" and 0 children.
+. . . . Element "disc-list" was found at line 41 with no content and 0 children.
+. . . . Element "track-list" was found at line 42 with no content and 11 children.
+. . . . . Element "track" was found at line 43 with no content and 3 children.
+. . . . . . Element "position" was found at line 44 containing "1" and 0 children.
+. . . . . . Element "length" was found at line 45 containing "217866" and 0 children.
+. . . . . . Element "recording" was found at line 46 with no content and 3 children.
+. . . . . . . Element "title" was found at line 47 containing "High Flyin' Bird" and 0 children.
+. . . . . . . Element "length" was found at line 48 containing "217866" and 0 children.
+. . . . . . . Element "artist-credit" was found at line 49 with no content and 1 child.
+. . . . . . . . Element "name-credit" was found at line 50 with no content and 1 child.
+. . . . . . . . . Element "artist" was found at line 51 with no content and 2 children.
+. . . . . . . . . . Element "name" was found at line 52 containing "Richie Havens" and 0 children.
+. . . . . . . . . . Element "sort-name" was found at line 53 containing "Havens, Richie" and 0 children.
+. . . . . Element "track" was found at line 59 with no content and 3 children.
+. . . . . . Element "position" was found at line 60 containing "2" and 0 children.
+. . . . . . Element "length" was found at line 61 containing "170773" and 0 children.
+. . . . . . Element "recording" was found at line 62 with no content and 3 children.
+. . . . . . . Element "title" was found at line 63 containing "I Can't Make It Anymore" and 0 children.
+. . . . . . . Element "length" was found at line 64 containing "170773" and 0 children.
+. . . . . . . Element "artist-credit" was found at line 65 with no content and 1 child.
+. . . . . . . . Element "name-credit" was found at line 66 with no content and 1 child.
+. . . . . . . . . Element "artist" was found at line 67 with no content and 2 children.
+. . . . . . . . . . Element "name" was found at line 68 containing "Richie Havens" and 0 children.
+. . . . . . . . . . Element "sort-name" was found at line 69 containing "Havens, Richie" and 0 children.
+. . . . . Element "track" was found at line 75 with no content and 3 children.
+. . . . . . Element "position" was found at line 76 containing "3" and 0 children.
+. . . . . . Element "length" was found at line 77 containing "140493" and 0 children.
+. . . . . . Element "recording" was found at line 78 with no content and 3 children.
+. . . . . . . Element "title" was found at line 79 containing "Morning, Morning" and 0 children.
+. . . . . . . Element "length" was found at line 80 containing "140493" and 0 children.
+. . . . . . . Element "artist-credit" was found at line 81 with no content and 1 child.
+. . . . . . . . Element "name-credit" was found at line 82 with no content and 1 child.
+. . . . . . . . . Element "artist" was found at line 83 with no content and 2 children.
+. . . . . . . . . . Element "name" was found at line 84 containing "Richie Havens" and 0 children.
+. . . . . . . . . . Element "sort-name" was found at line 85 containing "Havens, Richie" and 0 children.
+. . . . . Element "track" was found at line 91 with no content and 3 children.
+. . . . . . Element "position" was found at line 92 containing "4" and 0 children.
+. . . . . . Element "length" was found at line 93 containing "217066" and 0 children.
+. . . . . . Element "recording" was found at line 94 with no content and 3 children.
+. . . . . . . Element "title" was found at line 95 containing "Adam" and 0 children.
+. . . . . . . Element "length" was found at line 96 containing "217066" and 0 children.
+. . . . . . . Element "artist-credit" was found at line 97 with no content and 1 child.
+. . . . . . . . Element "name-credit" was found at line 98 with no content and 1 child.
+. . . . . . . . . Element "artist" was found at line 99 with no content and 2 children.
+. . . . . . . . . . Element "name" was found at line 100 containing "Richie Havens" and 0 children.
+. . . . . . . . . . Element "sort-name" was found at line 101 containing "Havens, Richie" and 0 children.
+. . . . . Element "track" was found at line 107 with no content and 3 children.
+. . . . . . Element "position" was found at line 108 containing "5" and 0 children.
+. . . . . . Element "length" was found at line 109 containing "384640" and 0 children.
+. . . . . . Element "recording" was found at line 110 with no content and 3 children.
+. . . . . . . Element "title" was found at line 111 containing "Follow" and 0 children.
+. . . . . . . Element "length" was found at line 112 containing "384640" and 0 children.
+. . . . . . . Element "artist-credit" was found at line 113 with no content and 1 child.
+. . . . . . . . Element "name-credit" was found at line 114 with no content and 1 child.
+. . . . . . . . . Element "artist" was found at line 115 with no content and 2 children.
+. . . . . . . . . . Element "name" was found at line 116 containing "Richie Havens" and 0 children.
+. . . . . . . . . . Element "sort-name" was found at line 117 containing "Havens, Richie" and 0 children.
+. . . . . Element "track" was found at line 123 with no content and 3 children.
+. . . . . . Element "position" was found at line 124 containing "6" and 0 children.
+. . . . . . Element "length" was found at line 125 containing "137893" and 0 children.
+. . . . . . Element "recording" was found at line 126 with no content and 3 children.
+. . . . . . . Element "title" was found at line 127 containing "Three Day Eternity" and 0 children.
+. . . . . . . Element "length" was found at line 128 containing "137893" and 0 children.
+. . . . . . . Element "artist-credit" was found at line 129 with no content and 1 child.
+. . . . . . . . Element "name-credit" was found at line 130 with no content and 1 child.
+. . . . . . . . . Element "artist" was found at line 131 with no content and 2 children.
+. . . . . . . . . . Element "name" was found at line 132 containing "Richie Havens" and 0 children.
+. . . . . . . . . . Element "sort-name" was found at line 133 containing "Havens, Richie" and 0 children.
+. . . . . Element "track" was found at line 139 with no content and 3 children.
+. . . . . . Element "position" was found at line 140 containing "7" and 0 children.
+. . . . . . Element "length" was found at line 141 containing "194600" and 0 children.
+. . . . . . Element "recording" was found at line 142 with no content and 3 children.
+. . . . . . . Element "title" was found at line 143 containing "Sandy" and 0 children.
+. . . . . . . Element "length" was found at line 144 containing "194600" and 0 children.
+. . . . . . . Element "artist-credit" was found at line 145 with no content and 1 child.
+. . . . . . . . Element "name-credit" was found at line 146 with no content and 1 child.
+. . . . . . . . . Element "artist" was found at line 147 with no content and 2 children.
+. . . . . . . . . . Element "name" was found at line 148 containing "Richie Havens" and 0 children.
+. . . . . . . . . . Element "sort-name" was found at line 149 containing "Havens, Richie" and 0 children.
+. . . . . Element "track" was found at line 155 with no content and 3 children.
+. . . . . . Element "position" was found at line 156 containing "8" and 0 children.
+. . . . . . Element "length" was found at line 157 containing "235973" and 0 children.
+. . . . . . Element "recording" was found at line 158 with no content and 3 children.
+. . . . . . . Element "title" was found at line 159 containing "Handsome Johnny" and 0 children.
+. . . . . . . Element "length" was found at line 160 containing "235973" and 0 children.
+. . . . . . . Element "artist-credit" was found at line 161 with no content and 1 child.
+. . . . . . . . Element "name-credit" was found at line 162 with no content and 1 child.
+. . . . . . . . . Element "artist" was found at line 163 with no content and 2 children.
+. . . . . . . . . . Element "name" was found at line 164 containing "Richie Havens" and 0 children.
+. . . . . . . . . . Element "sort-name" was found at line 165 containing "Havens, Richie" and 0 children.
+. . . . . Element "track" was found at line 171 with no content and 3 children.
+. . . . . . Element "position" was found at line 172 containing "9" and 0 children.
+. . . . . . Element "length" was found at line 173 containing "153360" and 0 children.
+. . . . . . Element "recording" was found at line 174 with no content and 3 children.
+. . . . . . . Element "title" was found at line 175 containing "San Francisco Bay Blues" and 0 children.
+. . . . . . . Element "length" was found at line 176 containing "153360" and 0 children.
+. . . . . . . Element "artist-credit" was found at line 177 with no content and 1 child.
+. . . . . . . . Element "name-credit" was found at line 178 with no content and 1 child.
+. . . . . . . . . Element "artist" was found at line 179 with no content and 2 children.
+. . . . . . . . . . Element "name" was found at line 180 containing "Richie Havens" and 0 children.
+. . . . . . . . . . Element "sort-name" was found at line 181 containing "Havens, Richie" and 0 children.
+. . . . . Element "track" was found at line 187 with no content and 3 children.
+. . . . . . Element "position" was found at line 188 containing "10" and 0 children.
+. . . . . . Element "length" was found at line 189 containing "289200" and 0 children.
+. . . . . . Element "recording" was found at line 190 with no content and 3 children.
+. . . . . . . Element "title" was found at line 191 containing "Just Like a Woman" and 0 children.
+. . . . . . . Element "length" was found at line 192 containing "289200" and 0 children.
+. . . . . . . Element "artist-credit" was found at line 193 with no content and 1 child.
+. . . . . . . . Element "name-credit" was found at line 194 with no content and 1 child.
+. . . . . . . . . Element "artist" was found at line 195 with no content and 2 children.
+. . . . . . . . . . Element "name" was found at line 196 containing "Richie Havens" and 0 children.
+. . . . . . . . . . Element "sort-name" was found at line 197 containing "Havens, Richie" and 0 children.
+. . . . . Element "track" was found at line 203 with no content and 3 children.
+. . . . . . Element "position" was found at line 204 containing "11" and 0 children.
+. . . . . . Element "length" was found at line 205 containing "162533" and 0 children.
+. . . . . . Element "recording" was found at line 206 with no content and 3 children.
+. . . . . . . Element "title" was found at line 207 containing "Eleanor Rigby" and 0 children.
+. . . . . . . Element "length" was found at line 208 containing "162533" and 0 children.
+. . . . . . . Element "artist-credit" was found at line 209 with no content and 1 child.
+. . . . . . . . Element "name-credit" was found at line 210 with no content and 1 child.
+. . . . . . . . . Element "artist" was found at line 211 with no content and 2 children.
+. . . . . . . . . . Element "name" was found at line 212 containing "Richie Havens" and 0 children.
+. . . . . . . . . . Element "sort-name" was found at line 213 containing "Havens, Richie" and 0 children.
+
+Done.
+
+RUN SUCCESSFUL (total time: 322ms)
+</pre></body></html>

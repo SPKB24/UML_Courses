@@ -1,0 +1,2169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Richie Havens: "Mixed Bag"
+  Jesse M Heines, heines@cs.uml.edu
+  February 12, 2012
+  source:  http://musicbrainz.org/ws/2/release/6a866e4d-e2c7-4990-92a5-9d1a30d51943?inc=artist-credits%2Blabels%2Bdiscids%2Brecordings
+-->
+<song-library>
+  <metadata first_name="Sohit" last_name="Pal" xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943" year="2050" day="Monday">
+      <title>Mixed Bag</title>
+      <status>Official</status>
+      <quality>normal</quality>
+      <text-representation random="Comment" random2="Comment2" random3="Comment3">
+        <language>eng</language>
+        <script>Latn</script>
+      </text-representation>
+      <artist-credit age="20" favoriteColor="Blue" Go="Lakers">
+        <name-credit>
+          <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+            <name>Richie Havens</name>
+            <sort-name>Havens, Richie</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <date>1967</date>
+      <country>US</country>
+      <asin>B000001FOM</asin>
+      <label-info-list count="1">
+        <label-info>
+          <catalog-number>FTS-3006</catalog-number>
+          <label id="87607d99-1448-4c5f-b794-b67671862aa0">
+            <name>Verve Forecast</name>
+            <sort-name>Verve Forecast</sort-name>
+          </label>
+        </label-info>
+      </label-info-list>
+      <medium-list count="1">
+        <medium>
+          <position>1</position>
+          <format>Vinyl</format>
+          <disc-list count="0" />
+          <track-list count="11" offset="0">
+            <track>
+              <position>1</position>
+              <length>217866</length>
+              <recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+                <title>High Flyin' Bird</title>
+                <length>217866</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>2</position>
+              <length>170773</length>
+              <recording id="4911f0d1-deb5-47a3-aa60-37b34fc50d95">
+                <title>I Can't Make It Anymore</title>
+                <length>170773</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>3</position>
+              <length>140493</length>
+              <recording id="46960186-57da-4437-ab60-c01798af3d84">
+                <title>Morning, Morning</title>
+                <length>140493</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>4</position>
+              <length>217066</length>
+              <recording id="8970973c-e29e-4289-8693-10a74438c2ce">
+                <title>Adam</title>
+                <length>217066</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>5</position>
+              <length>384640</length>
+              <recording id="7d64445c-f997-40fa-9b03-ae806850d0b6">
+                <title>Follow</title>
+                <length>384640</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>6</position>
+              <length>137893</length>
+              <recording id="ca21a375-9965-4ace-b9a3-ac3df0d77a90">
+                <title>Three Day Eternity</title>
+                <length>137893</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>7</position>
+              <length>194600</length>
+              <recording id="303f9a65-7700-41e4-a03a-072f4514887c">
+                <title>Sandy</title>
+                <length>194600</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>8</position>
+              <length>235973</length>
+              <recording id="b66a6e5d-51ad-40f4-ab24-577ff08401b4">
+                <title>Handsome Johnny</title>
+                <length>235973</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>9</position>
+              <length>153360</length>
+              <recording id="10e01ab2-cd9b-4674-971c-690e088c1418">
+                <title>San Francisco Bay Blues</title>
+                <length>153360</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>10</position>
+              <length>289200</length>
+              <recording id="a5784faf-0ee8-4715-9608-a3e4d7833869">
+                <title>Just Like a Woman</title>
+                <length>289200</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>11</position>
+              <length>162533</length>
+              <recording id="949ae5bf-5508-4ada-948d-3dcf13c63ce9">
+                <title>Eleanor Rigby</title>
+                <length>162533</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+          </track-list>
+        </medium>
+      </medium-list>
+    </release>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943">
+      <title>Mixed Bag</title>
+      <status>Official</status>
+      <quality>normal</quality>
+      <text-representation>
+        <language>eng</language>
+        <script>Latn</script>
+      </text-representation>
+      <artist-credit>
+        <name-credit>
+          <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+            <name>Richie Havens</name>
+            <sort-name>Havens, Richie</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <date>1967</date>
+      <country>US</country>
+      <asin>B000001FOM</asin>
+      <label-info-list count="1">
+        <label-info>
+          <catalog-number>FTS-3006</catalog-number>
+          <label id="87607d99-1448-4c5f-b794-b67671862aa0">
+            <name>Verve Forecast</name>
+            <sort-name>Verve Forecast</sort-name>
+          </label>
+        </label-info>
+      </label-info-list>
+      <medium-list count="1">
+        <medium>
+          <position>1</position>
+          <format>Vinyl</format>
+          <disc-list count="0" />
+          <track-list count="11" offset="0">
+            <track>
+              <position>1</position>
+              <length>217866</length>
+              <recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+                <title>High Flyin' Bird</title>
+                <length>217866</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>2</position>
+              <length>170773</length>
+              <recording id="4911f0d1-deb5-47a3-aa60-37b34fc50d95">
+                <title>I Can't Make It Anymore</title>
+                <length>170773</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>3</position>
+              <length>140493</length>
+              <recording id="46960186-57da-4437-ab60-c01798af3d84">
+                <title>Morning, Morning</title>
+                <length>140493</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>4</position>
+              <length>217066</length>
+              <recording id="8970973c-e29e-4289-8693-10a74438c2ce">
+                <title>Adam</title>
+                <length>217066</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>5</position>
+              <length>384640</length>
+              <recording id="7d64445c-f997-40fa-9b03-ae806850d0b6">
+                <title>Follow</title>
+                <length>384640</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>6</position>
+              <length>137893</length>
+              <recording id="ca21a375-9965-4ace-b9a3-ac3df0d77a90">
+                <title>Three Day Eternity</title>
+                <length>137893</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>7</position>
+              <length>194600</length>
+              <recording id="303f9a65-7700-41e4-a03a-072f4514887c">
+                <title>Sandy</title>
+                <length>194600</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>8</position>
+              <length>235973</length>
+              <recording id="b66a6e5d-51ad-40f4-ab24-577ff08401b4">
+                <title>Handsome Johnny</title>
+                <length>235973</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>9</position>
+              <length>153360</length>
+              <recording id="10e01ab2-cd9b-4674-971c-690e088c1418">
+                <title>San Francisco Bay Blues</title>
+                <length>153360</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>10</position>
+              <length>289200</length>
+              <recording id="a5784faf-0ee8-4715-9608-a3e4d7833869">
+                <title>Just Like a Woman</title>
+                <length>289200</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>11</position>
+              <length>162533</length>
+              <recording id="949ae5bf-5508-4ada-948d-3dcf13c63ce9">
+                <title>Eleanor Rigby</title>
+                <length>162533</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+          </track-list>
+        </medium>
+      </medium-list>
+    </release>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943">
+      <title>Mixed Bag</title>
+      <status>Official</status>
+      <quality>normal</quality>
+      <text-representation>
+        <language>eng</language>
+        <script>Latn</script>
+      </text-representation>
+      <artist-credit>
+        <name-credit>
+          <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+            <name>Richie Havens</name>
+            <sort-name>Havens, Richie</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <date>1967</date>
+      <country>US</country>
+      <asin>B000001FOM</asin>
+      <label-info-list count="1">
+        <label-info>
+          <catalog-number>FTS-3006</catalog-number>
+          <label id="87607d99-1448-4c5f-b794-b67671862aa0">
+            <name>Verve Forecast</name>
+            <sort-name>Verve Forecast</sort-name>
+          </label>
+        </label-info>
+      </label-info-list>
+      <medium-list count="1">
+        <medium>
+          <position>1</position>
+          <format>Vinyl</format>
+          <disc-list count="0" />
+          <track-list count="11" offset="0">
+            <track>
+              <position>1</position>
+              <length>217866</length>
+              <recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+                <title>High Flyin' Bird</title>
+                <length>217866</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>2</position>
+              <length>170773</length>
+              <recording id="4911f0d1-deb5-47a3-aa60-37b34fc50d95">
+                <title>I Can't Make It Anymore</title>
+                <length>170773</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>3</position>
+              <length>140493</length>
+              <recording id="46960186-57da-4437-ab60-c01798af3d84">
+                <title>Morning, Morning</title>
+                <length>140493</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>4</position>
+              <length>217066</length>
+              <recording id="8970973c-e29e-4289-8693-10a74438c2ce">
+                <title>Adam</title>
+                <length>217066</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>5</position>
+              <length>384640</length>
+              <recording id="7d64445c-f997-40fa-9b03-ae806850d0b6">
+                <title>Follow</title>
+                <length>384640</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>6</position>
+              <length>137893</length>
+              <recording id="ca21a375-9965-4ace-b9a3-ac3df0d77a90">
+                <title>Three Day Eternity</title>
+                <length>137893</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>7</position>
+              <length>194600</length>
+              <recording id="303f9a65-7700-41e4-a03a-072f4514887c">
+                <title>Sandy</title>
+                <length>194600</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>8</position>
+              <length>235973</length>
+              <recording id="b66a6e5d-51ad-40f4-ab24-577ff08401b4">
+                <title>Handsome Johnny</title>
+                <length>235973</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>9</position>
+              <length>153360</length>
+              <recording id="10e01ab2-cd9b-4674-971c-690e088c1418">
+                <title>San Francisco Bay Blues</title>
+                <length>153360</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>10</position>
+              <length>289200</length>
+              <recording id="a5784faf-0ee8-4715-9608-a3e4d7833869">
+                <title>Just Like a Woman</title>
+                <length>289200</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>11</position>
+              <length>162533</length>
+              <recording id="949ae5bf-5508-4ada-948d-3dcf13c63ce9">
+                <title>Eleanor Rigby</title>
+                <length>162533</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+          </track-list>
+        </medium>
+      </medium-list>
+    </release>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943">
+      <title>Mixed Bag</title>
+      <status>Official</status>
+      <quality>normal</quality>
+      <text-representation>
+        <language>eng</language>
+        <script>Latn</script>
+      </text-representation>
+      <artist-credit>
+        <name-credit>
+          <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+            <name>Richie Havens</name>
+            <sort-name>Havens, Richie</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <date>1967</date>
+      <country>US</country>
+      <asin>B000001FOM</asin>
+      <label-info-list count="1">
+        <label-info>
+          <catalog-number>FTS-3006</catalog-number>
+          <label id="87607d99-1448-4c5f-b794-b67671862aa0">
+            <name>Verve Forecast</name>
+            <sort-name>Verve Forecast</sort-name>
+          </label>
+        </label-info>
+      </label-info-list>
+      <medium-list count="1">
+        <medium>
+          <position>1</position>
+          <format>Vinyl</format>
+          <disc-list count="0" />
+          <track-list count="11" offset="0">
+            <track>
+              <position>1</position>
+              <length>217866</length>
+              <recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+                <title>High Flyin' Bird</title>
+                <length>217866</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>2</position>
+              <length>170773</length>
+              <recording id="4911f0d1-deb5-47a3-aa60-37b34fc50d95">
+                <title>I Can't Make It Anymore</title>
+                <length>170773</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>3</position>
+              <length>140493</length>
+              <recording id="46960186-57da-4437-ab60-c01798af3d84">
+                <title>Morning, Morning</title>
+                <length>140493</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>4</position>
+              <length>217066</length>
+              <recording id="8970973c-e29e-4289-8693-10a74438c2ce">
+                <title>Adam</title>
+                <length>217066</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>5</position>
+              <length>384640</length>
+              <recording id="7d64445c-f997-40fa-9b03-ae806850d0b6">
+                <title>Follow</title>
+                <length>384640</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>6</position>
+              <length>137893</length>
+              <recording id="ca21a375-9965-4ace-b9a3-ac3df0d77a90">
+                <title>Three Day Eternity</title>
+                <length>137893</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>7</position>
+              <length>194600</length>
+              <recording id="303f9a65-7700-41e4-a03a-072f4514887c">
+                <title>Sandy</title>
+                <length>194600</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>8</position>
+              <length>235973</length>
+              <recording id="b66a6e5d-51ad-40f4-ab24-577ff08401b4">
+                <title>Handsome Johnny</title>
+                <length>235973</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>9</position>
+              <length>153360</length>
+              <recording id="10e01ab2-cd9b-4674-971c-690e088c1418">
+                <title>San Francisco Bay Blues</title>
+                <length>153360</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>10</position>
+              <length>289200</length>
+              <recording id="a5784faf-0ee8-4715-9608-a3e4d7833869">
+                <title>Just Like a Woman</title>
+                <length>289200</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>11</position>
+              <length>162533</length>
+              <recording id="949ae5bf-5508-4ada-948d-3dcf13c63ce9">
+                <title>Eleanor Rigby</title>
+                <length>162533</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+          </track-list>
+        </medium>
+      </medium-list>
+    </release>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943">
+      <title>Mixed Bag</title>
+      <status>Official</status>
+      <quality>normal</quality>
+      <text-representation>
+        <language>eng</language>
+        <script>Latn</script>
+      </text-representation>
+      <artist-credit>
+        <name-credit>
+          <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+            <name>Richie Havens</name>
+            <sort-name>Havens, Richie</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <date>1967</date>
+      <country>US</country>
+      <asin>B000001FOM</asin>
+      <label-info-list count="1">
+        <label-info>
+          <catalog-number>FTS-3006</catalog-number>
+          <label id="87607d99-1448-4c5f-b794-b67671862aa0">
+            <name>Verve Forecast</name>
+            <sort-name>Verve Forecast</sort-name>
+          </label>
+        </label-info>
+      </label-info-list>
+      <medium-list count="1">
+        <medium>
+          <position>1</position>
+          <format>Vinyl</format>
+          <disc-list count="0" />
+          <track-list count="11" offset="0">
+            <track>
+              <position>1</position>
+              <length>217866</length>
+              <recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+                <title>High Flyin' Bird</title>
+                <length>217866</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>2</position>
+              <length>170773</length>
+              <recording id="4911f0d1-deb5-47a3-aa60-37b34fc50d95">
+                <title>I Can't Make It Anymore</title>
+                <length>170773</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>3</position>
+              <length>140493</length>
+              <recording id="46960186-57da-4437-ab60-c01798af3d84">
+                <title>Morning, Morning</title>
+                <length>140493</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>4</position>
+              <length>217066</length>
+              <recording id="8970973c-e29e-4289-8693-10a74438c2ce">
+                <title>Adam</title>
+                <length>217066</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>5</position>
+              <length>384640</length>
+              <recording id="7d64445c-f997-40fa-9b03-ae806850d0b6">
+                <title>Follow</title>
+                <length>384640</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>6</position>
+              <length>137893</length>
+              <recording id="ca21a375-9965-4ace-b9a3-ac3df0d77a90">
+                <title>Three Day Eternity</title>
+                <length>137893</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>7</position>
+              <length>194600</length>
+              <recording id="303f9a65-7700-41e4-a03a-072f4514887c">
+                <title>Sandy</title>
+                <length>194600</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>8</position>
+              <length>235973</length>
+              <recording id="b66a6e5d-51ad-40f4-ab24-577ff08401b4">
+                <title>Handsome Johnny</title>
+                <length>235973</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>9</position>
+              <length>153360</length>
+              <recording id="10e01ab2-cd9b-4674-971c-690e088c1418">
+                <title>San Francisco Bay Blues</title>
+                <length>153360</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>10</position>
+              <length>289200</length>
+              <recording id="a5784faf-0ee8-4715-9608-a3e4d7833869">
+                <title>Just Like a Woman</title>
+                <length>289200</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>11</position>
+              <length>162533</length>
+              <recording id="949ae5bf-5508-4ada-948d-3dcf13c63ce9">
+                <title>Eleanor Rigby</title>
+                <length>162533</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+          </track-list>
+        </medium>
+      </medium-list>
+    </release>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943">
+      <title>Mixed Bag</title>
+      <status>Official</status>
+      <quality>normal</quality>
+      <text-representation>
+        <language>eng</language>
+        <script>Latn</script>
+      </text-representation>
+      <artist-credit>
+        <name-credit>
+          <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+            <name>Richie Havens</name>
+            <sort-name>Havens, Richie</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <date>1967</date>
+      <country>US</country>
+      <asin>B000001FOM</asin>
+      <label-info-list count="1">
+        <label-info>
+          <catalog-number>FTS-3006</catalog-number>
+          <label id="87607d99-1448-4c5f-b794-b67671862aa0">
+            <name>Verve Forecast</name>
+            <sort-name>Verve Forecast</sort-name>
+          </label>
+        </label-info>
+      </label-info-list>
+      <medium-list count="1">
+        <medium>
+          <position>1</position>
+          <format>Vinyl</format>
+          <disc-list count="0" />
+          <track-list count="11" offset="0">
+            <track>
+              <position>1</position>
+              <length>217866</length>
+              <recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+                <title>High Flyin' Bird</title>
+                <length>217866</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>2</position>
+              <length>170773</length>
+              <recording id="4911f0d1-deb5-47a3-aa60-37b34fc50d95">
+                <title>I Can't Make It Anymore</title>
+                <length>170773</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>3</position>
+              <length>140493</length>
+              <recording id="46960186-57da-4437-ab60-c01798af3d84">
+                <title>Morning, Morning</title>
+                <length>140493</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>4</position>
+              <length>217066</length>
+              <recording id="8970973c-e29e-4289-8693-10a74438c2ce">
+                <title>Adam</title>
+                <length>217066</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>5</position>
+              <length>384640</length>
+              <recording id="7d64445c-f997-40fa-9b03-ae806850d0b6">
+                <title>Follow</title>
+                <length>384640</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>6</position>
+              <length>137893</length>
+              <recording id="ca21a375-9965-4ace-b9a3-ac3df0d77a90">
+                <title>Three Day Eternity</title>
+                <length>137893</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>7</position>
+              <length>194600</length>
+              <recording id="303f9a65-7700-41e4-a03a-072f4514887c">
+                <title>Sandy</title>
+                <length>194600</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>8</position>
+              <length>235973</length>
+              <recording id="b66a6e5d-51ad-40f4-ab24-577ff08401b4">
+                <title>Handsome Johnny</title>
+                <length>235973</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>9</position>
+              <length>153360</length>
+              <recording id="10e01ab2-cd9b-4674-971c-690e088c1418">
+                <title>San Francisco Bay Blues</title>
+                <length>153360</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>10</position>
+              <length>289200</length>
+              <recording id="a5784faf-0ee8-4715-9608-a3e4d7833869">
+                <title>Just Like a Woman</title>
+                <length>289200</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>11</position>
+              <length>162533</length>
+              <recording id="949ae5bf-5508-4ada-948d-3dcf13c63ce9">
+                <title>Eleanor Rigby</title>
+                <length>162533</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+          </track-list>
+        </medium>
+      </medium-list>
+    </release>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943">
+      <title>Mixed Bag</title>
+      <status>Official</status>
+      <quality>normal</quality>
+      <text-representation>
+        <language>eng</language>
+        <script>Latn</script>
+      </text-representation>
+      <artist-credit>
+        <name-credit>
+          <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+            <name>Richie Havens</name>
+            <sort-name>Havens, Richie</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <date>1967</date>
+      <country>US</country>
+      <asin>B000001FOM</asin>
+      <label-info-list count="1">
+        <label-info>
+          <catalog-number>FTS-3006</catalog-number>
+          <label id="87607d99-1448-4c5f-b794-b67671862aa0">
+            <name>Verve Forecast</name>
+            <sort-name>Verve Forecast</sort-name>
+          </label>
+        </label-info>
+      </label-info-list>
+      <medium-list count="1">
+        <medium>
+          <position>1</position>
+          <format>Vinyl</format>
+          <disc-list count="0" />
+          <track-list count="11" offset="0">
+            <track>
+              <position>1</position>
+              <length>217866</length>
+              <recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+                <title>High Flyin' Bird</title>
+                <length>217866</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>2</position>
+              <length>170773</length>
+              <recording id="4911f0d1-deb5-47a3-aa60-37b34fc50d95">
+                <title>I Can't Make It Anymore</title>
+                <length>170773</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>3</position>
+              <length>140493</length>
+              <recording id="46960186-57da-4437-ab60-c01798af3d84">
+                <title>Morning, Morning</title>
+                <length>140493</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>4</position>
+              <length>217066</length>
+              <recording id="8970973c-e29e-4289-8693-10a74438c2ce">
+                <title>Adam</title>
+                <length>217066</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>5</position>
+              <length>384640</length>
+              <recording id="7d64445c-f997-40fa-9b03-ae806850d0b6">
+                <title>Follow</title>
+                <length>384640</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>6</position>
+              <length>137893</length>
+              <recording id="ca21a375-9965-4ace-b9a3-ac3df0d77a90">
+                <title>Three Day Eternity</title>
+                <length>137893</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>7</position>
+              <length>194600</length>
+              <recording id="303f9a65-7700-41e4-a03a-072f4514887c">
+                <title>Sandy</title>
+                <length>194600</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>8</position>
+              <length>235973</length>
+              <recording id="b66a6e5d-51ad-40f4-ab24-577ff08401b4">
+                <title>Handsome Johnny</title>
+                <length>235973</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>9</position>
+              <length>153360</length>
+              <recording id="10e01ab2-cd9b-4674-971c-690e088c1418">
+                <title>San Francisco Bay Blues</title>
+                <length>153360</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>10</position>
+              <length>289200</length>
+              <recording id="a5784faf-0ee8-4715-9608-a3e4d7833869">
+                <title>Just Like a Woman</title>
+                <length>289200</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>11</position>
+              <length>162533</length>
+              <recording id="949ae5bf-5508-4ada-948d-3dcf13c63ce9">
+                <title>Eleanor Rigby</title>
+                <length>162533</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+          </track-list>
+        </medium>
+      </medium-list>
+    </release>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943">
+      <title>Mixed Bag</title>
+      <status>Official</status>
+      <quality>normal</quality>
+      <text-representation>
+        <language>eng</language>
+        <script>Latn</script>
+      </text-representation>
+      <artist-credit>
+        <name-credit>
+          <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+            <name>Richie Havens</name>
+            <sort-name>Havens, Richie</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <date>1967</date>
+      <country>US</country>
+      <asin>B000001FOM</asin>
+      <label-info-list count="1">
+        <label-info>
+          <catalog-number>FTS-3006</catalog-number>
+          <label id="87607d99-1448-4c5f-b794-b67671862aa0">
+            <name>Verve Forecast</name>
+            <sort-name>Verve Forecast</sort-name>
+          </label>
+        </label-info>
+      </label-info-list>
+      <medium-list count="1">
+        <medium>
+          <position>1</position>
+          <format>Vinyl</format>
+          <disc-list count="0" />
+          <track-list count="11" offset="0">
+            <track>
+              <position>1</position>
+              <length>217866</length>
+              <recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+                <title>High Flyin' Bird</title>
+                <length>217866</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>2</position>
+              <length>170773</length>
+              <recording id="4911f0d1-deb5-47a3-aa60-37b34fc50d95">
+                <title>I Can't Make It Anymore</title>
+                <length>170773</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>3</position>
+              <length>140493</length>
+              <recording id="46960186-57da-4437-ab60-c01798af3d84">
+                <title>Morning, Morning</title>
+                <length>140493</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>4</position>
+              <length>217066</length>
+              <recording id="8970973c-e29e-4289-8693-10a74438c2ce">
+                <title>Adam</title>
+                <length>217066</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>5</position>
+              <length>384640</length>
+              <recording id="7d64445c-f997-40fa-9b03-ae806850d0b6">
+                <title>Follow</title>
+                <length>384640</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>6</position>
+              <length>137893</length>
+              <recording id="ca21a375-9965-4ace-b9a3-ac3df0d77a90">
+                <title>Three Day Eternity</title>
+                <length>137893</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>7</position>
+              <length>194600</length>
+              <recording id="303f9a65-7700-41e4-a03a-072f4514887c">
+                <title>Sandy</title>
+                <length>194600</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>8</position>
+              <length>235973</length>
+              <recording id="b66a6e5d-51ad-40f4-ab24-577ff08401b4">
+                <title>Handsome Johnny</title>
+                <length>235973</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>9</position>
+              <length>153360</length>
+              <recording id="10e01ab2-cd9b-4674-971c-690e088c1418">
+                <title>San Francisco Bay Blues</title>
+                <length>153360</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>10</position>
+              <length>289200</length>
+              <recording id="a5784faf-0ee8-4715-9608-a3e4d7833869">
+                <title>Just Like a Woman</title>
+                <length>289200</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>11</position>
+              <length>162533</length>
+              <recording id="949ae5bf-5508-4ada-948d-3dcf13c63ce9">
+                <title>Eleanor Rigby</title>
+                <length>162533</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+          </track-list>
+        </medium>
+      </medium-list>
+    </release>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943">
+      <title>Mixed Bag</title>
+      <status>Official</status>
+      <quality>normal</quality>
+      <text-representation>
+        <language>eng</language>
+        <script>Latn</script>
+      </text-representation>
+      <artist-credit>
+        <name-credit>
+          <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+            <name>Richie Havens</name>
+            <sort-name>Havens, Richie</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <date>1967</date>
+      <country>US</country>
+      <asin>B000001FOM</asin>
+      <label-info-list count="1">
+        <label-info>
+          <catalog-number>FTS-3006</catalog-number>
+          <label id="87607d99-1448-4c5f-b794-b67671862aa0">
+            <name>Verve Forecast</name>
+            <sort-name>Verve Forecast</sort-name>
+          </label>
+        </label-info>
+      </label-info-list>
+      <medium-list count="1">
+        <medium>
+          <position>1</position>
+          <format>Vinyl</format>
+          <disc-list count="0" />
+          <track-list count="11" offset="0">
+            <track>
+              <position>1</position>
+              <length>217866</length>
+              <recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+                <title>High Flyin' Bird</title>
+                <length>217866</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>2</position>
+              <length>170773</length>
+              <recording id="4911f0d1-deb5-47a3-aa60-37b34fc50d95">
+                <title>I Can't Make It Anymore</title>
+                <length>170773</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>3</position>
+              <length>140493</length>
+              <recording id="46960186-57da-4437-ab60-c01798af3d84">
+                <title>Morning, Morning</title>
+                <length>140493</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>4</position>
+              <length>217066</length>
+              <recording id="8970973c-e29e-4289-8693-10a74438c2ce">
+                <title>Adam</title>
+                <length>217066</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>5</position>
+              <length>384640</length>
+              <recording id="7d64445c-f997-40fa-9b03-ae806850d0b6">
+                <title>Follow</title>
+                <length>384640</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>6</position>
+              <length>137893</length>
+              <recording id="ca21a375-9965-4ace-b9a3-ac3df0d77a90">
+                <title>Three Day Eternity</title>
+                <length>137893</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>7</position>
+              <length>194600</length>
+              <recording id="303f9a65-7700-41e4-a03a-072f4514887c">
+                <title>Sandy</title>
+                <length>194600</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>8</position>
+              <length>235973</length>
+              <recording id="b66a6e5d-51ad-40f4-ab24-577ff08401b4">
+                <title>Handsome Johnny</title>
+                <length>235973</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>9</position>
+              <length>153360</length>
+              <recording id="10e01ab2-cd9b-4674-971c-690e088c1418">
+                <title>San Francisco Bay Blues</title>
+                <length>153360</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>10</position>
+              <length>289200</length>
+              <recording id="a5784faf-0ee8-4715-9608-a3e4d7833869">
+                <title>Just Like a Woman</title>
+                <length>289200</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>11</position>
+              <length>162533</length>
+              <recording id="949ae5bf-5508-4ada-948d-3dcf13c63ce9">
+                <title>Eleanor Rigby</title>
+                <length>162533</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+          </track-list>
+        </medium>
+      </medium-list>
+    </release>
+  </metadata>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943">
+      <title>Mixed Bag</title>
+      <status>Official</status>
+      <quality>normal</quality>
+      <text-representation>
+        <language>eng</language>
+        <script>Latn</script>
+      </text-representation>
+      <artist-credit>
+        <name-credit>
+          <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+            <name>Richie Havens</name>
+            <sort-name>Havens, Richie</sort-name>
+          </artist>
+        </name-credit>
+      </artist-credit>
+      <date>1967</date>
+      <country>US</country>
+      <asin>B000001FOM</asin>
+      <label-info-list count="1">
+        <label-info>
+          <catalog-number>FTS-3006</catalog-number>
+          <label id="87607d99-1448-4c5f-b794-b67671862aa0">
+            <name>Verve Forecast</name>
+            <sort-name>Verve Forecast</sort-name>
+          </label>
+        </label-info>
+      </label-info-list>
+      <medium-list count="1">
+        <medium>
+          <position>1</position>
+          <format>Vinyl</format>
+          <disc-list count="0" />
+          <track-list count="11" offset="0">
+            <track>
+              <position>1</position>
+              <length>217866</length>
+              <recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+                <title>High Flyin' Bird</title>
+                <length>217866</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>2</position>
+              <length>170773</length>
+              <recording id="4911f0d1-deb5-47a3-aa60-37b34fc50d95">
+                <title>I Can't Make It Anymore</title>
+                <length>170773</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>3</position>
+              <length>140493</length>
+              <recording id="46960186-57da-4437-ab60-c01798af3d84">
+                <title>Morning, Morning</title>
+                <length>140493</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>4</position>
+              <length>217066</length>
+              <recording id="8970973c-e29e-4289-8693-10a74438c2ce">
+                <title>Adam</title>
+                <length>217066</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>5</position>
+              <length>384640</length>
+              <recording id="7d64445c-f997-40fa-9b03-ae806850d0b6">
+                <title>Follow</title>
+                <length>384640</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>6</position>
+              <length>137893</length>
+              <recording id="ca21a375-9965-4ace-b9a3-ac3df0d77a90">
+                <title>Three Day Eternity</title>
+                <length>137893</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>7</position>
+              <length>194600</length>
+              <recording id="303f9a65-7700-41e4-a03a-072f4514887c">
+                <title>Sandy</title>
+                <length>194600</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>8</position>
+              <length>235973</length>
+              <recording id="b66a6e5d-51ad-40f4-ab24-577ff08401b4">
+                <title>Handsome Johnny</title>
+                <length>235973</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>9</position>
+              <length>153360</length>
+              <recording id="10e01ab2-cd9b-4674-971c-690e088c1418">
+                <title>San Francisco Bay Blues</title>
+                <length>153360</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>10</position>
+              <length>289200</length>
+              <recording id="a5784faf-0ee8-4715-9608-a3e4d7833869">
+                <title>Just Like a Woman</title>
+                <length>289200</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+            <track>
+              <position>11</position>
+              <length>162533</length>
+              <recording id="949ae5bf-5508-4ada-948d-3dcf13c63ce9">
+                <title>Eleanor Rigby</title>
+                <length>162533</length>
+                <artist-credit>
+                  <name-credit>
+                    <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                      <name>Richie Havens</name>
+                      <sort-name>Havens, Richie</sort-name>
+                    </artist>
+                  </name-credit>
+                </artist-credit>
+              </recording>
+            </track>
+          </track-list>
+        </medium>
+      </medium-list>
+    </release>
+  </metadata>
+</song-library>

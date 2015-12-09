@@ -82,7 +82,7 @@ private:
 };
 
 #define X(str) XStr(str).unicodeForm()
-
+#define TRIM(str) jmhUtilities::trim(str)
 
 static char* goutputfile = 0;
 static char* gXPathExpression = 0;
@@ -175,7 +175,7 @@ DOMDocument* setRootElement()
   string userRootName = "";
   
   // Allow any alphabetical letter with any case, but limited to one word
-  regex rootName("([a-z]*|[A-Z]*)+");
+  regex rootName("^\\s*([a-z]*|[A-Z]*)+\\s*$");
   getline(cin, userRootName);
   
   // while user in inputting invalid statements, keep asking them to fix it
@@ -185,6 +185,9 @@ DOMDocument* setRootElement()
     cout << "What would you like to call your root element?: ";
     getline(cin, userRootName);
   }
+  
+  // trim string of any white space characters
+  userRootName = TRIM(userRootName);
   
   cout << "You have successfully set '" << userRootName << "' as your root name!" << endl; 
   
@@ -215,7 +218,8 @@ void ParseCommandString(string strUserEntry, DOMDocument* doc) {
   } else if (regex_match(strUserEntry, reBasicHelpCommand)) {
     showGeneralHelp();
   } else {
-    cout << "  Invalid command.  Acceptable commands are 'add', 'print', 'help', and 'quit'." << endl;
+    cout << "  Invalid command." << endl;
+    showGeneralHelp();
   }
 }
 

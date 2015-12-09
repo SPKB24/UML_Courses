@@ -4,6 +4,9 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>DOMPrintErrorHandler.hpp</itemPath>
+      <itemPath>DOMPrintFilter.hpp</itemPath>
+      <itemPath>DOMTreeErrorReporter.hpp</itemPath>
       <itemPath>jmhUtilities.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -13,6 +16,9 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>DOMPrintErrorHandler.cpp</itemPath>
+      <itemPath>DOMPrintFilter.cpp</itemPath>
+      <itemPath>DOMTreeErrorReporter.cpp</itemPath>
       <itemPath>jmhUtilities.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -28,6 +34,9 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="1">
@@ -40,7 +49,24 @@
         <ccTool>
           <standard>8</standard>
         </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>xerces-c</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
+      <item path="DOMPrintErrorHandler.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DOMPrintErrorHandler.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DOMPrintFilter.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DOMPrintFilter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DOMTreeErrorReporter.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DOMTreeErrorReporter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="jmhUtilities.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="jmhUtilities.h" ex="false" tool="3" flavor2="0">
@@ -69,6 +95,18 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="DOMPrintErrorHandler.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DOMPrintErrorHandler.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DOMPrintFilter.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DOMPrintFilter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DOMTreeErrorReporter.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DOMTreeErrorReporter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="jmhUtilities.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="jmhUtilities.h" ex="false" tool="3" flavor2="0">

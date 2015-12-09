@@ -6,10 +6,12 @@
             <name>AssignmentNo7StarterCode</name>
             <c-extensions>cpp</c-extensions>
             <cpp-extensions/>
-            <header-extensions>h</header-extensions>
+            <header-extensions>h,hpp</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList/>
+            <sourceRootList>
+                <sourceRootElem>.</sourceRootElem>
+            </sourceRootList>
             <confList>
                 <confElem>
                     <name>Debug</name>

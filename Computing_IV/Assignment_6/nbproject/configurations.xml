@@ -48,7 +48,7 @@
           </linkerLibItems>
         </linkerTool>
       </compileType>
-      <item path="CreateDOMDocument.cpp" ex="false" tool="1" flavor2="0">
+      <item path="CreateDOMDocument.cpp" ex="false" tool="0" flavor2="0">
       </item>
       <item path="DOMPrintErrorHandler.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -83,7 +83,7 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="CreateDOMDocument.cpp" ex="false" tool="1" flavor2="0">
+      <item path="CreateDOMDocument.cpp" ex="false" tool="0" flavor2="0">
       </item>
       <item path="DOMPrintErrorHandler.cpp" ex="false" tool="1" flavor2="0">
       </item>

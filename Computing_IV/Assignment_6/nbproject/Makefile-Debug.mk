@@ -68,7 +68,7 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/assignment_6.exe: ${OBJECTFILES}
 ${OBJECTDIR}/CreateDOMDocument.o: CreateDOMDocument.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/CreateDOMDocument.o CreateDOMDocument.cpp
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/CreateDOMDocument.o CreateDOMDocument.cpp
 
 ${OBJECTDIR}/DOMPrintErrorHandler.o: DOMPrintErrorHandler.cpp 
 	${MKDIR} -p ${OBJECTDIR}

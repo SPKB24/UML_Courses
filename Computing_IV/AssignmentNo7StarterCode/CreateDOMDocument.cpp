@@ -40,6 +40,7 @@
 // ---------------------------------------------------------------------------
 //  Includes
 // ---------------------------------------------------------------------------
+/*
 #include <xercesc/util/PlatformUtils.hpp>
 #include <xercesc/util/XMLString.hpp>
 #include <xercesc/dom/DOM.hpp>
@@ -66,19 +67,18 @@
 #include <time.h>
 #include <map>
 
-#if defined(XERCES_NEW_IOSTREAMS)
 #include <iostream>
-#else
-#include <iostream.h>
-#endif
 
 XERCES_CPP_NAMESPACE_USE
+*/
 
 // ---------------------------------------------------------------------------
 //  This is a simple class that lets us do easy (though not terribly efficient)
 //  transcoding of char* data to XMLCh data.
 // ---------------------------------------------------------------------------
-class XStr {
+/*
+class XStr 
+{
 public:
   // -----------------------------------------------------------------------
   //  Constructors and Destructor
@@ -113,6 +113,7 @@ private:
 };
 
 #define X(str) XStr(str).unicodeForm()
+*/
 
 
 // ---------------------------------------------------------------------------
@@ -158,6 +159,7 @@ private:
 // not used, as reported by -Wall   static bool  gSchemaFullChecking = false;
 // not used, as reported by -Wall   static bool  gDoCreate           = false;
 
+/*
 static char* goutputfile = 0;
 static char* gXPathExpression = 0;
 
@@ -169,9 +171,11 @@ static bool gDiscardDefaultContent = true;
 static bool gUseFilter = false;
 static bool gFormatPrettyPrint = true;
 static bool gWriteBOM = false;
+*/
 
-void PrintDOM(DOMDocument* doc) {
-
+/*
+void PrintDOM(DOMDocument* doc) 
+{
   // retval was used in a previous version of this function that returned an int
   // it is no longer used, but has been kept for future use
   // in this case, however, the second statement below is required to avoid a compiler warning
@@ -183,7 +187,8 @@ void PrintDOM(DOMDocument* doc) {
   // {
   DOMPrintFilter *myFilter = 0;
 
-  try {
+  try 
+  {
     // get a serializer, an instance of DOMLSSerializer
     XMLCh tempStr[3] = {chLatin_L, chLatin_S, chNull};
     DOMImplementation *impl = DOMImplementationRegistry::getDOMImplementation(tempStr);
@@ -194,7 +199,8 @@ void PrintDOM(DOMDocument* doc) {
     theOutputDesc->setEncoding(gOutputEncoding);
 
     // plug in user's own filter
-    if (gUseFilter) {
+    if (gUseFilter) 
+    {
       // even we say to show attribute, but the DOMLSSerializer
       // will not show attribute nodes to the filter as
       // the specs explicitly says that DOMLSSerializer shall
@@ -235,9 +241,12 @@ void PrintDOM(DOMDocument* doc) {
     // to stdout once it receives any thing from the serializer.
     //
     XMLFormatTarget *myFormTarget;
-    if (goutputfile) {
+    if (goutputfile) 
+    {
       myFormTarget = new LocalFileFormatTarget(goutputfile);
-    } else {
+    }
+    else 
+    {
       myFormTarget = new StdOutFormatTarget();
     }
     theOutputDesc->setByteStream(myFormTarget);
@@ -248,10 +257,12 @@ void PrintDOM(DOMDocument* doc) {
     //
     // do the serialization through DOMLSSerializer::write();
     //
-    if (gXPathExpression != NULL) {
+    if (gXPathExpression != NULL)
+    {
       XMLCh* xpathStr = XMLString::transcode(gXPathExpression);
       DOMElement* root = doc->getDocumentElement();
-      try {
+      try
+      {
         DOMXPathNSResolver* resolver = doc->createNSResolver(root);
         DOMXPathResult* result = doc->evaluate(
                 xpathStr,
@@ -268,19 +279,25 @@ void PrintDOM(DOMDocument* doc) {
 
         result->release();
         resolver->release();
-      } catch (const DOMXPathException& e) {
+      } 
+      catch (const DOMXPathException& e)
+      {
         XERCES_STD_QUALIFIER cerr << "An error occurred during processing of the XPath expression. Msg is:"
                 << XERCES_STD_QUALIFIER endl
                 << StrX(e.getMessage()) << XERCES_STD_QUALIFIER endl;
         retval = 4;
-      } catch (const DOMException& e) {
+      }
+      catch (const DOMException& e)
+      {
         XERCES_STD_QUALIFIER cerr << "An error occurred during processing of the XPath expression. Msg is:"
                 << XERCES_STD_QUALIFIER endl
                 << StrX(e.getMessage()) << XERCES_STD_QUALIFIER endl;
         retval = 4;
       }
       XMLString::release(&xpathStr);
-    } else {
+    }
+    else 
+    {
       theSerializer->write(doc, theOutputDesc);
     }
 
@@ -297,10 +314,14 @@ void PrintDOM(DOMDocument* doc) {
     if (gUseFilter)
       delete myFilter;
 
-  } catch (const OutOfMemoryException&) {
+  } 
+  catch (const OutOfMemoryException&)
+  {
     XERCES_STD_QUALIFIER cerr << "OutOfMemoryException" << XERCES_STD_QUALIFIER endl;
     retval = 5;
-  } catch (XMLException& e) {
+  } 
+  catch (XMLException& e) 
+  {
     XERCES_STD_QUALIFIER cerr << "An error occurred during creation of output transcoder. Msg is:"
             << XERCES_STD_QUALIFIER endl
             << StrX(e.getMessage()) << XERCES_STD_QUALIFIER endl;
@@ -308,382 +329,357 @@ void PrintDOM(DOMDocument* doc) {
   }
   // }
 }
-
-/**
- * This function is used to print out the xml file in a custom format
- * @param elemRoot the root element of the predefined xml tree
- * @param walker a treewalker element that will allow us to traverse the xml tree
- */
-void customPrint(DOMElement* elemRoot, DOMTreeWalker* walker)
-{
-  /** If true, simply means that current DOMNode is a child of an element */
-  bool isPartOfGreaterGood = false;
-
-  /** Will hold top level root parent to all nodes */
-  DOMNode* rootElement = NULL;
-
-  for (DOMNode* current = walker->nextNode(); current != 0; current = walker->nextNode()) {
-    // Get root element on first loop
-    if (!rootElement) {
-      rootElement = current->getParentNode();
-    }
-
-    // note: this leaks memory!
-    // std::cout << current->getNodeValue() << std::endl ; // .transcode();s
-    // JMH: the following was found in DOMPrint.cpp
-    // JMH: see also http://xerces.apache.org/xerces-c/apiDocs-3/classDOMNode.html
-    // std::cout << current->getNodeType() << " | " ;
-    // JMH: see http://xerces.apache.org/xerces-c/apiDocs-3/classXMLString.html for equals()
-    if (!XMLString::equals(XMLString::transcode(current->getNodeName()), "#text")) {
-
-      // If current is a direct child of the root, isPartOfGreaterGood will be false
-      if (rootElement != current->getParentNode()) {
-        isPartOfGreaterGood = true;
-      } else {
-        isPartOfGreaterGood = false;
-      }
-
-      // If current node is a comment, print comment,
-      // otherwise assume it is an element
-      if (XMLString::equals(XMLString::transcode(current->getNodeName()), "#comment")) { // Comments
-        std::cout << "COMMENT: ";
-      } else { // Elements
-        if (isPartOfGreaterGood) {
-          std::cout << std::endl << "--- ";
-        } else {
-          std::cout << std::endl << std::endl << "-----------------------------------------" << std::endl;
-        }
-
-        // Print out Node Name
-        std::cout << XMLString::transcode(current->getNodeName());
-      }
-    }
-
-    // If Node value exists, print it out
-    if (current->getNodeValue() != NULL) {
-      if (isPartOfGreaterGood) {
-        std::cout << " => \"" << XMLString::transcode(current->getNodeValue()) << "\"";
-      } else {
-        std::cout << "\n- \"" << XMLString::transcode(current->getNodeValue()) << "\"";
-      }
-    }
-
-    // Initialize map with current nodes attributes
-    // see http://xerces.apache.org/xerces-c/apiDocs-3/classDOMNode.html
-    DOMNamedNodeMap *map = current->getAttributes();
-
-    // If map has attributes, print them out
-    // see http://xerces.apache.org/xerces-c/apiDocs-3/classDOMNamedNodeMap.html
-    if (map != NULL && map->getLength() != 0) {
-      std::cout << std::endl;
-
-      if (isPartOfGreaterGood) {
-        std::cout << "    ";
-      } else {
-        std::cout << "- ";
-      }
-
-      for (unsigned int k = 0; k < map->getLength(); k++) {
-        std::cout << "|" <<
-                XMLString::transcode(map->item(k)->getNodeName()) << ":\"" <<
-                XMLString::transcode(map->item(k)->getNodeValue()) << "\"";
-      }
-      std::cout << "|";
-    }
-  }
-  std::cout << std::endl;
-}
-
+*/
 
 
 // ---------------------------------------------------------------------------
 //  main
 // ---------------------------------------------------------------------------
 
-int main(int argC, char*[]) {
-  // Initialize the XML4C2 system.
-  try {
-    XMLPlatformUtils::Initialize();
-  } catch (const XMLException& toCatch) {
-    char *pMsg = XMLString::transcode(toCatch.getMessage());
-    XERCES_STD_QUALIFIER cerr << "Error during Xerces-c Initialization.\n"
-            << "  Exception message:"
-            << pMsg;
-    XMLString::release(&pMsg);
-    return 1;
-  }
-
-  // Watch for special case help request
-  int errorCode = 0;
-  if (argC > 1) {
-    XERCES_STD_QUALIFIER cout << "\nUsage:\n"
-            "    CreateDOMDocument\n\n"
-            "This program creates a new DOM document from scratch in memory.\n"
-            "It then prints the count of elements in the tree.\n"
-            << XERCES_STD_QUALIFIER endl;
-    errorCode = 1;
-  }
-  if (errorCode) {
-    XMLPlatformUtils::Terminate();
-    return errorCode;
-  }
-
-  {
-    //  Nest entire test in an inner block.
-    //  The tree we create below is the same that the XercesDOMParser would
-    //  have created, except that no whitespace text nodes would be created.
-
-    // <company>
-    //     <product>Xerces-C</product>
-    //     <category idea='great'>XML Parsing Tools</category>
-    //     <developedBy>Apache Software Foundation</developedBy>
-    // </company>
-
-    DOMImplementation* impl = DOMImplementationRegistry::getDOMImplementation(X("Core"));
-
-    if (impl != NULL) {
-      try {
-        // current date and time
-        // http://stackoverflow.com/questions/997946/c-get-current-time-and-date
-        // This code is originally by JMH, simply changed XML File author name 
-        time_t now = time(0);
-        struct tm tstruct;
-        char buf[80];
-        tstruct = *localtime(&now);
-        // http://www.cplusplus.com/reference/clibrary/ctime/strftime/
-        strftime(buf, sizeof (buf), "Updated by Sohit at %B %d, %Y at %I:%M %p", &tstruct);
-
-        DOMDocument* doc = impl->createDocument(
-                0, // root element namespace URI.
-                X("Human"), // root element name
-                0); // document type object (DTD).
-
-        DOMElement* elemRoot = doc->getDocumentElement();
-
-        DOMComment* comm = doc->createComment(X("Information about a Human - Sohit Pal"));
-        elemRoot->appendChild(comm);
-
-        DOMElement* elem = doc->createElement(X("TimeStamp"));
-        elemRoot->appendChild(elem);
-        elem->setAttribute(X("AttrName"), X("AttrValue"));
-        DOMText* text = doc->createTextNode(X(buf));
-        elem->appendChild(text);
-
-        ///* Begin listing information about self *///
-
-        /* NAME */
-        // create parent
-        elem = doc->createElement(X("Name"));
-        elemRoot->appendChild(elem);
-        elem->setAttribute(X("hasName"), X("true"));
-        elem->setAttribute(X("areYouSure"), X("true"));
-        elem->setAttribute(X("really"), X("true"));
-        // - first name
-        DOMElement* elem2 = doc->createElement(X("first"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("Sohit"));
-        elem2->appendChild(text);
-        elem2->setAttribute(X("hasFirstName"), X("true"));
-        // - middle name
-        elem2 = doc->createElement(X("middle"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("N/A"));
-        elem2->appendChild(text);
-        elem2->setAttribute(X("hasMiddleName"), X("false"));
-        // - last name
-        elem2 = doc->createElement(X("last"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("Pal"));
-        elem2->appendChild(text);
-        elem2->setAttribute(X("hasLastName"), X("true"));
-        /* END NAME */
-
-        /* AGE */
-        elem = doc->createElement(X("Age"));
-        elemRoot->appendChild(elem);
-        text = doc->createTextNode(X("20"));
-        elem->appendChild(text);
-        elem->setAttribute(X("scale"), X("years"));
-        elem->setAttribute(X("is21"), X("false"));
-        elem->setAttribute(X("isAlmost21"), X("close"));
-        /* END AGE */
-
-        /* GENDER */
-        elem = doc->createElement(X("Gender"));
-        elemRoot->appendChild(elem);
-        text = doc->createTextNode(X("male"));
-        elem->appendChild(text);
-        /* END GENDER */
-
-        /* SSN */
-        elem = doc->createElement(X("SocialSecurityNumber"));
-        elemRoot->appendChild(elem);
-        text = doc->createTextNode(X("xxx-xx-xxxx"));
-        elem->appendChild(text);
-        elem->setAttribute(X("real"), X("false"));
-        elem->setAttribute(X("isImportant"), X("true"));
-        elem->setAttribute(X("isDigits"), X("Sure"));
-        /* END SSN */
-
-        /* BIRTHDATE */
-        // create parent
-        elem = doc->createElement(X("BirthDate"));
-        elemRoot->appendChild(elem);
-        // - month
-        elem2 = doc->createElement(X("month"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("March"));
-        elem2->appendChild(text);
-        // - day
-        elem2 = doc->createElement(X("day"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("2"));
-        elem2->appendChild(text);
-        // - month
-        elem2 = doc->createElement(X("year"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("1995"));
-        elem2->appendChild(text);
-        /* END BIRTHDATE */
-
-        /* TOP 3 COLORS */
-        // create parent
-        elem = doc->createElement(X("TopColors"));
-        elemRoot->appendChild(elem);
-        // - color 1
-        elem2 = doc->createElement(X("Color1"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("Blue"));
-        elem2->appendChild(text);
-        // - color 2
-        elem2 = doc->createElement(X("Color2"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("Black"));
-        elem2->appendChild(text);
-        // - color 3
-        elem2 = doc->createElement(X("Color2"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("Green"));
-        elem2->appendChild(text);
-        /* END COLORS */
-
-        /* ARTIST */
-        elem = doc->createElement(X("Artist"));
-        elemRoot->appendChild(elem);
-        text = doc->createTextNode(X("Tech N9ne"));
-        elem->appendChild(text);
-        elem->setAttribute(X("genre"), X("rap"));
-        /* END ARTIST */
-
-        /* SOCIAL MEDIA */
-        // create parent
-        elem = doc->createElement(X("Social"));
-        elemRoot->appendChild(elem);
-        // - child -> Facebook
-        elem2 = doc->createElement(X("Facebook"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("Link To Facebook HERE"));
-        elem2->appendChild(text);
-        // - child -> GitHub
-        elem2 = doc->createElement(X("GitHub"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("Link To GitHub HERE"));
-        elem2->appendChild(text);
-        // - child -> Twitter
-        elem2 = doc->createElement(X("Twitter"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("Link To Twitter HERE"));
-        elem2->appendChild(text);
-        // - child -> Personal
-        elem2 = doc->createElement(X("Personal"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("http://www.sohitpal.com"));
-        elem2->appendChild(text);
-        /* EXIT SOCIAL MEDIA */
-
-
-        /* SPORTS */
-        // create parent
-        elem = doc->createElement(X("Sports"));
-        elemRoot->appendChild(elem);
-        // - child
-        elem2 = doc->createElement(X("Basketball"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("Los Angeles Lakers"));
-        elem2->appendChild(text);
-        // - child
-        elem2 = doc->createElement(X("Baseball"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("Boston Red Sox"));
-        elem2->appendChild(text);
-        // - child
-        elem2 = doc->createElement(X("Football"));
-        elem->appendChild(elem2);
-        text = doc->createTextNode(X("New England Patriots"));
-        elem2->appendChild(text);
-        /* EXIT SPORTS */
-
-        //
-        // Now count the number of elements in the above DOM tree.
-        //
-
-        const XMLSize_t elementCount = doc->getElementsByTagName(X("*"))->getLength();
-        XERCES_STD_QUALIFIER cout << "The tree just created contains: " << elementCount
-                << " elements.\n" << XERCES_STD_QUALIFIER endl;
-
-        PrintDOM(doc); // added by JMH
-        
-        std::cout << "\n------------------------------" << std::endl;
-
-        // JMH: http://www.ibm.com/developerworks/xml/library/x-xercc2/
-        // JMH: but note that a DOMTreeWalker* is returned, not a DOMTreeWalker
-        // JMH: this was learned by using NetBeans autocomplete
-
-        // JMH: Note that SHOW_ATTRIBUTE is meaningful only when creating an DOMNodeIterator or
-        // DOMTreeWalker with an attribute node as its root; in this case, it means that the attribute
-        // node will appear in the first position of the iteration or traversal. Since attributes are
-        // never children of other nodes, they do not appear when traversing over the document tree.
-        //   -- http://xerces.apache.org/xerces-c/apiDocs-3/classDOMNodeFilter.html
-
-        // JMH: See http://xerces.apache.org/xerces-c/apiDocs-3/classDOMNode.html#6237ede96be83ff729807688e4f638c5
-        // for table of values of nodeName, nodeValue, and attributes for given node types
-
-//------------------------------------------------------------------------------
-//------------------------------------------------------------------------------
-//------------------------------------------------------------------------------
-//------------------------------------------------------------------------------
-//------------------------------------------------------------------------------    
-        
-        // create a walker to visit all text nodes
-        // DOMTreeWalker* walker = doc->createTreeWalker(elemRoot, DOMNodeFilter::SHOW_TEXT, NULL, true) ;
-        DOMTreeWalker* walker = doc->createTreeWalker(elemRoot, DOMNodeFilter::SHOW_ALL, NULL, true);
-        
-        customPrint( elemRoot, walker );
-        
-        doc->release();
-//------------------------------------------------------------------------------
-//------------------------------------------------------------------------------
-//------------------------------------------------------------------------------
-//------------------------------------------------------------------------------
-//------------------------------------------------------------------------------ 
-        
-      } catch (const OutOfMemoryException&) {
-        XERCES_STD_QUALIFIER cerr << "OutOfMemoryException" << XERCES_STD_QUALIFIER endl;
-        errorCode = 5;
-      } catch (const DOMException& e) {
-        XERCES_STD_QUALIFIER cerr << "DOMException code is:  " << e.code << XERCES_STD_QUALIFIER endl;
-        errorCode = 2;
-      } catch (...) {
-        XERCES_STD_QUALIFIER cerr << "An error occurred creating the document" << XERCES_STD_QUALIFIER endl;
-        errorCode = 3;
-      }
-    }// (inpl != NULL)
-    else {
-      XERCES_STD_QUALIFIER cerr << "Requested implementation is not supported" << XERCES_STD_QUALIFIER endl;
-      errorCode = 4;
-    }
-  }
-
-  XMLPlatformUtils::Terminate();
-  return errorCode;
-}
+//int main(int argC, char*[]) {
+//  // Initialize the XML4C2 system.
+//  try {
+//    XMLPlatformUtils::Initialize();
+//  } catch (const XMLException& toCatch) {
+//    char *pMsg = XMLString::transcode(toCatch.getMessage());
+//    XERCES_STD_QUALIFIER cerr << "Error during Xerces-c Initialization.\n"
+//            << "  Exception message:"
+//            << pMsg;
+//    XMLString::release(&pMsg);
+//    return 1;
+//  }
+//
+//  // Watch for special case help request
+//  int errorCode = 0;
+//  if (argC > 1) {
+//    XERCES_STD_QUALIFIER cout << "\nUsage:\n"
+//            "    CreateDOMDocument\n\n"
+//            "This program creates a new DOM document from scratch in memory.\n"
+//            "It then prints the count of elements in the tree.\n"
+//            << XERCES_STD_QUALIFIER endl;
+//    errorCode = 1;
+//  }
+//  if (errorCode) {
+//    XMLPlatformUtils::Terminate();
+//    return errorCode;
+//  }
+//
+//  {
+//    //  Nest entire test in an inner block.
+//    //  The tree we create below is the same that the XercesDOMParser would
+//    //  have created, except that no whitespace text nodes would be created.
+//
+//    // <company>
+//    //     <product>Xerces-C</product>
+//    //     <category idea='great'>XML Parsing Tools</category>
+//    //     <developedBy>Apache Software Foundation</developedBy>
+//    // </company>
+//
+//    DOMImplementation* impl = DOMImplementationRegistry::getDOMImplementation(X("Core"));
+//
+//    if (impl != NULL) {
+//      try {
+//        // current date and time
+//        // http://stackoverflow.com/questions/997946/c-get-current-time-and-date
+//        // This code is originally by JMH, simply changed XML File author name 
+//        time_t now = time(0);
+//        struct tm tstruct;
+//        char buf[80];
+//        tstruct = *localtime(&now);
+//        // http://www.cplusplus.com/reference/clibrary/ctime/strftime/
+//        strftime(buf, sizeof (buf), "Updated by Sohit at %B %d, %Y at %I:%M %p", &tstruct);
+//
+//        DOMDocument* doc = impl->createDocument(
+//                0, // root element namespace URI.
+//                X("Human"), // root element name
+//                0); // document type object (DTD).
+//
+//        DOMElement* elemRoot = doc->getDocumentElement();
+//
+//        DOMComment* comm = doc->createComment(X("Information about a Human - Sohit Pal"));
+//        elemRoot->appendChild(comm);
+//
+//        DOMElement* elem = doc->createElement(X("TimeStamp"));
+//        elemRoot->appendChild(elem);
+//        elem->setAttribute(X("AttrName"), X("AttrValue"));
+//        DOMText* text = doc->createTextNode(X(buf));
+//        elem->appendChild(text);
+//
+//        ///* Begin listing information about self *///
+//
+//        /* NAME */
+//        // create parent
+//        elem = doc->createElement(X("Name"));
+//        elemRoot->appendChild(elem);
+//        elem->setAttribute(X("hasName"), X("true"));
+//        elem->setAttribute(X("areYouSure"), X("true"));
+//        elem->setAttribute(X("really"), X("true"));
+//        // - first name
+//        DOMElement* elem2 = doc->createElement(X("first"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("Sohit"));
+//        elem2->appendChild(text);
+//        elem2->setAttribute(X("hasFirstName"), X("true"));
+//        // - middle name
+//        elem2 = doc->createElement(X("middle"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("N/A"));
+//        elem2->appendChild(text);
+//        elem2->setAttribute(X("hasMiddleName"), X("false"));
+//        // - last name
+//        elem2 = doc->createElement(X("last"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("Pal"));
+//        elem2->appendChild(text);
+//        elem2->setAttribute(X("hasLastName"), X("true"));
+//        /* END NAME */
+//
+//        /* AGE */
+//        elem = doc->createElement(X("Age"));
+//        elemRoot->appendChild(elem);
+//        text = doc->createTextNode(X("20"));
+//        elem->appendChild(text);
+//        elem->setAttribute(X("scale"), X("years"));
+//        elem->setAttribute(X("is21"), X("false"));
+//        elem->setAttribute(X("isAlmost21"), X("close"));
+//        /* END AGE */
+//
+//        /* GENDER */
+//        elem = doc->createElement(X("Gender"));
+//        elemRoot->appendChild(elem);
+//        text = doc->createTextNode(X("male"));
+//        elem->appendChild(text);
+//        /* END GENDER */
+//
+//        /* SSN */
+//        elem = doc->createElement(X("SocialSecurityNumber"));
+//        elemRoot->appendChild(elem);
+//        text = doc->createTextNode(X("xxx-xx-xxxx"));
+//        elem->appendChild(text);
+//        elem->setAttribute(X("real"), X("false"));
+//        elem->setAttribute(X("isImportant"), X("true"));
+//        elem->setAttribute(X("isDigits"), X("Sure"));
+//        /* END SSN */
+//
+//        /* BIRTHDATE */
+//        // create parent
+//        elem = doc->createElement(X("BirthDate"));
+//        elemRoot->appendChild(elem);
+//        // - month
+//        elem2 = doc->createElement(X("month"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("March"));
+//        elem2->appendChild(text);
+//        // - day
+//        elem2 = doc->createElement(X("day"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("2"));
+//        elem2->appendChild(text);
+//        // - month
+//        elem2 = doc->createElement(X("year"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("1995"));
+//        elem2->appendChild(text);
+//        /* END BIRTHDATE */
+//
+//        /* TOP 3 COLORS */
+//        // create parent
+//        elem = doc->createElement(X("TopColors"));
+//        elemRoot->appendChild(elem);
+//        // - color 1
+//        elem2 = doc->createElement(X("Color1"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("Blue"));
+//        elem2->appendChild(text);
+//        // - color 2
+//        elem2 = doc->createElement(X("Color2"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("Black"));
+//        elem2->appendChild(text);
+//        // - color 3
+//        elem2 = doc->createElement(X("Color2"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("Green"));
+//        elem2->appendChild(text);
+//        /* END COLORS */
+//
+//        /* ARTIST - RAP*/
+//        elem = doc->createElement(X("Artist"));
+//        elemRoot->appendChild(elem);
+//        text = doc->createTextNode(X("Tech N9ne"));
+//        elem->appendChild(text);
+//        elem->setAttribute(X("genre"), X("rap"));
+//        /* END ARTIST */
+//
+//        /* SOCIAL MEDIA */
+//        // create parent
+//        elem = doc->createElement(X("Social"));
+//        elemRoot->appendChild(elem);
+//        // - child -> Facebook
+//        elem2 = doc->createElement(X("Facebook"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("Link To Facebook HERE"));
+//        elem2->appendChild(text);
+//        // - child -> GitHub
+//        elem2 = doc->createElement(X("GitHub"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("Link To GitHub HERE"));
+//        elem2->appendChild(text);
+//        // - child -> Twitter
+//        elem2 = doc->createElement(X("Twitter"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("Link To Twitter HERE"));
+//        elem2->appendChild(text);
+//        // - child -> Personal
+//        elem2 = doc->createElement(X("Personal"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("http://www.sohitpal.com"));
+//        elem2->appendChild(text);
+//        /* EXIT SOCIAL MEDIA */
+//
+//
+//        /* SPORTS */
+//        // create parent
+//        elem = doc->createElement(X("Sports"));
+//        elemRoot->appendChild(elem);
+//        // - child
+//        elem2 = doc->createElement(X("Basketball"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("Los Angeles Lakers"));
+//        elem2->appendChild(text);
+//        // - child
+//        elem2 = doc->createElement(X("Baseball"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("Boston Red Sox"));
+//        elem2->appendChild(text);
+//        // - child
+//        elem2 = doc->createElement(X("Football"));
+//        elem->appendChild(elem2);
+//        text = doc->createTextNode(X("New England Patriots"));
+//        elem2->appendChild(text);
+//        /* EXIT SPORTS */
+//
+//        //
+//        // Now count the number of elements in the above DOM tree.
+//        //
+//
+//        const XMLSize_t elementCount = doc->getElementsByTagName(X("*"))->getLength();
+//        XERCES_STD_QUALIFIER cout << "The tree just created contains: " << elementCount
+//                << " elements.\n" << XERCES_STD_QUALIFIER endl;
+//
+//        PrintDOM(doc); // added by JMH
+//        std::cout << "\n------------------------------" << std::endl;
+//
+//        // JMH: http://www.ibm.com/developerworks/xml/library/x-xercc2/
+//        // JMH: but note that a DOMTreeWalker* is returned, not a DOMTreeWalker
+//        // JMH: this was learned by using NetBeans autocomplete
+//
+//        // JMH: Note that SHOW_ATTRIBUTE is meaningful only when creating an DOMNodeIterator or
+//        // DOMTreeWalker with an attribute node as its root; in this case, it means that the attribute
+//        // node will appear in the first position of the iteration or traversal. Since attributes are
+//        // never children of other nodes, they do not appear when traversing over the document tree.
+//        //   -- http://xerces.apache.org/xerces-c/apiDocs-3/classDOMNodeFilter.html
+//
+//        // JMH: See http://xerces.apache.org/xerces-c/apiDocs-3/classDOMNode.html#6237ede96be83ff729807688e4f638c5
+//        // for table of values of nodeName, nodeValue, and attributes for given node types
+//
+//        // create a walker to visit all text nodes
+//        // DOMTreeWalker* walker = doc->createTreeWalker(elemRoot, DOMNodeFilter::SHOW_TEXT, NULL, true) ;
+//        DOMTreeWalker* walker = doc->createTreeWalker(elemRoot, DOMNodeFilter::SHOW_ALL, NULL, true);
+//
+//        /** If true, simply means that current DOMNode is a child of an element */
+//        bool isPartOfGreaterGood = false;
+//
+//        /** Will hold top level root parent to all nodes */
+//        DOMNode* rootElement = NULL;
+//
+//        for (DOMNode* current = walker->nextNode(); current != 0; current = walker->nextNode()) {
+//          // Get root element on first loop
+//          if (!rootElement) {
+//            rootElement = current->getParentNode();
+//          }
+//
+//          // note: this leaks memory!
+//          // std::cout << current->getNodeValue() << std::endl ; // .transcode();s
+//          // JMH: the following was found in DOMPrint.cpp
+//          // JMH: see also http://xerces.apache.org/xerces-c/apiDocs-3/classDOMNode.html
+//          // std::cout << current->getNodeType() << " | " ;
+//          // JMH: see http://xerces.apache.org/xerces-c/apiDocs-3/classXMLString.html for equals()
+//          if (!XMLString::equals(XMLString::transcode(current->getNodeName()), "#text")) {
+//            // If direct child, isPartOfGreaterGood will be false
+//            if (rootElement != current->getParentNode()) {
+//              isPartOfGreaterGood = true;
+//            } else {
+//              isPartOfGreaterGood = false;
+//            }
+//
+//            // If comment, otherwise element
+//            if (XMLString::equals(XMLString::transcode(current->getNodeName()), "#comment")) { // Comments
+//              std::cout << "COMMENT: ";
+//            } else { // Elements
+//              if (isPartOfGreaterGood) {
+//                std::cout << std::endl << "--- ";
+//              } else {
+//                std::cout << std::endl << std::endl << "-----------------------------------------" << std::endl;
+//              }
+//
+//              // Print out Node Name
+//              std::cout << XMLString::transcode(current->getNodeName());
+//            }
+//          }
+//
+//          // If Node value exists, print it out
+//          if (current->getNodeValue() != NULL) {
+//            if (isPartOfGreaterGood) {
+//              std::cout << " => \"" << XMLString::transcode(current->getNodeValue()) << "\"";
+//            } else {
+//              std::cout << "\n- \"" << XMLString::transcode(current->getNodeValue()) << "\"";
+//            }
+//          }
+//
+//          // Initialize map with current nodes attributes
+//          // see http://xerces.apache.org/xerces-c/apiDocs-3/classDOMNode.html
+//          DOMNamedNodeMap *map = current->getAttributes();
+//
+//          // If map has attributes, print them out
+//          // see http://xerces.apache.org/xerces-c/apiDocs-3/classDOMNamedNodeMap.html
+//          if (map != NULL && map->getLength() != 0) {
+//            std::cout << std::endl;
+//
+//            if (isPartOfGreaterGood) {
+//              std::cout << "    ";
+//            } else {
+//              std::cout << "- ";
+//            }
+//
+//            for (unsigned int k = 0; k < map->getLength(); k++) {
+//              std::cout << "|" <<
+//                      XMLString::transcode(map->item(k)->getNodeName()) << ":\"" <<
+//                      XMLString::transcode(map->item(k)->getNodeValue()) << "\"";
+//            }
+//            std::cout << "|";
+//          }
+//        }
+//        std::cout << std::endl;
+//
+//        doc->release();
+//      } catch (const OutOfMemoryException&) {
+//        XERCES_STD_QUALIFIER cerr << "OutOfMemoryException" << XERCES_STD_QUALIFIER endl;
+//        errorCode = 5;
+//      } catch (const DOMException& e) {
+//        XERCES_STD_QUALIFIER cerr << "DOMException code is:  " << e.code << XERCES_STD_QUALIFIER endl;
+//        errorCode = 2;
+//      } catch (...) {
+//        XERCES_STD_QUALIFIER cerr << "An error occurred creating the document" << XERCES_STD_QUALIFIER endl;
+//        errorCode = 3;
+//      }
+//    }// (inpl != NULL)
+//    else {
+//      XERCES_STD_QUALIFIER cerr << "Requested implementation is not supported" << XERCES_STD_QUALIFIER endl;
+//      errorCode = 4;
+//    }
+//  }
+//
+//  XMLPlatformUtils::Terminate();
+//  return errorCode;
+//}

@@ -102,8 +102,10 @@ void ParseCommandString(string strUserEntry, DOMDocument* doc);
 void ProcessAddCommand(string strUserEntry, DOMDocument* doc);
 void ProcessAddElementCommand(string strUserEntry, DOMDocument* doc);
 void ProcessAddAttributeCommand(string strUserEntry, DOMDocument* doc);
-void ProcessPrintCommand(string strUserEntry, DOMDocument* doc);
 void PrintDOM(DOMDocument* doc);
+bool addChildToParent(DOMDocument* doc, string parentName, string childName);
+bool addAttrToElement(DOMDocument* doc, string elementName, string attrName, string attrValue);
+DOMNode* checkElementExistence(DOMDocument* dox, string elemName);
 void showGeneralHelp();
 
 
@@ -153,10 +155,12 @@ int main(int argc, char** argv) {
   // prompt the user to enter a command string
   // version 2 using a regular expression
   regex reQuit("\\s*quit\\s*", regex::icase);
+  
   while (!regex_match(strUserEntry, reQuit)) {
     cout << "\nYour command: ";
     getline(cin, strUserEntry);
 
+    
     // if the user didn't enter 'quit', go parse the command string
     if (!regex_match(strUserEntry, reQuit)) {
       ParseCommandString(strUserEntry, doc);
@@ -175,7 +179,7 @@ DOMDocument* setRootElement()
   string userRootName = "";
   
   // Allow any alphabetical letter with any case, but limited to one word
-  regex rootName("^\\s*([a-z]*|[A-Z]*)+\\s*$");
+  regex rootName("\\s*([a-z]*|[A-Z]*)+\\s*");
   getline(cin, userRootName);
   
   // while user in inputting invalid statements, keep asking them to fix it
@@ -214,7 +218,8 @@ void ParseCommandString(string strUserEntry, DOMDocument* doc) {
   if (regex_match(strUserEntry, reBasicAddCommand)) {
     ProcessAddCommand(strUserEntry, doc);
   } else if (regex_match(strUserEntry, reBasicPrintCommand)) {
-    ProcessPrintCommand(strUserEntry, doc);
+    //ProcessPrintCommand(strUserEntry, doc);
+    PrintDOM(doc);
   } else if (regex_match(strUserEntry, reBasicHelpCommand)) {
     showGeneralHelp();
   } else {
@@ -253,8 +258,8 @@ void ProcessAddElementCommand(string strUserEntry, DOMDocument* doc) {
   //    when matched groups are found
   cmatch what;
   // what[0] contains the entire matched string
-  // what[1] contains the first matched group
-  // what[2] contains the second matched group
+  // what[1] contains the first matched group  (name of parent element)
+  // what[2] contains the second matched group (name of new element)
   // what[3] etc.
 
   // regular expression to pick out the name of the parent to which the new element is to be added 
@@ -262,12 +267,13 @@ void ProcessAddElementCommand(string strUserEntry, DOMDocument* doc) {
   regex reAddElementCmd("^\\s*add\\s*element\\s(\\w+)\\s(\\w+)(.*)$", regex::icase);
 
   // note that the following variant of the regex_match command requires a C string, not an STL string
-  if (regex_match(strUserEntry.c_str(), what, reAddElementCmd)) {
-    cout << "  You have specified that you want to add a new element named '" << what[2]
-            << "' to parent element '" << what[1] << "'." << endl;
-
-
-  } else {
+  if (regex_match(strUserEntry.c_str(), what, reAddElementCmd))
+  {
+    // This function will add what[2] as a child of what[1]
+    addChildToParent(doc, what[1], what[2]);
+  } 
+  else
+  {
     cout << "  Invalid 'add element' command." << endl;
     cout << "    'add element' must be followed by two more parameters:" << endl;
     cout << "      (1) the name of the parent to which the new element is to be added, and" << endl;
@@ -285,18 +291,20 @@ void ProcessAddAttributeCommand(string strUserEntry, DOMDocument* doc) {
   //    when matched groups are found
   cmatch what;
   // what[0] contains the entire matched string
-  // what[1] contains the first matched group
-  // what[2] contains the second matched group
-  // what[3] etc.
+  // what[1] contains the first matched group  (name of element to add to)
+  // what[2] contains the second matched group (name of new attribute to be added)
+  // what[3] etc.                              (value of new attribute to be added)
 
   // regular expression to pick out the name of the element to which the new attribute is to be added,
   //    the name of the new attribute, and the value of that attribute
-  regex reAddAttributeCmd("^\\s*add\\s*attribute\\s(\\w+)\\s(\\w+)\\s(\\w+)(.*)$", regex::icase);
+  regex reAddAttributeCmd("^\\s*add\\s+attribute\\s(\\w+)\\s(\\w+)\\s(\\w+)(.*)$", regex::icase);
 
   // note that the following variant of the regex_match command requires a C string, not an STL string
-  if (regex_match(strUserEntry.c_str(), what, reAddAttributeCmd)) {
-    cout << "  You have specified that you want to add a new attribute named '" << what[2]
-            << "' with a value of '" << what[3] << "' to element '" << what[1] << "'." << endl;
+  if (regex_match(strUserEntry.c_str(), what, reAddAttributeCmd)) 
+  {    
+    // This function will add what[2] and what[3] as an attribute of element what[1]
+    addAttrToElement(doc, what[1], what[2], what[3]);
+    
   } else {
     cout << "  Invalid 'add attribute' command." << endl;
     cout << "    'add attribute' must be followed by three more parameters:" << endl;
@@ -306,16 +314,7 @@ void ProcessAddAttributeCommand(string strUserEntry, DOMDocument* doc) {
   }
 }
 
-/**
- * Handle a print command entered by the user
- * @param strUserEntry command string entered by the user
- */
-void ProcessPrintCommand(string strUserEntry, DOMDocument* doc) {
-  
-  cout << "  ... add your code to handle a print command here ..." << endl;
-}
-
-void PrintDOM(DOMDocument* doc) 
+void PrintDOM(DOMDocument* doc)
 {
   // retval was used in a previous version of this function that returned an int
   // it is no longer used, but has been kept for future use
@@ -471,12 +470,96 @@ void PrintDOM(DOMDocument* doc)
   // }
 }
 
+bool addChildToParent(DOMDocument* doc, string parentName, string childName)
+{
+  // Get node that has same name as parentName
+  DOMNode* parentNode = checkElementExistence(doc, parentName);
+  
+  // Make sure parent node actually exists.
+  if (parentNode == NULL)
+  {
+    cout << "Sorry. The parent element '" << parentName << "' hasn't been created yet." << endl;
+    return false;
+  }
+ 
+  // If element with same name as childName exists, DO NOT ADD CHILD TO PARENT
+  // No ambiguous element names allowed!
+  if (!checkElementExistence(doc, childName))
+  {
+    // if child node hasn't been taken yet, create it and add as child to parentNode
+    cout << "Adding '" << childName << "' as a child of '" << parentName << "'!" << endl;
+    
+    // Add child to parentNode
+    DOMElement* childElement = doc->createElement(X(childName.c_str()));
+    parentNode->appendChild(childElement);
+  }
+  else
+  {
+    // If child node has already been created, inform user
+    cout << "Sorry. The child name '" << childName << "' already exists." << endl;
+    return false;
+  }
+  
+  return true;
+}
+
+bool addAttrToElement(DOMDocument* doc, string elementName, string attrName, string attrValue)
+{
+  // Get node that has same name as parentName
+  DOMElement* elementNode = dynamic_cast<DOMElement*>(checkElementExistence(doc, elementName));
+  
+  // Make sure parent node actually exists.
+  if (elementNode == NULL)
+  {
+    cout << "Sorry. The parent element '" << elementName << "' hasn't been created yet." << endl;
+    return false;
+  }
+  
+  // NOW MAKE SURE THAT ATTRIBUTE NAME DOSEN'T EXISTS FOR THAT NODE ONLY
+  DOMNamedNodeMap *map = elementNode->getAttributes();
+  
+  if (map != NULL && map->getLength() != 0) {
+    for (unsigned int k = 0; k < map->getLength(); k++) {
+      if (XMLString::equals(XMLString::transcode(map->item(k)->getNodeName()), attrName.c_str())) {
+        
+        // At this point we know that an attribute exists...
+        cout << "Sorry. An attribute with name '" << attrName << "' already exists." << endl;
+        return false;
+      }
+    }
+  }
+ 
+  // if we get past this, we are all set to add.
+  elementNode->setAttribute(X(attrName.c_str()), X(attrValue.c_str()));
+  cout << "Added (" << attrName << "=\"" << attrValue << "\") as an attribute to '" << elementName << "'" << endl;
+  return true;
+}
+
+DOMNode* checkElementExistence(DOMDocument* doc, string elemName)
+{  
+  // Get tree root element
+  DOMElement* elemRoot = doc->getDocumentElement();
+  
+  // create tree walker starting at elemRoot
+  DOMTreeWalker* walker = doc->createTreeWalker(elemRoot, DOMNodeFilter::SHOW_ALL, NULL, true);
+  
+  // walk through each node in the tree
+  for (DOMNode* current = walker->getCurrentNode(); current != 0; current = walker->nextNode())
+  {
+    // compare name of current node with elemName
+    if (XMLString::equals(XMLString::transcode(current->getNodeName()), elemName.c_str()))
+      return current;
+  }
+  
+  return NULL;
+}
+
 void showGeneralHelp()
 {
   cout << endl << "  Commands are:" << endl;
-  cout << "    add element parent_name element_name" << endl;
-  cout << "    add attribute parent_name attribute_name attribute_value" << endl;
-  cout << "    print" << endl;
-  cout << "    help (this command)" << endl;
-  cout << "    quit" << endl;
+  cout << "  - add element <parent_name> <element_name>" << endl;
+  cout << "  - add attribute <parent_name> <attribute_name> <attribute_value>" << endl;
+  cout << "  - print" << endl;
+  cout << "  - help (this command)" << endl;
+  cout << "  - quit" << endl;
 }

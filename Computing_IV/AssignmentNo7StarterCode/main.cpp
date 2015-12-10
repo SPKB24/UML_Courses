@@ -102,12 +102,13 @@ void ParseCommandString(string strUserEntry, DOMDocument* doc);
 void ProcessAddCommand(string strUserEntry, DOMDocument* doc);
 void ProcessAddElementCommand(string strUserEntry, DOMDocument* doc);
 void ProcessAddAttributeCommand(string strUserEntry, DOMDocument* doc);
+void ProcessDeleteCommand(string strUserEntry, DOMDocument* doc);
 void PrintDOM(DOMDocument* doc);
 bool addChildToParent(DOMDocument* doc, string parentName, string childName);
 bool addAttrToElement(DOMDocument* doc, string elementName, string attrName, string attrValue);
+bool deleteElement(DOMDocument* doc, string elementName);
 DOMNode* checkElementExistence(DOMDocument* dox, string elemName);
 void showGeneralHelp();
-
 
 /**
  * The standard C++ main function.
@@ -129,7 +130,8 @@ int main(int argc, char** argv) {
   }
   catch (const XMLException& toCatch) {
     char *pMsg = XMLString::transcode(toCatch.getMessage());
-    XERCES_STD_QUALIFIER cerr << "Error during Xerces-c Initialization.\n"
+    XERCES_STD_QUALIFIER cerr 
+            << "Error during Xerces-c Initialization.\n"
             << "  Exception message:"
             << pMsg;
     XMLString::release(&pMsg);
@@ -213,15 +215,17 @@ void ParseCommandString(string strUserEntry, DOMDocument* doc) {
   regex reBasicAddCommand("\\s*add.*", regex::icase);
   regex reBasicPrintCommand("\\s*print.*", regex::icase);
   regex reBasicHelpCommand("\\s*help.*", regex::icase);
+  regex reBasicDeleteCommand("\\s*delete.*", regex::icase);
 
   // test for each basic command in turn
   if (regex_match(strUserEntry, reBasicAddCommand)) {
     ProcessAddCommand(strUserEntry, doc);
   } else if (regex_match(strUserEntry, reBasicPrintCommand)) {
-    //ProcessPrintCommand(strUserEntry, doc);
     PrintDOM(doc);
   } else if (regex_match(strUserEntry, reBasicHelpCommand)) {
     showGeneralHelp();
+  } else if (regex_match(strUserEntry, reBasicDeleteCommand)) {
+    ProcessDeleteCommand(strUserEntry, doc);
   } else {
     cout << "  Invalid command." << endl;
     showGeneralHelp();
@@ -264,7 +268,7 @@ void ProcessAddElementCommand(string strUserEntry, DOMDocument* doc) {
 
   // regular expression to pick out the name of the parent to which the new element is to be added 
   //    and the name of the new element itself
-  regex reAddElementCmd("^\\s*add\\s*element\\s(\\w+)\\s(\\w+)(.*)$", regex::icase);
+  regex reAddElementCmd("^\\s*add\\s+element\\s(\\w+)\\s(\\w+)(.*)$", regex::icase);
 
   // note that the following variant of the regex_match command requires a C string, not an STL string
   if (regex_match(strUserEntry.c_str(), what, reAddElementCmd))
@@ -311,6 +315,33 @@ void ProcessAddAttributeCommand(string strUserEntry, DOMDocument* doc) {
     cout << "      (1) the name of the element to which the new attribute to be added," << endl;
     cout << "      (2) the name of the new attribute to be added, and " << endl;
     cout << "      (3) the value of the new attribute to be added." << endl;
+  }
+}
+
+void ProcessDeleteCommand(string strUserEntry, DOMDocument* doc)
+{
+  // the what variable is actually an array that will be populated by the regex_match function
+  //    when matched groups are found
+  cmatch what;
+  // what[0] contains the entire matched string
+  // what[1] contains the first matched group  (name of element to delete)
+  // what[2] contains the second matched group
+  // what[3] etc.
+
+  // regular expression to pick out the name of the element to which the new attribute is to be added,
+  //    the name of the new attribute, and the value of that attribute
+  regex reDeleteCmd("^\\s*delete\\s+(\\w+)(.*)$", regex::icase);
+  
+  // note that the following variant of the regex_match command requires a C string, not an STL string
+  if (regex_match(strUserEntry.c_str(), what, reDeleteCmd)) 
+  {
+    // This function will find and delete element what[1]
+    deleteElement(doc, what[1]);
+    
+  } else {
+    cout << "  Invalid 'delete' command." << endl;
+    cout << "    'delete' must be followed by one more parameters:" << endl;
+    cout << "      (1) the name of the element to which the new attribute to be added," << endl;
   }
 }
 
@@ -472,11 +503,11 @@ void PrintDOM(DOMDocument* doc)
 
 bool addChildToParent(DOMDocument* doc, string parentName, string childName)
 {
-  // Get node that has same name as parentName
+  // Check existence of element with name parentName
   DOMNode* parentNode = checkElementExistence(doc, parentName);
   
   // Make sure parent node actually exists.
-  if (parentNode == NULL)
+  if (!parentNode)
   {
     cout << "Sorry. The parent element '" << parentName << "' hasn't been created yet." << endl;
     return false;
@@ -505,11 +536,11 @@ bool addChildToParent(DOMDocument* doc, string parentName, string childName)
 
 bool addAttrToElement(DOMDocument* doc, string elementName, string attrName, string attrValue)
 {
-  // Get node that has same name as parentName
+  // Check existence of node with name elementName, and cast it to DOMElement*
   DOMElement* elementNode = dynamic_cast<DOMElement*>(checkElementExistence(doc, elementName));
   
   // Make sure parent node actually exists.
-  if (elementNode == NULL)
+  if (!elementNode)
   {
     cout << "Sorry. The parent element '" << elementName << "' hasn't been created yet." << endl;
     return false;
@@ -532,6 +563,41 @@ bool addAttrToElement(DOMDocument* doc, string elementName, string attrName, str
   // if we get past this, we are all set to add.
   elementNode->setAttribute(X(attrName.c_str()), X(attrValue.c_str()));
   cout << "Added (" << attrName << "=\"" << attrValue << "\") as an attribute to '" << elementName << "'" << endl;
+  return true;
+}
+
+bool deleteElement(DOMDocument* doc, string elementName)
+{
+  // Check existence of node with name elementName
+  DOMNode* toDelete = checkElementExistence(doc, elementName);
+  
+  // Make sure parent node actually exists.
+  if (!toDelete)
+  {
+    cout << "Sorry. The element '" << elementName << "' hasn't been created yet so it can't be deleted." << endl;
+    return false;
+  }
+  
+  // If node toDelete is root, do not allow it to be deleted
+  if (toDelete->isEqualNode(doc->getDocumentElement()))
+  {
+    cout << "Sorry, you cannot delete the root node." << endl;
+    return false;
+  }
+  else
+  {
+    // Get node's parent. Easier to delete as a child
+    DOMNode* parent = toDelete->getParentNode();
+    
+    try {
+      parent->removeChild(toDelete);
+      cout << "Deleted '" << elementName << "'!" << endl;
+    } 
+    catch (XMLException& e) {
+      cout << "EXCEPTION: not sure what it is for through..." << endl;
+    }
+  }
+  
   return true;
 }
 
@@ -559,6 +625,7 @@ void showGeneralHelp()
   cout << endl << "  Commands are:" << endl;
   cout << "  - add element <parent_name> <element_name>" << endl;
   cout << "  - add attribute <parent_name> <attribute_name> <attribute_value>" << endl;
+  cout << "  - delete <parent_name>" << endl;
   cout << "  - print" << endl;
   cout << "  - help (this command)" << endl;
   cout << "  - quit" << endl;

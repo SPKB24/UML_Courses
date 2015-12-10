@@ -46,7 +46,7 @@ XERCES_CPP_NAMESPACE_USE
 //  This is a simple class that lets us do easy (though not terribly efficient)
 //  transcoding of char* data to XMLCh data.
 // ---------------------------------------------------------------------------
-class XStr 
+class XStr
 {
 public:
   // -----------------------------------------------------------------------
@@ -62,7 +62,7 @@ public:
     XMLString::release(&fUnicodeForm);
   }
 
-
+  
   // -----------------------------------------------------------------------
   //  Getter methods
   // -----------------------------------------------------------------------
@@ -103,7 +103,9 @@ void ProcessAddCommand(string strUserEntry, DOMDocument* doc);
 void ProcessAddElementCommand(string strUserEntry, DOMDocument* doc);
 void ProcessAddAttributeCommand(string strUserEntry, DOMDocument* doc);
 void ProcessDeleteCommand(string strUserEntry, DOMDocument* doc);
+void ProcessPrintCommand(string strUserEntry, DOMDocument* doc);
 void PrintDOM(DOMDocument* doc);
+void PrintList(DOMDocument* doc);
 bool addChildToParent(DOMDocument* doc, string parentName, string childName);
 bool addAttrToElement(DOMDocument* doc, string elementName, string attrName, string attrValue);
 bool deleteElement(DOMDocument* doc, string elementName);
@@ -221,7 +223,7 @@ void ParseCommandString(string strUserEntry, DOMDocument* doc) {
   if (regex_match(strUserEntry, reBasicAddCommand)) {
     ProcessAddCommand(strUserEntry, doc);
   } else if (regex_match(strUserEntry, reBasicPrintCommand)) {
-    PrintDOM(doc);
+    ProcessPrintCommand(strUserEntry, doc);
   } else if (regex_match(strUserEntry, reBasicHelpCommand)) {
     showGeneralHelp();
   } else if (regex_match(strUserEntry, reBasicDeleteCommand)) {
@@ -342,6 +344,33 @@ void ProcessDeleteCommand(string strUserEntry, DOMDocument* doc)
     cout << "  Invalid 'delete' command." << endl;
     cout << "    'delete' must be followed by one more parameters:" << endl;
     cout << "      (1) the name of the element to which the new attribute to be added," << endl;
+  }
+}
+
+void ProcessPrintCommand(string strUserEntry, DOMDocument* doc)
+{
+  // the what variable is actually an array that will be populated by the regex_match function
+  //    when matched groups are found
+  cmatch what;
+  // what[0] contains the entire matched string
+  // what[1] contains the first matched group  (name of element to delete)
+  // what[2] contains the second matched group
+  // what[3] etc.
+
+  // regular expression to pick out the name of the element to which the new attribute is to be added,
+  //    the name of the new attribute, and the value of that attribute
+  regex rePrintXMLCmd("\\s*print\\s+XML.*", regex::icase);
+  regex rePrintListCmd("\\s*print\\s+list.*", regex::icase);
+  
+  // note that the following variant of the regex_match command requires a C string, not an STL string
+  if (regex_match(strUserEntry.c_str(), what, rePrintXMLCmd)) {
+    PrintDOM(doc);
+  } else if (regex_match(strUserEntry.c_str(), what, rePrintListCmd)) {
+    PrintList(doc);
+  } else {
+    cout << "  Invalid 'print' command." << endl;
+    cout << "    'print' must be followed by one more parameters:" << endl;
+    cout << "      (1) the type of output desired (XML or list)," << endl;
   }
 }
 
@@ -501,6 +530,37 @@ void PrintDOM(DOMDocument* doc)
   // }
 }
 
+void PrintList(DOMDocument* doc)
+{
+  // Get tree root element
+  DOMElement* elemRoot = doc->getDocumentElement();
+  
+  // create tree walker starting at elemRoot
+  DOMTreeWalker* walker = doc->createTreeWalker(elemRoot, DOMNodeFilter::SHOW_ALL, NULL, true);
+  
+  // walk through each node in the tree
+  for (DOMNode* current = walker->getCurrentNode(); current != 0; current = walker->nextNode())
+  {
+    cout << " " << XMLString::transcode(current->getNodeName());
+    
+    if (current->hasAttributes()) {
+      
+      DOMNamedNodeMap *map = current->getAttributes();
+      
+      if (map != NULL && map->getLength() != 0) {
+        for (unsigned int k = 0; k < map->getLength(); k++) {
+          cout << " | " << XMLString::transcode(map->item(k)->getNodeName())
+               << " : " << XMLString::transcode(map->item(k)->getNodeValue());
+        }
+        cout << " |";
+      }
+    }
+    cout << endl;
+  }
+  
+  cout << endl;
+}
+
 bool addChildToParent(DOMDocument* doc, string parentName, string childName)
 {
   // Check existence of element with name parentName
@@ -626,7 +686,8 @@ void showGeneralHelp()
   cout << "  - add element <parent_name> <element_name>" << endl;
   cout << "  - add attribute <parent_name> <attribute_name> <attribute_value>" << endl;
   cout << "  - delete <parent_name>" << endl;
-  cout << "  - print" << endl;
+  cout << "  - print XML" << endl;
+  cout << "  - print list" << endl;
   cout << "  - help (this command)" << endl;
   cout << "  - quit" << endl;
 }

@@ -20,24 +20,32 @@
 #include <iostream>
 #include <string>
 using namespace std;
-							  /* -      1          2          3         4   */
-static const string SUITS[] = { ".", "SPADES", "HEARTS", "DIAMONDS", "CLUBS" };
-static const string FACES[] = { ".", "A", "2", "3", "4", "5", "6", "7", "8",
-								"9", "10", "J", "Q", "K" };
+
+enum SUIT
+{
+    SPADES,
+    HEARTS, 
+    DIAMONDS, 
+    CLUBS
+};
+static const string suitToString[] = { "SPADES", "HEARTS", "DIAMONDS", "CLUBS" };
+
+//static const string SUITS[] = { ".", "SPADES", "HEARTS", "DIAMONDS", "CLUBS" };
+static const string FACES[] = { ".", "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" };
 
 class Card
 {
 public:
 	// Constructor
-	Card(int _face = 1, int _suit = 1);
+	Card(int _face = 1, SUIT _suit = SPADES);
 
 	// Member Functions
 	string toString() const;
-	void changeCard(int _face, int _suit);
+	void changeCard(int _face, SUIT _suit);
 
 	// Getter
 	int getFace();
-	int getSuit();
+	SUIT getSuit();
 
 	// Operator Overloading
 	bool operator==(const Card& rhs); // Compare Operato
@@ -51,27 +59,27 @@ public:
 
 private:
 	int face; // 1 - 13
-	int suit; // 1 - 4
+	SUIT suit; // 1 - 4
 };
 
 // Init Card, default to Ace of Spades
-Card::Card(int _face, int _suit) : face(_face), suit(_suit)
+Card::Card(int _face, SUIT _suit) : face(_face), suit(_suit)
 {
 	if (_face < 1 || _face > 13) // Out of Bounds
 		face = 1;
 
 	if (_suit < 1 || _suit > 4)  // Out of Bounds
-		suit = 1;
+		suit = SPADES;
 }
 
 // return Card as String
 string Card::toString() const
 {
-	return (FACES[face] + " of " + SUITS[suit]);
+	return (FACES[face] + " of " + suitToString[suit]);
 }
 
 // Change card face and suit
-void Card::changeCard(int _face, int _suit)
+void Card::changeCard(int _face, SUIT _suit)
 {
 	if (_face < 1 || _face > 13) // Out of Bounds
 		return;
@@ -90,7 +98,7 @@ int Card::getFace()
 }
 
 // Return suit of a card
-int Card::getSuit()
+SUIT Card::getSuit()
 {
 	return suit;
 }

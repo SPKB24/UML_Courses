@@ -48,11 +48,11 @@ public:
 	// Operators
 	int operator()(int index)
 	{
-		return cards[index].getFace();
+		return mCards[index].getFace();
 	}
 
 private:
-	vector<Card> cards;
+	vector<Card> mCards;
 
 	void putInOrder(string type = "suit");
 };
@@ -67,12 +67,12 @@ bool Hand::addToHand(Card add)
 	if (add == NULL)
 		return false;
 
-	if (cards.size() == 5)
+	if (mCards.size() == 5)
 		return false;
 
-	cards.push_back(add);
+	mCards.push_back(add);
 
-	if (cards.size() == 5)
+	if (mCards.size() == 5)
 		putInOrder(); // Order by Suit
 
 	return true;
@@ -109,26 +109,32 @@ void Hand::clearHand(int index)
 {
 	if (index == 500)
 	{
-		if (cards.size())
-			cards.clear();
+		if (mCards.size())
+			mCards.clear();
 	}
 	else
 	{
 		if (index >= 0 && index < HAND_SIZE)
-			cards.erase(cards.begin() + index);
+			mCards.erase(mCards.begin() + index);
 	}
 }
 
 // Make sure hand has 5 cards
 int Hand::handCount()
 {
-	return cards.size();
+	return mCards.size();
 }
 
 // Re-order cards to put in order
 // type "face" or "suit"
 void Hand::putInOrder(string type)
 {
+	if (type != "suit" && type != "face") {
+		cout << "Invalid parameter passed to putInOrder()" << endl;
+		return;
+	}
+
+
 	vector< vector<Card> > suitVector;
 	vector<Card> faceVector;
 
@@ -138,8 +144,8 @@ void Hand::putInOrder(string type)
 		for (int _suit = 1; _suit < 5; _suit++)
 		{
 			for (int i = 0; i < HAND_SIZE; i++)
-				if (_suit == cards[i].getSuit())
-					faceVector.push_back(cards[i]);
+				if (_suit == mCards[i].getSuit())
+					faceVector.push_back(mCards[i]);
 			
 			if (faceVector.size())
 			{
@@ -155,19 +161,19 @@ void Hand::putInOrder(string type)
 					if (suitVector[i][k].getFace() > suitVector[i][k + 1].getFace())
 						swap(suitVector[i][k], suitVector[i][k + 1]);
 
-		cards.clear();
+		mCards.clear();
 
 		// Add all cards back to main vector
 		for (int i = 0; i < suitVector.size(); i++)
 			for (int j = 0; j < suitVector[i].size(); j++)
-				cards.push_back(suitVector[i][j]);
+				mCards.push_back(suitVector[i][j]);
 	}
 	else if (type == "face")
 	{
-		for (int j = 0; j < cards.size(); j++)
-			for (int k = 0; k < cards.size() - 1 - j; k++)
-				if (cards[k].getFace() > cards[k+1].getFace())
-					swap(cards[k], cards[k + 1]);
+		for (int j = 0; j < mCards.size(); j++)
+			for (int k = 0; k < mCards.size() - 1 - j; k++)
+				if (mCards[k].getFace() > cards[k+1].getFace())
+					swap(mCards[k], cards[k + 1]);
 	}
 	else
 		cout << "You have entered an invalid type" << endl;
@@ -179,21 +185,21 @@ void Hand::printHand(string type)
 		putInOrder(type);
 
 	for (int i = 0; i < HAND_SIZE; i++)
-		cout << cards[i];
+		cout << mCards[i];
 
 	cout << endl;
 }
 
 bool Hand::isStraight() // WORKING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 {
-	int currentFace = cards[0].getFace();
+	int currentFace = mCards[0].getFace();
 
 	if (currentFace > 9) // Will be out of bounds
 		return false;
 
 	for (int i = 0; i < HAND_SIZE; i++)
 	{
-		if (currentFace != cards[i].getFace())
+		if (currentFace != mCards[i].getFace())
 			return false;
 
 		currentFace++;
@@ -204,10 +210,10 @@ bool Hand::isStraight() // WORKING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 bool Hand::isFlush() // WORKING!!!!!!!!!!!!!!!!!!!!!!
 {
-	int majorSuit = cards[0].getSuit();
+	int majorSuit = mCards[0].getSuit();
 	
 	for (int i = 0; i < HAND_SIZE; i++)
-		if (majorSuit != cards[i].getSuit())
+		if (majorSuit != mCards[i].getSuit())
 			return false;
 
 	return true;
@@ -223,8 +229,8 @@ bool Hand::isFourOfAKind()
 	for (int i = 0; i < HAND_SIZE - magicNumber + 1; i++)
 	{
 		for (int k = i; k < HAND_SIZE - 1; k++)
-			if (cards[i].getFace() == cards[k + 1].getFace())
-				faceCount.push_back(cards[i].getFace());
+			if (mCards[i].getFace() == cards[k + 1].getFace())
+				faceCount.push_back(mCards[i].getFace());
 
 		if (faceCount.size())
 		{
@@ -249,8 +255,8 @@ bool Hand::isThreeOfAKind()
 	for (int i = 0; i < HAND_SIZE - magicNumber + 1; i++)
 	{
 		for (int k = i; k < HAND_SIZE - 1; k++)
-			if (cards[i].getFace() == cards[k + 1].getFace())
-				faceCount.push_back(cards[i].getFace());
+			if (mCards[i].getFace() == cards[k + 1].getFace())
+				faceCount.push_back(mCards[i].getFace());
 
 		if (faceCount.size())
 		{
@@ -275,8 +281,8 @@ bool Hand::isTwoPair()
 	for (int i = 0; i < HAND_SIZE-1; i++) // Put all pairs into Vector of Vectors of Ints
 	{
 		for (int k = i; k < HAND_SIZE - 1; k++)
-			if (cards[i].getFace() == cards[k + 1].getFace())
-				faceCount.push_back(cards[i].getFace());
+			if (mCards[i].getFace() == cards[k + 1].getFace())
+				faceCount.push_back(mCards[i].getFace());
 
 		if (faceCount.size())
 		{
@@ -317,8 +323,8 @@ bool Hand::isPair()
 	for (int i = 0; i < HAND_SIZE - magicNumber + 1; i++)
 	{
 		for (int k = i; k < HAND_SIZE - 1; k++)
-			if (cards[i].getFace() == cards[k + 1].getFace())
-				faceCount.push_back(cards[i].getFace());
+			if (mCards[i].getFace() == cards[k + 1].getFace())
+				faceCount.push_back(mCards[i].getFace());
 
 		if (faceCount.size())
 		{

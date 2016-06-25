@@ -23,9 +23,9 @@
 #include "Card.h"
 using namespace std;
 
-#define DECK_SIZE 52
-#define SUIT_SIZE 5
-#define FACE_SIZE 14
+#define DECK_SIZE 52 // 52 Cards in a Deck
+#define SUIT_SIZE 4  // 4 Possible suit options
+#define FACE_SIZE 13 // 13 Possible card options
 
 class DeckOfCards
 {
@@ -40,8 +40,9 @@ public:
 
 	friend ostream & operator<<(ostream &output, const DeckOfCards &arg)
 	{
-		for (int i = 0; i < DECK_SIZE; i++)
+		for (int i = 0; i < DECK_SIZE; i++) {
 			cout << arg.deck[i];
+		}
 
 		return output;
 	}
@@ -56,14 +57,13 @@ DeckOfCards::DeckOfCards()
 {
 	currentCard = 1;
 
-	/* ADD ALL CARDS TO THE DECK IN ORDER */
-
+	// ADD ALL CARDS TO THE DECK IN ORDER
 	int cardsCount = 0;
 	Card addToDeck;
 
-	for (int _suit = 1; _suit < SUIT_SIZE; _suit++)
+	for (int _suit = 1; _suit <= SUIT_SIZE; _suit++)
 	{
-		for (int _face = 1; _face < FACE_SIZE; _face++)
+		for (int _face = 1; _face <= FACE_SIZE; _face++)
 		{
 			addToDeck.changeCard(_face, _suit);
 			deck.push_back(addToDeck);
